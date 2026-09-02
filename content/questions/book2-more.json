@@ -1,0 +1,431 @@
+[
+  {
+    "id": "b2m-whomping-willow",
+    "difficulty": 1,
+    "scope": "both",
+    "book": 2,
+    "chapter": 5,
+    "topics": [
+      "castle"
+    ],
+    "answer": 1,
+    "probe": "Whomping Willow",
+    "verified": true,
+    "he": {
+      "prompt": "לתוך מה מתרסקת הפורד אנגליה כשהיא מגיעה להוגוורטס?",
+      "choices": [
+        "האגם השחור",
+        "ערבת החבטות",
+        "מגדל האסטרונומיה",
+        "חממות הצמחים"
+      ],
+      "explanation": "ערבת החבטות — עץ שמכה בכל מי שמתקרב. השרביט של רון נשבר בהתנגשות, וסובל מכך כל השנה.",
+      "source": "הארי פוטר וחדר הסודות, פרק 5"
+    },
+    "en": {
+      "prompt": "What does the Ford Anglia crash into on arriving at Hogwarts?",
+      "choices": [
+        "The Black Lake",
+        "The Whomping Willow",
+        "The Astronomy Tower",
+        "The greenhouses"
+      ],
+      "explanation": "The Whomping Willow — a tree that hits anything that comes near. Ron's wand snaps in the crash, and he suffers for it all year.",
+      "source": "Chamber of Secrets, ch. 5"
+    }
+  },
+  {
+    "id": "b2m-earmuffs",
+    "difficulty": 3,
+    "scope": "both",
+    "book": 2,
+    "chapter": 6,
+    "topics": [
+      "herbology"
+    ],
+    "answer": 2,
+    "probe": "earmuffs",
+    "verified": true,
+    "he": {
+      "prompt": "מה חובשים תלמידי הרבולוגיה לפני שהם עוקרים מנדרייקים?",
+      "choices": [
+        "כפפות דרקון",
+        "מסכות",
+        "מגיני אוזניים",
+        "משקפי מגן"
+      ],
+      "explanation": "מגיני אוזניים — צעקת המנדרייק הבוגר הורגת, וזו של השתיל רק מעלפת. ספראוט מחלקת אותם לכולם.",
+      "source": "הארי פוטר וחדר הסודות, פרק 6"
+    },
+    "en": {
+      "prompt": "What do Herbology students put on before repotting Mandrakes?",
+      "choices": [
+        "Dragonhide gloves",
+        "Masks",
+        "Earmuffs",
+        "Goggles"
+      ],
+      "explanation": "Earmuffs — the cry of a mature Mandrake kills, and a seedling's only knocks you out. Sprout hands a pair to everyone.",
+      "source": "Chamber of Secrets, ch. 6"
+    }
+  },
+  {
+    "id": "b2m-mudblood",
+    "difficulty": 3,
+    "scope": "both",
+    "book": 2,
+    "chapter": 7,
+    "topics": [
+      "draco",
+      "lore"
+    ],
+    "answer": 1,
+    "probe": "Mudblood",
+    "verified": true,
+    "he": {
+      "prompt": "איזו מילה דראקו קורא להרמיוני, ומצית את זעם כל הקבוצה?",
+      "choices": [
+        "סקוויב",
+        "בוצת-דם",
+        "חצוית-דם",
+        "מוגלית"
+      ],
+      "explanation": "בוצת-דם — כינוי גס למי שנולד למוגלים. רון מנסה לקלל אותו והשרביט השבור מפנה את הקללה אליו, כך שהוא מקיא חלזונות.",
+      "source": "הארי פוטר וחדר הסודות, פרק 7"
+    },
+    "en": {
+      "prompt": "What word does Draco call Hermione that enrages the whole team?",
+      "choices": [
+        "Squib",
+        "Mudblood",
+        "Half-blood",
+        "Muggle"
+      ],
+      "explanation": "Mudblood — a foul name for someone Muggle-born. Ron tries to curse him and his broken wand turns it back on himself, so he vomits slugs.",
+      "source": "Chamber of Secrets, ch. 7"
+    }
+  },
+  {
+    "id": "b2m-colin",
+    "difficulty": 2,
+    "scope": "both",
+    "book": 2,
+    "chapter": 6,
+    "topics": [
+      "names"
+    ],
+    "answer": 0,
+    "probe": "Colin Creevey",
+    "verified": true,
+    "he": {
+      "prompt": "מה שמו של תלמיד השנה הראשונה שמצלם את הארי בלי הפסקה?",
+      "choices": [
+        "קולין קריווי",
+        "דניס קריווי",
+        "ג'סטין פינץ'-פלטשלי",
+        "אוון קאדוולדר"
+      ],
+      "explanation": "קולין קריווי — נולד למוגלים, ומאובן בהמשך השנה כשהוא מצלם את מה שהוא חושב שהוא היצור.",
+      "source": "הארי פוטר וחדר הסודות, פרק 6"
+    },
+    "en": {
+      "prompt": "What is the name of the first-year who photographs Harry constantly?",
+      "choices": [
+        "Colin Creevey",
+        "Dennis Creevey",
+        "Justin Finch-Fletchley",
+        "Owen Cauldwell"
+      ],
+      "explanation": "Colin Creevey — Muggle-born, and Petrified later that year while trying to photograph what he thinks is the creature.",
+      "source": "Chamber of Secrets, ch. 6"
+    }
+  },
+  {
+    "id": "b2m-fawkes-tears",
+    "difficulty": 3,
+    "scope": "both",
+    "book": 2,
+    "chapter": 17,
+    "topics": [
+      "creatures",
+      "lore"
+    ],
+    "answer": 2,
+    "probe": "phoenix tears",
+    "verified": true,
+    "he": {
+      "prompt": "מה מציל את הארי מארס הבסיליסק בחדר הסודות?",
+      "choices": [
+        "בזואר",
+        "שיקוי של מדאם פומפרי",
+        "דמעות של פיניקס",
+        "חרב גריפינדור"
+      ],
+      "explanation": "דמעות של פיניקס — לפוקס מבכה על הפצע בזרועו. תכונות הריפוי של דמעות פיניקס נזכרות שם במפורש.",
+      "source": "הארי פוטר וחדר הסודות, פרק 17"
+    },
+    "en": {
+      "prompt": "What saves Harry from the basilisk's venom in the Chamber?",
+      "choices": [
+        "A bezoar",
+        "One of Madam Pomfrey's potions",
+        "Phoenix tears",
+        "Gryffindor's sword"
+      ],
+      "explanation": "Phoenix tears — Fawkes weeps over the wound in his arm. Their healing power is named outright.",
+      "source": "Chamber of Secrets, ch. 17"
+    }
+  },
+  {
+    "id": "b2m-sock",
+    "difficulty": 3,
+    "scope": "both",
+    "book": 2,
+    "chapter": 18,
+    "topics": [
+      "house-elves",
+      "plot"
+    ],
+    "answer": 1,
+    "probe": "sock",
+    "verified": true,
+    "he": {
+      "prompt": "כיצד הארי משחרר את דובי מעבדות?",
+      "choices": [
+        "הוא קונה אותו מלוציוס",
+        "הוא מכניס גרב ליומן שלוציוס מחזיק",
+        "הוא מבקש מדמבלדור",
+        "הוא מטיל לחש שחרור"
+      ],
+      "explanation": "הארי מחליק את גרבו לתוך היומן, ולוציוס משליך את היומן לדובי — שדון-בית משתחרר כשאדונו נותן לו בגד.",
+      "source": "הארי פוטר וחדר הסודות, פרק 18"
+    },
+    "en": {
+      "prompt": "How does Harry free Dobby?",
+      "choices": [
+        "He buys him from Lucius",
+        "He puts a sock in the diary Lucius is holding",
+        "He asks Dumbledore",
+        "He casts a freeing charm"
+      ],
+      "explanation": "Harry slips his sock into the diary, and Lucius throws the diary at Dobby — a house-elf is freed when his master gives him clothes.",
+      "source": "Chamber of Secrets, ch. 18"
+    }
+  },
+  {
+    "id": "b2m-rooster",
+    "difficulty": 4,
+    "scope": "book",
+    "book": 2,
+    "chapter": 16,
+    "topics": [
+      "creatures",
+      "lore"
+    ],
+    "answer": 1,
+    "probe": "crowing of the rooster",
+    "verified": true,
+    "he": {
+      "prompt": "מה קטלני לבסיליסק, לפי ספר תולדות הקסמים?",
+      "choices": [
+        "מלח",
+        "קריאת התרנגול",
+        "אור השמש",
+        "כסף"
+      ],
+      "explanation": "קריאת התרנגול. זו הסיבה שרידל הרג את תרנגוליו של האגריד — ולמה מוות התרנגולים היה סימן שהחדר נפתח מחדש.",
+      "source": "הארי פוטר וחדר הסודות, פרק 16"
+    },
+    "en": {
+      "prompt": "What is fatal to a basilisk, according to the book Hermione tears out?",
+      "choices": [
+        "Salt",
+        "The crowing of the rooster",
+        "Sunlight",
+        "Silver"
+      ],
+      "explanation": "The crowing of the rooster. That is why Riddle killed Hagrid's roosters — and why dead roosters signalled the Chamber had been opened again.",
+      "source": "Chamber of Secrets, ch. 16"
+    }
+  },
+  {
+    "id": "b2m-lucius-diary",
+    "difficulty": 4,
+    "scope": "both",
+    "book": 2,
+    "chapter": 4,
+    "topics": [
+      "plot",
+      "malfoy"
+    ],
+    "answer": 2,
+    "probe": "Lucius",
+    "verified": true,
+    "he": {
+      "prompt": "כיצד היומן של טום רידל הגיע לידיה של ג'יני?",
+      "choices": [
+        "היא מצאה אותו בשירותים",
+        "רידל שלח לה אותו בדואר",
+        "לוציוס מאלפוי החליק אותו לקלחת שלה בחנות הספרים",
+        "היא קיבלה אותו מדובי"
+      ],
+      "explanation": "לוציוס מאלפוי החליק אותו לתוך הקלחת שלה בפלוריש ובלוטס, בזמן הקטטה עם ארתור וויזלי.",
+      "source": "הארי פוטר וחדר הסודות, פרק 4"
+    },
+    "en": {
+      "prompt": "How did Tom Riddle's diary get into Ginny's hands?",
+      "choices": [
+        "She found it in a bathroom",
+        "Riddle sent it by owl",
+        "Lucius Malfoy slipped it into her cauldron in the bookshop",
+        "Dobby gave it to her"
+      ],
+      "explanation": "Lucius Malfoy slipped it into her cauldron at Flourish and Blotts, during the scuffle with Arthur Weasley.",
+      "source": "Chamber of Secrets, ch. 4"
+    }
+  },
+  {
+    "id": "b2m-penelope",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 2,
+    "chapter": 14,
+    "topics": [
+      "plot",
+      "names"
+    ],
+    "answer": 1,
+    "probe": "Penelope Clearwater",
+    "verified": true,
+    "he": {
+      "prompt": "מי המדריכה מבית רייבנקלו שנמצאת מאובנת יחד עם הרמיוני?",
+      "choices": [
+        "צ'ו צאנג",
+        "פנלופה קליארווטר",
+        "מרייטה אדג'קומב",
+        "פדמה פאטיל"
+      ],
+      "explanation": "פנלופה קליארווטר — נולדה למוגלים, ובת זוגו הסודית של פרסי, מה שמסביר את התנהגותו המשונה כל אותה שנה.",
+      "source": "הארי פוטר וחדר הסודות, פרק 14"
+    },
+    "en": {
+      "prompt": "Which Ravenclaw prefect is found Petrified alongside Hermione?",
+      "choices": [
+        "Cho Chang",
+        "Penelope Clearwater",
+        "Marietta Edgecombe",
+        "Padma Patil"
+      ],
+      "explanation": "Penelope Clearwater — Muggle-born, and Percy's secret girlfriend, which explains his odd behaviour all year.",
+      "source": "Chamber of Secrets, ch. 14"
+    }
+  },
+  {
+    "id": "b2m-mosag",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 2,
+    "chapter": 15,
+    "topics": [
+      "creatures",
+      "names"
+    ],
+    "answer": 2,
+    "probe": "Mosag",
+    "verified": true,
+    "he": {
+      "prompt": "מה שמה של רעייתו של ארגוג?",
+      "choices": [
+        "נאגיני",
+        "אראנה",
+        "מוסאג",
+        "שלוב"
+      ],
+      "explanation": "מוסאג — האגריד השיג לו אותה מרחוק, וממנה יצא כל הקן הענקי שביער.",
+      "source": "הארי פוטר וחדר הסודות, פרק 15"
+    },
+    "en": {
+      "prompt": "What is the name of Aragog's wife?",
+      "choices": [
+        "Nagini",
+        "Arana",
+        "Mosag",
+        "Shelob"
+      ],
+      "explanation": "Mosag — Hagrid found her for him far away, and the whole colony in the forest descends from her.",
+      "source": "Chamber of Secrets, ch. 15"
+    }
+  },
+  {
+    "id": "b2m-fifty-years",
+    "difficulty": 4,
+    "scope": "book",
+    "book": 2,
+    "chapter": 13,
+    "topics": [
+      "history",
+      "numbers"
+    ],
+    "answer": 2,
+    "probe": "fifty years",
+    "verified": true,
+    "he": {
+      "prompt": "לפני כמה שנים נפתח חדר הסודות בפעם הראשונה?",
+      "choices": [
+        "עשרים",
+        "שלושים",
+        "חמישים",
+        "מאה"
+      ],
+      "explanation": "חמישים שנה — אז הרג הבסיליסק את מירטל, והאגריד הואשם והורחק מהוגוורטס.",
+      "source": "הארי פוטר וחדר הסודות, פרק 13"
+    },
+    "en": {
+      "prompt": "How many years before the second book was the Chamber of Secrets first opened?",
+      "choices": [
+        "Twenty",
+        "Thirty",
+        "Fifty",
+        "A hundred"
+      ],
+      "explanation": "Fifty years — when the basilisk killed Myrtle, and Hagrid was blamed and expelled.",
+      "source": "Chamber of Secrets, ch. 13"
+    }
+  },
+  {
+    "id": "b2m-parseltongue",
+    "difficulty": 3,
+    "scope": "both",
+    "book": 2,
+    "chapter": 11,
+    "topics": [
+      "lore",
+      "harry"
+    ],
+    "answer": 1,
+    "probe": "Parseltongue",
+    "verified": true,
+    "he": {
+      "prompt": "מה שמה של היכולת לדבר עם נחשים?",
+      "choices": [
+        "לגילימנסיה",
+        "לשון-נחש",
+        "נאגי-סרמו",
+        "סרפנטינה"
+      ],
+      "explanation": "לשון-נחש. הארי מגלה בפומבי שהוא יודע לדבר בה במהלך מועדון הדו-קרב, וכל האולם מסיק שהוא יורשו של סלית'רין.",
+      "source": "הארי פוטר וחדר הסודות, פרק 11"
+    },
+    "en": {
+      "prompt": "What is the ability to speak with snakes called?",
+      "choices": [
+        "Legilimency",
+        "Parseltongue",
+        "Nagi-sermo",
+        "Serpentine"
+      ],
+      "explanation": "Parseltongue. Harry reveals in public that he can speak it at the Duelling Club, and the whole hall concludes he is Slytherin's heir.",
+      "source": "Chamber of Secrets, ch. 11"
+    }
+  }
+]

@@ -1,0 +1,434 @@
+[
+  {
+    "id": "b3m-butterbeer",
+    "difficulty": 1,
+    "scope": "both",
+    "book": 3,
+    "chapter": 10,
+    "topics": [
+      "hogsmeade",
+      "food"
+    ],
+    "answer": 1,
+    "probe": "Butterbeer",
+    "verified": true,
+    "he": {
+      "prompt": "מה השתייה שהתלמידים שותים בשלושת המטאטאים?",
+      "choices": [
+        "מי דלעת",
+        "בירת חמאה",
+        "יין דבש",
+        "תמד קוסמים"
+      ],
+      "explanation": "בירת חמאה — חמימה ומתוקה, ומחממת עד קצות האצבעות. גם הסוהרסנים לא מעיבים עליה.",
+      "source": "הארי פוטר והאסיר מאזקבאן, פרק 10"
+    },
+    "en": {
+      "prompt": "What do the students drink at the Three Broomsticks?",
+      "choices": [
+        "Pumpkin juice",
+        "Butterbeer",
+        "Mead",
+        "Wizard's brew"
+      ],
+      "explanation": "Butterbeer — warm and sweet, and it heats you to your fingertips. Not even dementors spoil it.",
+      "source": "Prisoner of Azkaban, ch. 10"
+    }
+  },
+  {
+    "id": "b3m-honeydukes",
+    "difficulty": 2,
+    "scope": "both",
+    "book": 3,
+    "chapter": 10,
+    "topics": [
+      "hogsmeade",
+      "places"
+    ],
+    "answer": 2,
+    "probe": "Honeydukes",
+    "verified": true,
+    "he": {
+      "prompt": "לאיזו חנות מוביל המעבר הסודי מפסל המכשפה החד-עינית?",
+      "choices": [
+        "זונקו",
+        "שלושת המטאטאים",
+        "מתוקי דבש",
+        "ראש החזיר"
+      ],
+      "explanation": "מתוקי דבש (Honeydukes) — המעבר יוצא במרתף החנות, וזו הדרך שהארי מגיע בה להוגסמיד בלי אישור.",
+      "source": "הארי פוטר והאסיר מאזקבאן, פרק 10"
+    },
+    "en": {
+      "prompt": "Which shop does the secret passage behind the one-eyed witch lead to?",
+      "choices": [
+        "Zonko's",
+        "The Three Broomsticks",
+        "Honeydukes",
+        "The Hog's Head"
+      ],
+      "explanation": "Honeydukes — the passage comes out in its cellar, and that is how Harry gets into Hogsmeade without permission.",
+      "source": "Prisoner of Azkaban, ch. 10"
+    }
+  },
+  {
+    "id": "b3m-crookshanks",
+    "difficulty": 2,
+    "scope": "both",
+    "book": 3,
+    "chapter": 4,
+    "topics": [
+      "animals",
+      "names"
+    ],
+    "answer": 0,
+    "probe": "Crookshanks",
+    "verified": true,
+    "he": {
+      "prompt": "מה שמו של החתול שהרמיוני קונה בסמטת דיאגון?",
+      "choices": [
+        "קרוקשנקס",
+        "מיס נוריס",
+        "טאפטי",
+        "פיבס"
+      ],
+      "explanation": "קרוקשנקס — חתול כתום עם פרצוף מרוסק, חצוי-קניפ, והיחיד שמבחין מן ההתחלה שסקאברס אינו חולדה.",
+      "source": "הארי פוטר והאסיר מאזקבאן, פרק 4"
+    },
+    "en": {
+      "prompt": "What is the name of the cat Hermione buys in Diagon Alley?",
+      "choices": [
+        "Crookshanks",
+        "Mrs Norris",
+        "Tufty",
+        "Peeves"
+      ],
+      "explanation": "Crookshanks — a ginger cat with a squashed face, part Kneazle, and the only one who spots from the start that Scabbers is no rat.",
+      "source": "Prisoner of Azkaban, ch. 4"
+    }
+  },
+  {
+    "id": "b3m-ripper",
+    "difficulty": 3,
+    "scope": "book",
+    "book": 3,
+    "chapter": 2,
+    "topics": [
+      "dursleys",
+      "names"
+    ],
+    "answer": 1,
+    "probe": "Ripper",
+    "verified": true,
+    "he": {
+      "prompt": "מה שמו של הבולדוג של דודה מארג'?",
+      "choices": [
+        "פאנג",
+        "ריפר",
+        "טיילר",
+        "באדי"
+      ],
+      "explanation": "ריפר — הכלב האהוב עליה, שרדף בעבר את הארי אל תוך עץ ואילץ אותו להישאר שם עד חצות.",
+      "source": "הארי פוטר והאסיר מאזקבאן, פרק 2"
+    },
+    "en": {
+      "prompt": "What is the name of Aunt Marge's bulldog?",
+      "choices": [
+        "Fang",
+        "Ripper",
+        "Tyler",
+        "Buddy"
+      ],
+      "explanation": "Ripper — her favourite, who once chased Harry up a tree and kept him there until past midnight.",
+      "source": "Prisoner of Azkaban, ch. 2"
+    }
+  },
+  {
+    "id": "b3m-grim",
+    "difficulty": 2,
+    "scope": "both",
+    "book": 3,
+    "chapter": 6,
+    "topics": [
+      "divination",
+      "lore"
+    ],
+    "answer": 2,
+    "probe": "Grim",
+    "verified": true,
+    "he": {
+      "prompt": "מה טרלוני רואה בעלי התה של הארי?",
+      "choices": [
+        "פיניקס",
+        "גלגל השבר",
+        "הגרים",
+        "כוכב נופל"
+      ],
+      "explanation": "הגרים — כלב שחור ענקי, אות המוות. בפועל זו צורת האנימאגוס של סיריוס.",
+      "source": "הארי פוטר והאסיר מאזקבאן, פרק 6"
+    },
+    "en": {
+      "prompt": "What does Trelawney see in Harry's tea leaves?",
+      "choices": [
+        "A phoenix",
+        "The wheel of fortune",
+        "The Grim",
+        "A falling star"
+      ],
+      "explanation": "The Grim — a giant spectral dog, the omen of death. In fact it is Sirius's Animagus form.",
+      "source": "Prisoner of Azkaban, ch. 6"
+    }
+  },
+  {
+    "id": "b3m-time-turner",
+    "difficulty": 3,
+    "scope": "book",
+    "book": 3,
+    "chapter": 21,
+    "topics": [
+      "objects",
+      "hermione"
+    ],
+    "answer": 1,
+    "probe": "Time.Turner",
+    "verified": true,
+    "he": {
+      "prompt": "מה החפץ שאיפשר להרמיוני ללמוד בכל השיעורים במקביל?",
+      "choices": [
+        "שעון הזמן",
+        "מהפך-זמן",
+        "אבן ההיזכרות",
+        "פנסיב"
+      ],
+      "explanation": "מהפך-זמן (Time-Turner) — שעון חול קטן על שרשרת, שמקגונגל השיגה לה מהמשרד. הוא גם מציל את סיריוס ואת מקור-הזהב.",
+      "source": "הארי פוטר והאסיר מאזקבאן, פרק 21"
+    },
+    "en": {
+      "prompt": "What object let Hermione attend all her lessons at once?",
+      "choices": [
+        "A Clock of Hours",
+        "A Time-Turner",
+        "A Remembrall",
+        "A Pensieve"
+      ],
+      "explanation": "A Time-Turner — a tiny hourglass on a chain, which McGonagall got her from the Ministry. It also saves Sirius and Buckbeak.",
+      "source": "Prisoner of Azkaban, ch. 21"
+    }
+  },
+  {
+    "id": "b3m-scabbers-toe",
+    "difficulty": 4,
+    "scope": "book",
+    "book": 3,
+    "chapter": 19,
+    "topics": [
+      "pettigrew",
+      "plot"
+    ],
+    "answer": 2,
+    "probe": "toe",
+    "verified": true,
+    "he": {
+      "prompt": "מה חסר לסקאברס, ומה נמצא במקום מפיטר פטיגרו?",
+      "choices": [
+        "אוזן",
+        "זנב",
+        "אצבע",
+        "עין"
+      ],
+      "explanation": "אצבע — פטיגרו כרת את אצבעו כדי לבדות את מותו, וזה כל מה שנמצא מגופו. בחולדה חסרה אותה אצבע.",
+      "source": "הארי פוטר והאסיר מאזקבאן, פרק 19"
+    },
+    "en": {
+      "prompt": "What is Scabbers missing, and what was the only part of Peter Pettigrew ever found?",
+      "choices": [
+        "An ear",
+        "A tail",
+        "A finger",
+        "An eye"
+      ],
+      "explanation": "A finger — Pettigrew cut his own off to fake his death, and it was all that was recovered. The rat is missing the same toe.",
+      "source": "Prisoner of Azkaban, ch. 19"
+    }
+  },
+  {
+    "id": "b3m-twelve-years",
+    "difficulty": 4,
+    "scope": "book",
+    "book": 3,
+    "chapter": 19,
+    "topics": [
+      "pettigrew",
+      "numbers"
+    ],
+    "answer": 2,
+    "probe": "twelve years",
+    "verified": true,
+    "he": {
+      "prompt": "כמה שנים חי פטיגרו כחולדת מחמד אצל משפחת וויזלי?",
+      "choices": [
+        "שבע",
+        "עשר",
+        "שתים-עשרה",
+        "חמש-עשרה"
+      ],
+      "explanation": "שתים-עשרה שנה — בדיוק אורך מאסרו של סיריוס. סיריוס מציין שזו חולדה בעלת אריכות ימים חשודה.",
+      "source": "הארי פוטר והאסיר מאזקבאן, פרק 19"
+    },
+    "en": {
+      "prompt": "How many years did Pettigrew live as the Weasleys' pet rat?",
+      "choices": [
+        "Seven",
+        "Ten",
+        "Twelve",
+        "Fifteen"
+      ],
+      "explanation": "Twelve years — exactly the length of Sirius's imprisonment. Sirius points out it is a suspiciously long-lived rat.",
+      "source": "Prisoner of Azkaban, ch. 19"
+    }
+  },
+  {
+    "id": "b3m-mischief",
+    "difficulty": 4,
+    "scope": "book",
+    "book": 3,
+    "chapter": 10,
+    "topics": [
+      "marauders",
+      "objects"
+    ],
+    "answer": 1,
+    "probe": "Mischief managed",
+    "verified": true,
+    "he": {
+      "prompt": "אילו מילים מוחקות את מפת השודדים?",
+      "choices": [
+        "'נסתיים המעשה'",
+        "'תעלולים בוצעו'",
+        "'הכל שקט בהוגוורטס'",
+        "'אני נשבע שכוונותי רעות'"
+      ],
+      "explanation": "'תעלולים בוצעו' (Mischief managed) — לפתיחה נדרשת השבועה ההפוכה, שהכוונות רעות.",
+      "source": "הארי פוטר והאסיר מאזקבאן, פרק 10"
+    },
+    "en": {
+      "prompt": "Which words wipe the Marauder's Map blank?",
+      "choices": [
+        "'The deed is done'",
+        "'Mischief managed'",
+        "'All quiet at Hogwarts'",
+        "'I solemnly swear I am up to no good'"
+      ],
+      "explanation": "'Mischief managed' — opening it needs the opposite oath, that you are up to no good.",
+      "source": "Prisoner of Azkaban, ch. 10"
+    }
+  },
+  {
+    "id": "b3m-fortuna",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 3,
+    "chapter": 5,
+    "topics": [
+      "castle",
+      "trivia"
+    ],
+    "answer": 2,
+    "probe": "Fortuna Major",
+    "verified": true,
+    "he": {
+      "prompt": "מהי סיסמת הכניסה לחדר גריפינדור בתחילת האסיר מאזקבאן?",
+      "choices": [
+        "'קפוט דרקוניס'",
+        "'ג'לי בננה'",
+        "'פורטונה מייור'",
+        "'לימון חמוץ'"
+      ],
+      "explanation": "'פורטונה מייור' — הסיסמה שנוויל שוכח בעקביות, ולכן נאלץ לחכות בחוץ עד שמישהו אחר מגיע.",
+      "source": "הארי פוטר והאסיר מאזקבאן, פרק 5"
+    },
+    "en": {
+      "prompt": "What is the Gryffindor password at the start of Prisoner of Azkaban?",
+      "choices": [
+        "'Caput Draconis'",
+        "'Banana fritters'",
+        "'Fortuna Major'",
+        "'Sherbet lemon'"
+      ],
+      "explanation": "'Fortuna Major' — the password Neville can never remember, which leaves him waiting outside for someone else to turn up.",
+      "source": "Prisoner of Azkaban, ch. 5"
+    }
+  },
+  {
+    "id": "b3m-macnair",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 3,
+    "chapter": 16,
+    "topics": [
+      "ministry",
+      "names"
+    ],
+    "answer": 1,
+    "probe": "Macnair",
+    "verified": true,
+    "he": {
+      "prompt": "מה שמו של התליין שנשלח להוציא להורג את מקור-הזהב?",
+      "choices": [
+        "ג'ון דוליש",
+        "וולדן מקנייר",
+        "אמוס דיגורי",
+        "קורנליוס פאדג'"
+      ],
+      "explanation": "וולדן מקנייר — שמתגלה בהמשך הסדרה כאוכל מוות, והאגריד מציין שהם 'שתו יחד' בעבר.",
+      "source": "הארי פוטר והאסיר מאזקבאן, פרק 16"
+    },
+    "en": {
+      "prompt": "What is the name of the executioner sent to kill Buckbeak?",
+      "choices": [
+        "John Dawlish",
+        "Walden Macnair",
+        "Amos Diggory",
+        "Cornelius Fudge"
+      ],
+      "explanation": "Walden Macnair — later revealed as a Death Eater, and Hagrid notes they used to drink together.",
+      "source": "Prisoner of Azkaban, ch. 16"
+    }
+  },
+  {
+    "id": "b3m-nimbus-smashed",
+    "difficulty": 4,
+    "scope": "book",
+    "book": 3,
+    "chapter": 9,
+    "topics": [
+      "quidditch",
+      "plot"
+    ],
+    "answer": 2,
+    "probe": "Whomping Willow",
+    "verified": true,
+    "he": {
+      "prompt": "מה קורה לנימבוס 2000 של הארי במשחק נגד האפלפאף?",
+      "choices": [
+        "הוא נגנב",
+        "מקגונגל מחרימה אותו",
+        "הוא מתרסק לרסיסים בערבת החבטות",
+        "הוא נשרף"
+      ],
+      "explanation": "הארי מתעלף באוויר, המטאטא ממשיך לעוף ומתרסק בערבת החבטות — הוא נותר עם שק של שברי עץ.",
+      "source": "הארי פוטר והאסיר מאזקבאן, פרק 9"
+    },
+    "en": {
+      "prompt": "What happens to Harry's Nimbus Two Thousand in the match against Hufflepuff?",
+      "choices": [
+        "It is stolen",
+        "McGonagall confiscates it",
+        "It is smashed to pieces by the Whomping Willow",
+        "It burns"
+      ],
+      "explanation": "Harry blacks out in mid-air, the broom flies on and is smashed by the Whomping Willow — he is left with a bag of splinters.",
+      "source": "Prisoner of Azkaban, ch. 9"
+    }
+  }
+]

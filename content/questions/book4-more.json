@@ -1,0 +1,398 @@
+[
+  {
+    "id": "b4m-morsmordre",
+    "difficulty": 4,
+    "scope": "book",
+    "book": 4,
+    "chapter": 9,
+    "topics": [
+      "spells",
+      "voldemort"
+    ],
+    "answer": 1,
+    "probe": "Morsmordre",
+    "verified": true,
+    "he": {
+      "prompt": "מהו הלחש שמעלה את מרקת המוות לשמיים?",
+      "choices": [
+        "מורטיס סיגנום",
+        "מורסמורדרה",
+        "טנברוס",
+        "נקרו סיגיל"
+      ],
+      "explanation": "מורסמורדרה — נשמע ביציע גביע העולם, ושדונת-הבית וינקי נמצאת עם שרביטו של הארי במקום.",
+      "source": "הארי פוטר וגביע האש, פרק 9"
+    },
+    "en": {
+      "prompt": "What is the incantation that casts the Dark Mark into the sky?",
+      "choices": [
+        "Mortis Signum",
+        "Morsmordre",
+        "Tenebrus",
+        "Necro Sigil"
+      ],
+      "explanation": "Morsmordre — heard at the World Cup campsite, and Winky the house-elf is found holding Harry's wand at the spot.",
+      "source": "Goblet of Fire, ch. 9"
+    }
+  },
+  {
+    "id": "b4m-age-line",
+    "difficulty": 3,
+    "scope": "both",
+    "book": 4,
+    "chapter": 16,
+    "topics": [
+      "triwizard",
+      "spells"
+    ],
+    "answer": 1,
+    "probe": "Age Line",
+    "verified": true,
+    "he": {
+      "prompt": "כיצד דמבלדור מונע מתלמידים מתחת לגיל שבע-עשרה להשליך את שמם לגביע?",
+      "choices": [
+        "שומר בדלת",
+        "קו גיל מסביב לגביע",
+        "כשף על הפתקים",
+        "רשימה מאושרת מראש"
+      ],
+      "explanation": "קו גיל — פרד וג'ורג' חוצים אותו בשיקוי הזדקנות, ומושלכים מעליו עם זקנים לבנים ארוכים.",
+      "source": "הארי פוטר וגביע האש, פרק 16"
+    },
+    "en": {
+      "prompt": "How does Dumbledore stop under-seventeens putting their names in the Goblet?",
+      "choices": [
+        "A doorkeeper",
+        "An Age Line drawn around it",
+        "A charm on the slips",
+        "A pre-approved list"
+      ],
+      "explanation": "An Age Line — Fred and George cross it on an Ageing Potion and are thrown back with long white beards.",
+      "source": "Goblet of Fire, ch. 16"
+    }
+  },
+  {
+    "id": "b4m-skrewts",
+    "difficulty": 3,
+    "scope": "book",
+    "book": 4,
+    "chapter": 13,
+    "topics": [
+      "hagrid",
+      "creatures"
+    ],
+    "answer": 2,
+    "probe": "Skrewts",
+    "verified": true,
+    "he": {
+      "prompt": "אילו יצורים האגריד מגדל בשיעורי טיפול ביצורי הפלא בשנה הרביעית?",
+      "choices": [
+        "ניפלרים",
+        "בּוֹטרוּקלים",
+        "סקרוטים נפוצי-קצה",
+        "תרנגולי-אש"
+      ],
+      "explanation": "סקרוטים נפוצי-קצה — יצורים חסרי פה נראה, שהאגריד הכליא בעצמו ואף אחד לא מבין למה. אחד מהם מגיע גם למבוך.",
+      "source": "הארי פוטר וגביע האש, פרק 13"
+    },
+    "en": {
+      "prompt": "Which creatures does Hagrid raise in Care of Magical Creatures in the fourth year?",
+      "choices": [
+        "Nifflers",
+        "Bowtruckles",
+        "Blast-Ended Skrewts",
+        "Fire crabs"
+      ],
+      "explanation": "Blast-Ended Skrewts — creatures with no visible mouths that Hagrid crossbred himself, and nobody can see the point of. One turns up in the maze too.",
+      "source": "Goblet of Fire, ch. 13"
+    }
+  },
+  {
+    "id": "b4m-constant-vigilance",
+    "difficulty": 4,
+    "scope": "both",
+    "book": 4,
+    "chapter": 14,
+    "topics": [
+      "moody",
+      "quotes"
+    ],
+    "answer": 1,
+    "probe": "CONSTANT VIGILANCE",
+    "verified": true,
+    "he": {
+      "prompt": "מהי הקריאה שמודי חוזר עליה שוב ושוב לתלמידיו?",
+      "choices": [
+        "'שמור על שרביטך'",
+        "'עֵרנות תמידית'",
+        "'אל תבטח באיש'",
+        "'הגן על מחשבותיך'"
+      ],
+      "explanation": "'עֵרנות תמידית' (CONSTANT VIGILANCE) — הוא צורח את זה בכיתה, וזה הופך לביטוי המזוהה איתו יותר מכל.",
+      "source": "הארי פוטר וגביע האש, פרק 14"
+    },
+    "en": {
+      "prompt": "Which cry does Moody bellow at his students again and again?",
+      "choices": [
+        "'Guard your wand'",
+        "'CONSTANT VIGILANCE'",
+        "'Trust no one'",
+        "'Shield your mind'"
+      ],
+      "explanation": "'CONSTANT VIGILANCE' — he roars it in class, and it becomes the phrase most associated with him.",
+      "source": "Goblet of Fire, ch. 14"
+    }
+  },
+  {
+    "id": "b4m-gillyweed",
+    "difficulty": 3,
+    "scope": "book",
+    "book": 4,
+    "chapter": 26,
+    "topics": [
+      "triwizard",
+      "herbology"
+    ],
+    "answer": 1,
+    "probe": "Gillyweed",
+    "verified": true,
+    "he": {
+      "prompt": "מה מאפשר להארי לנשום מתחת למים במשימה השנייה?",
+      "choices": [
+        "לחש ראש-בועה",
+        "עשב-זימים",
+        "שיקוי מים",
+        "קסם של דמבלדור"
+      ],
+      "explanation": "עשב-זימים — דובי גונב אותו מן המחסן של סנייפ ומביא אותו להארי ברגע האחרון. פלר וצדריק משתמשים בלחש ראש-בועה.",
+      "source": "הארי פוטר וגביע האש, פרק 26"
+    },
+    "en": {
+      "prompt": "What lets Harry breathe underwater in the second task?",
+      "choices": [
+        "The Bubble-Head Charm",
+        "Gillyweed",
+        "A water potion",
+        "A charm from Dumbledore"
+      ],
+      "explanation": "Gillyweed — Dobby steals it from Snape's store and brings it to Harry at the last moment. Fleur and Cedric use the Bubble-Head Charm.",
+      "source": "Goblet of Fire, ch. 26"
+    }
+  },
+  {
+    "id": "b4m-quick-quotes",
+    "difficulty": 3,
+    "scope": "book",
+    "book": 4,
+    "chapter": 18,
+    "topics": [
+      "skeeter",
+      "objects"
+    ],
+    "answer": 2,
+    "probe": "Quick.Quotes Quill",
+    "verified": true,
+    "he": {
+      "prompt": "באיזה כלי כתיבה משתמשת ריטה סקיטר בראיונות?",
+      "choices": [
+        "עט נוצה עצמאי",
+        "עט דיו נצחי",
+        "עט ציטוט-מהיר",
+        "עט אמת"
+      ],
+      "explanation": "עט ציטוט-מהיר — שכותב בעצמו, ומשנה כל מה שנאמר לגרסה דרמטית יותר. הארי רואה אותו כותב דברים שלא אמר.",
+      "source": "הארי פוטר וגביע האש, פרק 18"
+    },
+    "en": {
+      "prompt": "What writing tool does Rita Skeeter use in interviews?",
+      "choices": [
+        "A self-inking quill",
+        "An Everlasting Ink pen",
+        "A Quick-Quotes Quill",
+        "A Truth Quill"
+      ],
+      "explanation": "A Quick-Quotes Quill — it writes by itself, turning whatever is said into something more dramatic. Harry watches it write things he never said.",
+      "source": "Goblet of Fire, ch. 18"
+    }
+  },
+  {
+    "id": "b4m-skeeter-beetle",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 4,
+    "chapter": 37,
+    "topics": [
+      "skeeter",
+      "plot"
+    ],
+    "answer": 1,
+    "probe": "beetle",
+    "verified": true,
+    "he": {
+      "prompt": "כיצד ריטה סקיטר השיגה את כל הסקופים שלה?",
+      "choices": [
+        "מרגל במשרד",
+        "היא אנימאגית בלתי רשומה בצורת חיפושית",
+        "עט ציטוט מכושף מרחוק",
+        "היא קראה מחשבות"
+      ],
+      "explanation": "אנימאגית בלתי רשומה בצורת חיפושית — הרמיוני תופסת אותה בצנצנת זכוכית, וזה מה שמשתיק אותה לשנה.",
+      "source": "הארי פוטר וגביע האש, פרק 37"
+    },
+    "en": {
+      "prompt": "How was Rita Skeeter getting all her scoops?",
+      "choices": [
+        "A source in the Ministry",
+        "She is an unregistered Animagus — a beetle",
+        "A remotely charmed quill",
+        "She could read minds"
+      ],
+      "explanation": "An unregistered Animagus in beetle form — Hermione catches her in a glass jar, and that is what silences her for a year.",
+      "source": "Goblet of Fire, ch. 37"
+    }
+  },
+  {
+    "id": "b4m-pine-fresh",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 4,
+    "chapter": 25,
+    "topics": [
+      "triwizard",
+      "trivia"
+    ],
+    "answer": 2,
+    "probe": "Pine fresh",
+    "verified": true,
+    "he": {
+      "prompt": "מהי הסיסמה לאמבטיית המדריכים, שצדריק מגלה להארי?",
+      "choices": [
+        "'ניקיון'",
+        "'קצף'",
+        "'ריח אורן'",
+        "'מים חמים'"
+      ],
+      "explanation": "'ריח אורן' — צדריק מוסר לו את הסיסמה כתודה על האזהרה בעניין הדרקונים, ושם הארי מפענח את ביצת הזהב.",
+      "source": "הארי פוטר וגביע האש, פרק 25"
+    },
+    "en": {
+      "prompt": "What is the prefects' bathroom password Cedric gives Harry?",
+      "choices": [
+        "'Clean'",
+        "'Foam'",
+        "'Pine fresh'",
+        "'Hot water'"
+      ],
+      "explanation": "'Pine fresh' — Cedric passes it on to repay the warning about the dragons, and it is there that Harry works out the golden egg.",
+      "source": "Goblet of Fire, ch. 25"
+    }
+  },
+  {
+    "id": "b4m-weatherby",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 4,
+    "chapter": 7,
+    "topics": [
+      "weasleys",
+      "trivia"
+    ],
+    "answer": 1,
+    "probe": "Weatherby",
+    "verified": true,
+    "he": {
+      "prompt": "בשם מה קורא ברטי קראוץ' בטעות לפרסי וויזלי?",
+      "choices": [
+        "ווימבל",
+        "וות'רבי",
+        "וזלבי",
+        "וויתרס"
+      ],
+      "explanation": "'וות'רבי' — למרות שפרסי עובד ישירות תחתיו ומעריץ אותו, קראוץ' לא זוכר את שמו. הבדיחה חוזרת לאורך הספר.",
+      "source": "הארי פוטר וגביע האש, פרק 7"
+    },
+    "en": {
+      "prompt": "What does Barty Crouch mistakenly call Percy Weasley?",
+      "choices": [
+        "Wimble",
+        "Weatherby",
+        "Weaselby",
+        "Withers"
+      ],
+      "explanation": "'Weatherby' — even though Percy works directly under him and idolises him, Crouch cannot remember his name. The joke runs through the book.",
+      "source": "Goblet of Fire, ch. 7"
+    }
+  },
+  {
+    "id": "b4m-sphinx",
+    "difficulty": 4,
+    "scope": "book",
+    "book": 4,
+    "chapter": 31,
+    "topics": [
+      "triwizard",
+      "creatures"
+    ],
+    "answer": 2,
+    "probe": "sphinx",
+    "verified": true,
+    "he": {
+      "prompt": "איזה יצור חוסם את דרכו של הארי במבוך ומציג לו חידה?",
+      "choices": [
+        "בוגארט",
+        "אקרומנטולה",
+        "ספינקס",
+        "היפוגריף"
+      ],
+      "explanation": "ספינקס — ראש אישה וגוף אריה. היא מרשה לו לעבור רק אם יפתור את החידה, ומזהירה שאם יטעה היא תתקוף.",
+      "source": "הארי פוטר וגביע האש, פרק 31"
+    },
+    "en": {
+      "prompt": "Which creature blocks Harry's path in the maze and sets him a riddle?",
+      "choices": [
+        "A boggart",
+        "An Acromantula",
+        "A sphinx",
+        "A Hippogriff"
+      ],
+      "explanation": "A sphinx — a woman's head on a lion's body. She lets him pass only if he answers her riddle, and warns she will attack if he gets it wrong.",
+      "source": "Goblet of Fire, ch. 31"
+    }
+  },
+  {
+    "id": "b4m-leprechaun-gold",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 4,
+    "chapter": 37,
+    "topics": [
+      "bagman",
+      "money"
+    ],
+    "answer": 1,
+    "probe": "leprechaun gold",
+    "verified": true,
+    "he": {
+      "prompt": "במה שילם לודו בגמן לפרד וג'ורג' את זכייתם בהתערבות?",
+      "choices": [
+        "בגלאונים אמיתיים",
+        "בזהב לפרקון שנעלם",
+        "בשטרות מוגלים",
+        "הוא לא שילם כלל"
+      ],
+      "explanation": "בזהב לפרקון — שנראה אמיתי ומתאדה תוך שעות. בגמן היה שקוע בחובות לגובלינים ולכן רימה אותם.",
+      "source": "הארי פוטר וגביע האש, פרק 37"
+    },
+    "en": {
+      "prompt": "What did Ludo Bagman pay Fred and George their winnings in?",
+      "choices": [
+        "Real Galleons",
+        "Leprechaun gold, which vanished",
+        "Muggle banknotes",
+        "He never paid at all"
+      ],
+      "explanation": "Leprechaun gold — which looks real and evaporates within hours. Bagman was deep in debt to goblins, so he cheated them.",
+      "source": "Goblet of Fire, ch. 37"
+    }
+  }
+]

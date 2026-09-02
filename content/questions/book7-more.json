@@ -1,0 +1,398 @@
+[
+  {
+    "id": "b7m-seven-potters",
+    "difficulty": 3,
+    "scope": "both",
+    "book": 7,
+    "chapter": 4,
+    "topics": [
+      "order",
+      "plot"
+    ],
+    "answer": 1,
+    "probe": "seven Potters",
+    "verified": true,
+    "he": {
+      "prompt": "כיצד המסדר מוציא את הארי מפריווט דרייב?",
+      "choices": [
+        "בשער-דרך אחד",
+        "בשבעה 'הארי פוטרים' על שבעה מטאטאים וכלי טיס",
+        "בהופעה מהירה",
+        "ברשת הרשפה"
+      ],
+      "explanation": "שבעה הארי פוטרים — שישה מתנדבים בשיקוי פוליג'וס יוצאים בזוגות לכיוונים שונים, כדי שאיש לא ידע מי האמיתי.",
+      "source": "הארי פוטר ואוצרות המוות, פרק 4"
+    },
+    "en": {
+      "prompt": "How does the Order get Harry out of Privet Drive?",
+      "choices": [
+        "A single Portkey",
+        "Seven 'Harry Potters' on brooms and other craft",
+        "Side-Along Apparition",
+        "The Floo Network"
+      ],
+      "explanation": "Seven Harry Potters — six volunteers on Polyjuice leave in pairs in different directions, so nobody knows which is the real one.",
+      "source": "Deathly Hallows, ch. 4"
+    }
+  },
+  {
+    "id": "b7m-trace",
+    "difficulty": 4,
+    "scope": "book",
+    "book": 7,
+    "chapter": 4,
+    "topics": [
+      "ministry",
+      "lore"
+    ],
+    "answer": 2,
+    "probe": "Trace",
+    "verified": true,
+    "he": {
+      "prompt": "מהו 'העקב' (the Trace) שמוטל על קוסמים צעירים?",
+      "choices": [
+        "סימן על השרביט",
+        "רישום בגרינגוטס",
+        "כשף שמאתר קסם סביב מי שמתחת לגיל שבע-עשרה",
+        "חובת דיווח על נסיעות"
+      ],
+      "explanation": "כשף שמאתר קסם בסביבתו של מי שטרם בגר — ולכן קוסמים בוגרים לא יכולים להשתמש בקסם ליד הארי עד יום הולדתו השבע-עשרה.",
+      "source": "הארי פוטר ואוצרות המוות, פרק 4"
+    },
+    "en": {
+      "prompt": "What is the Trace, placed on young witches and wizards?",
+      "choices": [
+        "A mark on the wand",
+        "A Gringotts registration",
+        "A charm that detects magic around anyone under seventeen",
+        "A duty to report travel"
+      ],
+      "explanation": "A charm that detects magic performed around an underage wizard — which is why adults cannot use magic near Harry until his seventeenth birthday.",
+      "source": "Deathly Hallows, ch. 4"
+    }
+  },
+  {
+    "id": "b7m-bathilda",
+    "difficulty": 4,
+    "scope": "book",
+    "book": 7,
+    "chapter": 17,
+    "topics": [
+      "voldemort",
+      "plot"
+    ],
+    "answer": 1,
+    "probe": "Bathilda",
+    "verified": true,
+    "he": {
+      "prompt": "מי חיכה להארי ולהרמיוני בגודריק'ס הולו?",
+      "choices": [
+        "אוכלי מוות בגלימות",
+        "נאגיני, בתוך גופה של בת'ילדה בגשוט",
+        "פטיגרו",
+        "אברפורת' דמבלדור"
+      ],
+      "explanation": "נאגיני — וולדמורט השאיר אותה בתוך גופתה של בת'ילדה בגשוט הזקנה, שמובילה אותם לביתה. שרביטו של הארי נשבר בבריחה.",
+      "source": "הארי פוטר ואוצרות המוות, פרק 17"
+    },
+    "en": {
+      "prompt": "Who was waiting for Harry and Hermione in Godric's Hollow?",
+      "choices": [
+        "Hooded Death Eaters",
+        "Nagini, inside Bathilda Bagshot's body",
+        "Pettigrew",
+        "Aberforth Dumbledore"
+      ],
+      "explanation": "Nagini — Voldemort had left her inside the corpse of old Bathilda Bagshot, who leads them into her house. Harry's wand is broken in the escape.",
+      "source": "Deathly Hallows, ch. 17"
+    }
+  },
+  {
+    "id": "b7m-deluminator",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 7,
+    "chapter": 7,
+    "topics": [
+      "dumbledore",
+      "objects"
+    ],
+    "answer": 1,
+    "probe": "Deluminator",
+    "verified": true,
+    "he": {
+      "prompt": "מה דמבלדור מוריש לרון בצוואתו?",
+      "choices": [
+        "את חרב גריפינדור",
+        "את המכבה-אור",
+        "את הפנסיב",
+        "את שרביט הסמבוק"
+      ],
+      "explanation": "המכבה-אור (Deluminator) — ובאמצעותו רון שומע את קולה של הרמיוני וחוזר אל השניים ביער.",
+      "source": "הארי פוטר ואוצרות המוות, פרק 7"
+    },
+    "en": {
+      "prompt": "What does Dumbledore leave Ron in his will?",
+      "choices": [
+        "Gryffindor's sword",
+        "The Deluminator",
+        "The Pensieve",
+        "The Elder Wand"
+      ],
+      "explanation": "The Deluminator — and it is through it that Ron hears Hermione's voice and finds his way back to them in the forest.",
+      "source": "Deathly Hallows, ch. 7"
+    }
+  },
+  {
+    "id": "b7m-luna-ceiling",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 7,
+    "chapter": 21,
+    "topics": [
+      "luna",
+      "trivia"
+    ],
+    "answer": 2,
+    "probe": "ceiling",
+    "verified": true,
+    "he": {
+      "prompt": "מה הארי מוצא מצויר על תקרת חדרה של לונה?",
+      "choices": [
+        "מפת כוכבים",
+        "יצורים מן הקשקשן",
+        "דיוקנות שלו, של רון, הרמיוני, ג'יני ונוויל, שרשרת המילה 'חברים' סביבם",
+        "אמה"
+      ],
+      "explanation": "חמישה דיוקנות — הארי, רון, הרמיוני, ג'יני ונוויל — קשורים יחד בשרשרת זהב של המילה 'חברים', חזור ושוב. זה הרגע שבו הארי מבין מה היא באמת.",
+      "source": "הארי פוטר ואוצרות המוות, פרק 21"
+    },
+    "en": {
+      "prompt": "What does Harry find painted on the ceiling of Luna's room?",
+      "choices": [
+        "A star chart",
+        "Creatures from the Quibbler",
+        "Portraits of him, Ron, Hermione, Ginny and Neville, chained by the word 'friends'",
+        "Her mother"
+      ],
+      "explanation": "Five portraits — Harry, Ron, Hermione, Ginny and Neville — linked by a golden chain of the word 'friends', repeated over and over. It is the moment Harry understands what she is.",
+      "source": "Deathly Hallows, ch. 21"
+    }
+  },
+  {
+    "id": "b7m-xenophilius-sign",
+    "difficulty": 3,
+    "scope": "book",
+    "book": 7,
+    "chapter": 20,
+    "topics": [
+      "hallows",
+      "luna"
+    ],
+    "answer": 1,
+    "probe": "Xenophilius",
+    "verified": true,
+    "he": {
+      "prompt": "מי מסביר לשלושה מה מסמל הסימן המשולש עם העיגול והקו?",
+      "choices": [
+        "אברפורת'",
+        "קסנופיליוס לאבגוד",
+        "בת'ילדה בגשוט",
+        "ויקטור קרום"
+      ],
+      "explanation": "קסנופיליוס לאבגוד — הוא עונד את הסימן בעצמו, וקורא לשלושה את סיפור שלושת האחים. בהמשך הוא מסגיר אותם כדי להחזיר את לונה.",
+      "source": "הארי פוטר ואוצרות המוות, פרק 20"
+    },
+    "en": {
+      "prompt": "Who explains to the three what the triangle-circle-line sign means?",
+      "choices": [
+        "Aberforth",
+        "Xenophilius Lovegood",
+        "Bathilda Bagshot",
+        "Viktor Krum"
+      ],
+      "explanation": "Xenophilius Lovegood — he wears the sign himself, and reads them the Tale of the Three Brothers. He then tries to turn them in to get Luna back.",
+      "source": "Deathly Hallows, ch. 20"
+    }
+  },
+  {
+    "id": "b7m-gringotts-dragon",
+    "difficulty": 3,
+    "scope": "both",
+    "book": 7,
+    "chapter": 26,
+    "topics": [
+      "gringotts",
+      "creatures"
+    ],
+    "answer": 1,
+    "probe": "dragon",
+    "verified": true,
+    "he": {
+      "prompt": "כיצד השלושה נמלטים מגרינגוטס?",
+      "choices": [
+        "בשער-דרך",
+        "על גב הדרקון ששמר על הכספות",
+        "בגלימת ההיעלמות",
+        "בעגלות המכרה"
+      ],
+      "explanation": "על גב הדרקון העיוור והחיוור ששמר על כספות המעמקים — הם משחררים אותו והוא פורץ דרך התקרה.",
+      "source": "הארי פוטר ואוצרות המוות, פרק 26"
+    },
+    "en": {
+      "prompt": "How do the three escape from Gringotts?",
+      "choices": [
+        "By Portkey",
+        "On the back of the dragon guarding the vaults",
+        "Under the Invisibility Cloak",
+        "In the mine carts"
+      ],
+      "explanation": "On the back of the pale, half-blind dragon that guarded the deepest vaults — they set it loose and it smashes out through the roof.",
+      "source": "Deathly Hallows, ch. 26"
+    }
+  },
+  {
+    "id": "b7m-neville-nagini",
+    "difficulty": 3,
+    "scope": "both",
+    "book": 7,
+    "chapter": 36,
+    "topics": [
+      "neville",
+      "plot"
+    ],
+    "answer": 2,
+    "probe": "Nagini",
+    "verified": true,
+    "he": {
+      "prompt": "מי הורג את נאגיני?",
+      "choices": [
+        "הארי",
+        "רון",
+        "נוויל לונגבוטום",
+        "מולי וויזלי"
+      ],
+      "explanation": "נוויל — בחרב גריפינדור, ששלף ממצנפת המחלקה הבוערת שוולדמורט חבש עליו. זה ההורקרוקס האחרון.",
+      "source": "הארי פוטר ואוצרות המוות, פרק 36"
+    },
+    "en": {
+      "prompt": "Who kills Nagini?",
+      "choices": [
+        "Harry",
+        "Ron",
+        "Neville Longbottom",
+        "Molly Weasley"
+      ],
+      "explanation": "Neville — with Gryffindor's sword, pulled from the burning Sorting Hat Voldemort had forced onto his head. It is the last Horcrux.",
+      "source": "Deathly Hallows, ch. 36"
+    }
+  },
+  {
+    "id": "b7m-teddy",
+    "difficulty": 4,
+    "scope": "book",
+    "book": 7,
+    "chapter": 25,
+    "topics": [
+      "lupin",
+      "names"
+    ],
+    "answer": 1,
+    "probe": "Teddy",
+    "verified": true,
+    "he": {
+      "prompt": "מה שם בנם של רמוס לופין וטונקס?",
+      "choices": [
+        "רמוס הבן",
+        "טדי",
+        "אדוארד סיריוס",
+        "ג'יימס"
+      ],
+      "explanation": "טדי — על שם אביה של טונקס, אדוארד. הארי הוא הסנדק, ולופין מבקש זאת בעצמו.",
+      "source": "הארי פוטר ואוצרות המוות, פרק 25"
+    },
+    "en": {
+      "prompt": "What is the name of Remus Lupin and Tonks's son?",
+      "choices": [
+        "Remus Jr",
+        "Teddy",
+        "Edward Sirius",
+        "James"
+      ],
+      "explanation": "Teddy — after Tonks's father, Edward. Harry is his godfather, at Lupin's own request.",
+      "source": "Deathly Hallows, ch. 25"
+    }
+  },
+  {
+    "id": "b7m-kings-cross",
+    "difficulty": 4,
+    "scope": "book",
+    "book": 7,
+    "chapter": 35,
+    "topics": [
+      "dumbledore",
+      "plot"
+    ],
+    "answer": 2,
+    "probe": "King's Cross",
+    "verified": true,
+    "he": {
+      "prompt": "היכן הארי פוגש את דמבלדור אחרי שוולדמורט מטיל בו את הקללה ביער?",
+      "choices": [
+        "בחדר הנחוץ",
+        "במחלקה למסתורין",
+        "במקום שנראה כמו תחנת קינגס קרוס",
+        "בגודריק'ס הולו"
+      ],
+      "explanation": "במקום שנראה כמו תחנת קינגס קרוס, לבן וריק. כשהארי שואל אם זה אמיתי או בראשו, דמבלדור עונה שאין סיבה שזה לא יהיה שניהם.",
+      "source": "הארי פוטר ואוצרות המוות, פרק 35"
+    },
+    "en": {
+      "prompt": "Where does Harry meet Dumbledore after Voldemort's curse in the forest?",
+      "choices": [
+        "The Room of Requirement",
+        "The Department of Mysteries",
+        "A place that looks like King's Cross station",
+        "Godric's Hollow"
+      ],
+      "explanation": "A place that looks like King's Cross, white and empty. When Harry asks whether it is real or in his head, Dumbledore answers that there is no reason it cannot be both.",
+      "source": "Deathly Hallows, ch. 35"
+    }
+  },
+  {
+    "id": "b7m-molly-bellatrix",
+    "difficulty": 3,
+    "scope": "both",
+    "book": 7,
+    "chapter": 36,
+    "topics": [
+      "weasleys",
+      "plot"
+    ],
+    "answer": 1,
+    "probe": "Molly",
+    "verified": true,
+    "he": {
+      "prompt": "מי הורגת את בלטריקס לסטריינג'?",
+      "choices": [
+        "ג'יני",
+        "מולי וויזלי",
+        "הרמיוני",
+        "לונה"
+      ],
+      "explanation": "מולי וויזלי — אחרי שבלטריקס מכוונת לחש לג'יני. שלוש התלמידות נסוגות, ומולי לוקחת את הדו-קרב לעצמה.",
+      "source": "הארי פוטר ואוצרות המוות, פרק 36"
+    },
+    "en": {
+      "prompt": "Who kills Bellatrix Lestrange?",
+      "choices": [
+        "Ginny",
+        "Molly Weasley",
+        "Hermione",
+        "Luna"
+      ],
+      "explanation": "Molly Weasley — after Bellatrix aims a curse at Ginny. The three girls fall back and Molly takes the duel for herself.",
+      "source": "Deathly Hallows, ch. 36"
+    }
+  }
+]

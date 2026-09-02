@@ -1,0 +1,504 @@
+[
+  {
+    "id": "b1m-cupboard",
+    "difficulty": 1,
+    "scope": "both",
+    "book": 1,
+    "chapter": 2,
+    "topics": [
+      "dursleys"
+    ],
+    "answer": 1,
+    "probe": "cupboard under the stairs",
+    "verified": true,
+    "he": {
+      "prompt": "היכן ישן הארי בבית דורסלי?",
+      "choices": [
+        "בחדר האורחים",
+        "בארון שמתחת למדרגות",
+        "בעליית הגג",
+        "במרפסת"
+      ],
+      "explanation": "בארון שמתחת למדרגות — עשר שנים, עד שמכתבי הוגוורטס מתחילים להגיע ופרנון מעביר אותו לחדר הקטן.",
+      "source": "הארי פוטר ואבן החכמים, פרק 2"
+    },
+    "en": {
+      "prompt": "Where does Harry sleep at the Dursleys'?",
+      "choices": [
+        "The guest room",
+        "The cupboard under the stairs",
+        "The attic",
+        "The conservatory"
+      ],
+      "explanation": "The cupboard under the stairs — for ten years, until the Hogwarts letters start arriving and Vernon moves him to the small bedroom.",
+      "source": "Philosopher's Stone, ch. 2"
+    }
+  },
+  {
+    "id": "b1m-wingardium",
+    "difficulty": 2,
+    "scope": "both",
+    "book": 1,
+    "chapter": 10,
+    "topics": [
+      "spells"
+    ],
+    "answer": 2,
+    "probe": "Wingardium Leviosa",
+    "verified": true,
+    "he": {
+      "prompt": "איזה לחש הרמיוני מלמדת את רון להטיל נכון, וזה שמפיל את האלה על הטרול?",
+      "choices": [
+        "לומוס",
+        "אלוהומורה",
+        "וינגרדיום לוויוסה",
+        "פטריפיקוס טוטאלוס"
+      ],
+      "explanation": "וינגרדיום לוויוסה — לחש ההנפה. הרמיוני מתקנת לרון את ההטעמה, ובאותו לילה הוא מרים את האלה של הטרול ומפיל אותה על ראשו.",
+      "source": "הארי פוטר ואבן החכמים, פרק 10"
+    },
+    "en": {
+      "prompt": "Which charm does Hermione correct Ron on, and which drops the club on the troll?",
+      "choices": [
+        "Lumos",
+        "Alohomora",
+        "Wingardium Leviosa",
+        "Petrificus Totalus"
+      ],
+      "explanation": "Wingardium Leviosa — the Levitation Charm. Hermione fixes Ron's pronunciation, and that night he lifts the troll's club and drops it on its head.",
+      "source": "Philosopher's Stone, ch. 10"
+    }
+  },
+  {
+    "id": "b1m-pink-umbrella",
+    "difficulty": 3,
+    "scope": "book",
+    "book": 1,
+    "chapter": 4,
+    "topics": [
+      "hagrid",
+      "objects"
+    ],
+    "answer": 1,
+    "probe": "pink umbrella",
+    "verified": true,
+    "he": {
+      "prompt": "מה האגריד נושא איתו ומשתמש בו כשרביט?",
+      "choices": [
+        "מטה עץ אלון",
+        "מטרייה ורודה",
+        "פנס פליז",
+        "מקטרת"
+      ],
+      "explanation": "מטרייה ורודה — שברי שרביטו שנשבר כשסולק מהוגוורטס מוסתרים בתוכה. באמצעותה הוא נותן לדאדלי זנב חזיר.",
+      "source": "הארי פוטר ואבן החכמים, פרק 4"
+    },
+    "en": {
+      "prompt": "What does Hagrid carry and use as a wand?",
+      "choices": [
+        "An oak staff",
+        "A pink umbrella",
+        "A brass lamp",
+        "A pipe"
+      ],
+      "explanation": "A pink umbrella — the pieces of the wand snapped when he was expelled are hidden inside it. He gives Dudley a pig's tail with it.",
+      "source": "Philosopher's Stone, ch. 4"
+    }
+  },
+  {
+    "id": "b1m-norbert",
+    "difficulty": 3,
+    "scope": "book",
+    "book": 1,
+    "chapter": 14,
+    "topics": [
+      "creatures",
+      "hagrid"
+    ],
+    "answer": 2,
+    "probe": "Norwegian Ridgeback",
+    "verified": true,
+    "he": {
+      "prompt": "מאיזה גזע הדרקון שהאגריד מגדל בבקתה?",
+      "choices": [
+        "ירוק וולשי רגיל",
+        "זנב-קרן הונגרי",
+        "רכס-גב נורווגי",
+        "פֶּרוּבי ארוך-ניב"
+      ],
+      "explanation": "רכס-גב נורווגי — האגריד קורא לו נורברט, וזוכה בביצה בקלפים מזר עטוף גלימה בפאב.",
+      "source": "הארי פוטר ואבן החכמים, פרק 14"
+    },
+    "en": {
+      "prompt": "What breed is the dragon Hagrid raises in his hut?",
+      "choices": [
+        "A Common Welsh Green",
+        "A Hungarian Horntail",
+        "A Norwegian Ridgeback",
+        "A Peruvian Vipertooth"
+      ],
+      "explanation": "A Norwegian Ridgeback — Hagrid names him Norbert, and won the egg at cards from a hooded stranger in a pub.",
+      "source": "Philosopher's Stone, ch. 14"
+    }
+  },
+  {
+    "id": "b1m-firenze",
+    "difficulty": 3,
+    "scope": "book",
+    "book": 1,
+    "chapter": 15,
+    "topics": [
+      "creatures",
+      "names"
+    ],
+    "answer": 0,
+    "probe": "Firenze",
+    "verified": true,
+    "he": {
+      "prompt": "מה שמו של הקנטאור שמציל את הארי ביער האסור?",
+      "choices": [
+        "פירנצה",
+        "בֵּיין",
+        "רוֹנאן",
+        "מגוריאן"
+      ],
+      "explanation": "פירנצה — הוא נושא את הארי על גבו, מה שמכעיס את בֵּיין, ומספר לו מי שתה את דם החדקרן.",
+      "source": "הארי פוטר ואבן החכמים, פרק 15"
+    },
+    "en": {
+      "prompt": "What is the name of the centaur who saves Harry in the Forbidden Forest?",
+      "choices": [
+        "Firenze",
+        "Bane",
+        "Ronan",
+        "Magorian"
+      ],
+      "explanation": "Firenze — he carries Harry on his back, which enrages Bane, and tells him who has been drinking unicorn blood.",
+      "source": "Philosopher's Stone, ch. 15"
+    }
+  },
+  {
+    "id": "b1m-quirrell-turban",
+    "difficulty": 3,
+    "scope": "book",
+    "book": 1,
+    "chapter": 17,
+    "topics": [
+      "quirrell",
+      "plot"
+    ],
+    "answer": 1,
+    "probe": "turban",
+    "verified": true,
+    "he": {
+      "prompt": "מה הוסתר תחת הטורבן של קווירל?",
+      "choices": [
+        "צלקת",
+        "פרצופו של וולדמורט",
+        "השרביט שלו",
+        "אבן החכמים"
+      ],
+      "explanation": "פרצופו של וולדמורט בעורפו. הריח החזק של שום בכיתה נועד להסתיר את ריח הטורבן, שקווירל אמר שקיבל מנסיך אפריקאי.",
+      "source": "הארי פוטר ואבן החכמים, פרק 17"
+    },
+    "en": {
+      "prompt": "What was hidden under Quirrell's turban?",
+      "choices": [
+        "A scar",
+        "Voldemort's face",
+        "His wand",
+        "The Philosopher's Stone"
+      ],
+      "explanation": "Voldemort's face, on the back of his head. The reek of garlic in his classroom was to cover the turban, which Quirrell claimed an African prince gave him.",
+      "source": "Philosopher's Stone, ch. 17"
+    }
+  },
+  {
+    "id": "b1m-bedrooms",
+    "difficulty": 4,
+    "scope": "book",
+    "book": 1,
+    "chapter": 3,
+    "topics": [
+      "dursleys",
+      "numbers"
+    ],
+    "answer": 1,
+    "probe": "four bedrooms",
+    "verified": true,
+    "he": {
+      "prompt": "כמה חדרי שינה יש בבית דורסלי?",
+      "choices": [
+        "שלושה",
+        "ארבעה",
+        "חמישה",
+        "שניים"
+      ],
+      "explanation": "ארבעה: של פרנון ופטוניה, חדר אורחים, חדרו של דאדלי, וחדר נוסף שדאדלי משתמש בו כמחסן לצעצועים שבורים — זה שהארי מקבל בסוף.",
+      "source": "הארי פוטר ואבן החכמים, פרק 3"
+    },
+    "en": {
+      "prompt": "How many bedrooms does the Dursleys' house have?",
+      "choices": [
+        "Three",
+        "Four",
+        "Five",
+        "Two"
+      ],
+      "explanation": "Four: one for Vernon and Petunia, one for visitors, Dudley's, and the one Dudley keeps his broken things in — the one Harry ends up with.",
+      "source": "Philosopher's Stone, ch. 3"
+    }
+  },
+  {
+    "id": "b1m-figg-cabbage",
+    "difficulty": 4,
+    "scope": "book",
+    "book": 1,
+    "chapter": 2,
+    "topics": [
+      "dursleys",
+      "trivia"
+    ],
+    "answer": 2,
+    "probe": "smelled of cabbage",
+    "verified": true,
+    "he": {
+      "prompt": "מה ריחו של הבית של גברת פיג, לפי הארי?",
+      "choices": [
+        "ריח נפטלין",
+        "ריח תה קר",
+        "ריח כרוב",
+        "ריח פרחים יבשים"
+      ],
+      "explanation": "ריח כרוב בכל הבית — והארי נאלץ להביט באלבומי התמונות של כל החתולים שהיו לה.",
+      "source": "הארי פוטר ואבן החכמים, פרק 2"
+    },
+    "en": {
+      "prompt": "What did Mrs Figg's house smell of, as Harry remembers it?",
+      "choices": [
+        "Mothballs",
+        "Cold tea",
+        "Cabbage",
+        "Dried flowers"
+      ],
+      "explanation": "The whole house smelled of cabbage — and Harry had to look at photographs of every cat she had ever owned.",
+      "source": "Philosopher's Stone, ch. 2"
+    }
+  },
+  {
+    "id": "b1m-dudley-presents",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 1,
+    "chapter": 2,
+    "topics": [
+      "dursleys",
+      "numbers"
+    ],
+    "answer": 2,
+    "probe": "Thirty-six",
+    "verified": true,
+    "he": {
+      "prompt": "כמה מתנות קיבל דאדלי ביום ההולדת שלו בפרק השני?",
+      "choices": [
+        "שלושים ואחת",
+        "שלושים וארבע",
+        "שלושים ושש",
+        "ארבעים"
+      ],
+      "explanation": "שלושים ושש — 'שתיים פחות מאשתקד', הוא מציין. פטוניה מבטיחה לו מיד שתי מתנות נוספות.",
+      "source": "הארי פוטר ואבן החכמים, פרק 2"
+    },
+    "en": {
+      "prompt": "How many presents did Dudley get for his birthday in chapter two?",
+      "choices": [
+        "Thirty-one",
+        "Thirty-four",
+        "Thirty-six",
+        "Forty"
+      ],
+      "explanation": "Thirty-six — 'two less than last year', he notes. Petunia immediately promises him two more.",
+      "source": "Philosopher's Stone, ch. 2"
+    }
+  },
+  {
+    "id": "b1m-watch-hands",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 1,
+    "chapter": 1,
+    "topics": [
+      "dumbledore",
+      "objects"
+    ],
+    "answer": 3,
+    "probe": "twelve hands",
+    "verified": true,
+    "he": {
+      "prompt": "מה מיוחד בשעונו של דמבלדור, כפי שמתואר בפרק הראשון?",
+      "choices": [
+        "הוא מראה את הזמן לאחור",
+        "יש בו שבעה מחוגים",
+        "אין בו מחוגים כלל",
+        "יש בו שנים-עשר מחוגים וכוכבי לכת במקום מספרים"
+      ],
+      "explanation": "שנים-עשר מחוגים ובלי מספרים — במקומם כוכבי לכת קטנים נעים סביב השוליים.",
+      "source": "הארי פוטר ואבן החכמים, פרק 1"
+    },
+    "en": {
+      "prompt": "What is odd about Dumbledore's watch, as described in chapter one?",
+      "choices": [
+        "It runs backwards",
+        "It has seven hands",
+        "It has no hands at all",
+        "It has twelve hands and planets instead of numbers"
+      ],
+      "explanation": "Twelve hands and no numbers — instead, little planets moving around the edge.",
+      "source": "Philosopher's Stone, ch. 1"
+    }
+  },
+  {
+    "id": "b1m-street-lamps",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 1,
+    "chapter": 1,
+    "topics": [
+      "dumbledore",
+      "numbers"
+    ],
+    "answer": 1,
+    "probe": "twelve balls of light",
+    "verified": true,
+    "he": {
+      "prompt": "כמה פנסי רחוב יש בפריווט דרייב, לפי מה שהמכבה-אור מחזיר?",
+      "choices": [
+        "עשרה",
+        "שנים-עשר",
+        "ארבעה-עשר",
+        "שמונה"
+      ],
+      "explanation": "שנים-עשר — דמבלדור מכבה אותם בתחילת הפרק, ובסופו לחיצה אחת מחזירה שנים-עשר כדורי אור לפנסים.",
+      "source": "הארי פוטר ואבן החכמים, פרק 1"
+    },
+    "en": {
+      "prompt": "How many street lamps are there in Privet Drive, going by what the Put-Outer returns?",
+      "choices": [
+        "Ten",
+        "Twelve",
+        "Fourteen",
+        "Eight"
+      ],
+      "explanation": "Twelve — Dumbledore puts them out at the start of the chapter, and one click at the end sends twelve balls of light back to them.",
+      "source": "Philosopher's Stone, ch. 1"
+    }
+  },
+  {
+    "id": "b1m-wall-taps",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 1,
+    "chapter": 5,
+    "topics": [
+      "diagon-alley",
+      "trivia"
+    ],
+    "answer": 1,
+    "probe": "Three up",
+    "verified": true,
+    "he": {
+      "prompt": "אילו לבנים מונה האגריד בקיר שמעל פח האשפה, כדי לפתוח את סמטת דיאגון?",
+      "choices": [
+        "שתיים למעלה, שלוש הצדה",
+        "שלוש למעלה, שתיים הצדה",
+        "ארבע למעלה, אחת הצדה",
+        "אחת למעלה, ארבע הצדה"
+      ],
+      "explanation": "'שלוש למעלה... שתיים הצדה' — ואז שלוש נקישות במטרייה הוורודה.",
+      "source": "הארי פוטר ואבן החכמים, פרק 5"
+    },
+    "en": {
+      "prompt": "Which bricks does Hagrid count in the wall above the dustbin to open Diagon Alley?",
+      "choices": [
+        "Two up, three across",
+        "Three up, two across",
+        "Four up, one across",
+        "One up, four across"
+      ],
+      "explanation": "'Three up... two across' — and then three taps with the pink umbrella.",
+      "source": "Philosopher's Stone, ch. 5"
+    }
+  },
+  {
+    "id": "b1m-final-points",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 1,
+    "chapter": 17,
+    "topics": [
+      "dumbledore",
+      "numbers"
+    ],
+    "answer": 2,
+    "probe": "ten points to Mr. Neville",
+    "verified": true,
+    "he": {
+      "prompt": "כמה נקודות מקבל נוויל לונגבוטום בסעודת הסיום של הספר הראשון?",
+      "choices": [
+        "חמישים",
+        "עשרים",
+        "עשר",
+        "חמש"
+      ],
+      "explanation": "עשר נקודות — 'נדרש אומץ רב כדי לעמוד נגד אויביך, אבל נדרש אומץ לא פחות כדי לעמוד נגד חבריך'. עשר הנקודות האלה הן שמכריעות את גביע הבתים לגריפינדור.",
+      "source": "הארי פוטר ואבן החכמים, פרק 17"
+    },
+    "en": {
+      "prompt": "How many points does Neville Longbottom get at the leaving feast in the first book?",
+      "choices": [
+        "Fifty",
+        "Twenty",
+        "Ten",
+        "Five"
+      ],
+      "explanation": "Ten points — for the courage it takes to stand up to your friends. Those ten points are what win Gryffindor the House Cup.",
+      "source": "Philosopher's Stone, ch. 17"
+    }
+  },
+  {
+    "id": "b1m-mirror-inscription",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 1,
+    "chapter": 12,
+    "topics": [
+      "objects",
+      "riddles"
+    ],
+    "answer": 1,
+    "probe": "Erised stra ehru",
+    "verified": true,
+    "he": {
+      "prompt": "מה הכתובת החרוטה על מראת יאריס, כשקוראים אותה נכון?",
+      "choices": [
+        "'ראה מה שלבך יודע'",
+        "'אין אני מראה את פניך אלא את תאוות לבך'",
+        "'המראה מראה רק אמת'",
+        "'זכור: החלום אינו חיים'"
+      ],
+      "explanation": "הכתובת חרוטה הפוך: קריאתה מגלה שהמראה אינה מראה את הפנים אלא את מה שהלב חושק בו.",
+      "source": "הארי פוטר ואבן החכמים, פרק 12"
+    },
+    "en": {
+      "prompt": "What does the inscription on the Mirror of Erised say, once read properly?",
+      "choices": [
+        "'See what your heart knows'",
+        "'I show not your face but your heart's desire'",
+        "'The mirror shows only truth'",
+        "'Remember: a dream is not a life'"
+      ],
+      "explanation": "The words are carved in reverse: read the right way round, they say the mirror shows not your face but your heart's desire.",
+      "source": "Philosopher's Stone, ch. 12"
+    }
+  }
+]

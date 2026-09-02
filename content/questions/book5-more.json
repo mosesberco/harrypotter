@@ -1,0 +1,398 @@
+[
+  {
+    "id": "b5m-quibbler",
+    "difficulty": 2,
+    "scope": "both",
+    "book": 5,
+    "chapter": 10,
+    "topics": [
+      "luna",
+      "press"
+    ],
+    "answer": 1,
+    "probe": "Quibbler",
+    "verified": true,
+    "he": {
+      "prompt": "מה שם העיתון שאביה של לונה עורך?",
+      "choices": [
+        "הנביא היומי",
+        "הקשקשן",
+        "שבועון המכשפות",
+        "הקוסם המעשי"
+      ],
+      "explanation": "הקשקשן (The Quibbler) — ובו מתפרסם הראיון של הארי, שהוא הפעם הראשונה שהאמת על אותו לילה יוצאת לאור.",
+      "source": "הארי פוטר ומסדר עוף החול, פרק 10"
+    },
+    "en": {
+      "prompt": "What is the name of the paper Luna's father edits?",
+      "choices": [
+        "The Daily Prophet",
+        "The Quibbler",
+        "Witch Weekly",
+        "Practical Wizard"
+      ],
+      "explanation": "The Quibbler — and it carries Harry's interview, the first time the truth about that night is printed anywhere.",
+      "source": "Order of the Phoenix, ch. 10"
+    }
+  },
+  {
+    "id": "b5m-metamorphmagus",
+    "difficulty": 3,
+    "scope": "both",
+    "book": 5,
+    "chapter": 3,
+    "topics": [
+      "order",
+      "lore"
+    ],
+    "answer": 2,
+    "probe": "Metamorphmagus",
+    "verified": true,
+    "he": {
+      "prompt": "מה מיוחד בטונקס?",
+      "choices": [
+        "היא אנימאגית",
+        "היא לגילימנסית",
+        "היא מטמורפמאגית — משנה מראה כרצונה",
+        "היא חצוית ואלה"
+      ],
+      "explanation": "מטמורפמאגית — יכולת שנולדים איתה, ולא נלמדת. היא מחליפה צבע שיער וקווי פנים בהרף עין.",
+      "source": "הארי פוטר ומסדר עוף החול, פרק 3"
+    },
+    "en": {
+      "prompt": "What is unusual about Tonks?",
+      "choices": [
+        "She is an Animagus",
+        "She is a Legilimens",
+        "She is a Metamorphmagus — she changes appearance at will",
+        "She is part veela"
+      ],
+      "explanation": "A Metamorphmagus — something you are born as, not something learned. She changes hair colour and features in an instant.",
+      "source": "Order of the Phoenix, ch. 3"
+    }
+  },
+  {
+    "id": "b5m-occlumency",
+    "difficulty": 3,
+    "scope": "book",
+    "book": 5,
+    "chapter": 24,
+    "topics": [
+      "snape",
+      "lore"
+    ],
+    "answer": 1,
+    "probe": "Occlumency",
+    "verified": true,
+    "he": {
+      "prompt": "מה סנייפ מנסה ללמד את הארי בשיעורים הפרטיים?",
+      "choices": [
+        "לגילימנסיה",
+        "אוקלומנסיה — סגירת התודעה",
+        "אפריציה",
+        "לחשים לא-מילוליים"
+      ],
+      "explanation": "אוקלומנסיה — ההגנה על התודעה מפני חדירה. הארי כמעט אינו מתקדם, וזה מה שוולדמורט מנצל בסוף.",
+      "source": "הארי פוטר ומסדר עוף החול, פרק 24"
+    },
+    "en": {
+      "prompt": "What is Snape trying to teach Harry in their private lessons?",
+      "choices": [
+        "Legilimency",
+        "Occlumency — closing the mind",
+        "Apparition",
+        "Non-verbal spells"
+      ],
+      "explanation": "Occlumency — defending the mind against intrusion. Harry barely progresses, and that is what Voldemort exploits at the end.",
+      "source": "Order of the Phoenix, ch. 24"
+    }
+  },
+  {
+    "id": "b5m-snackboxes",
+    "difficulty": 3,
+    "scope": "book",
+    "book": 5,
+    "chapter": 12,
+    "topics": [
+      "weasleys",
+      "objects"
+    ],
+    "answer": 2,
+    "probe": "Skiving Snackboxes",
+    "verified": true,
+    "he": {
+      "prompt": "מה שם קו המוצרים שפרד וג'ורג' מוכרים כדי להיחלץ משיעורים?",
+      "choices": [
+        "ממתקי הבריחה",
+        "חטיפי החופש",
+        "קופסאות חטיפי ההשתמטות",
+        "מזון החולים"
+      ],
+      "explanation": "קופסאות חטיפי ההשתמטות — ובהן פסטילות חום, פסטילות הקאה, חטיפי דימום מהאף ופסטילות התעלפות.",
+      "source": "הארי פוטר ומסדר עוף החול, פרק 12"
+    },
+    "en": {
+      "prompt": "What are Fred and George's products for getting out of lessons called?",
+      "choices": [
+        "Escape Sweets",
+        "Freedom Bars",
+        "Skiving Snackboxes",
+        "Invalid Rations"
+      ],
+      "explanation": "Skiving Snackboxes — containing Fever Fudge, Puking Pastilles, Nosebleed Nougat and Fainting Fancies.",
+      "source": "Order of the Phoenix, ch. 12"
+    }
+  },
+  {
+    "id": "b5m-protean",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 5,
+    "chapter": 19,
+    "topics": [
+      "da",
+      "spells"
+    ],
+    "answer": 1,
+    "probe": "Protean Charm",
+    "verified": true,
+    "he": {
+      "prompt": "באיזה כשף השתמשה הרמיוני על מטבעות צבא דמבלדור?",
+      "choices": [
+        "כשף הצמדה",
+        "כשף הפרוטאוס",
+        "כשף התאום",
+        "כשף השידור"
+      ],
+      "explanation": "כשף הפרוטאוס — כשף ברמת נשלמים, שמשנה את כל המטבעות בו-זמנית לפי המקור. מודי מציין שזו עבודה מרשימה.",
+      "source": "הארי פוטר ומסדר עוף החול, פרק 19"
+    },
+    "en": {
+      "prompt": "Which charm did Hermione use on Dumbledore's Army's coins?",
+      "choices": [
+        "The Binding Charm",
+        "The Protean Charm",
+        "The Gemini Charm",
+        "The Broadcast Charm"
+      ],
+      "explanation": "The Protean Charm — N.E.W.T. level work that changes every coin at once from the master one. Moody remarks how impressive it is.",
+      "source": "Order of the Phoenix, ch. 19"
+    }
+  },
+  {
+    "id": "b5m-sneak",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 5,
+    "chapter": 27,
+    "topics": [
+      "da",
+      "plot"
+    ],
+    "answer": 1,
+    "probe": "SNEAK",
+    "verified": true,
+    "he": {
+      "prompt": "מה הופיע על פניה של מרייטה אדג'קומב לאחר שהסגירה את צבא דמבלדור?",
+      "choices": [
+        "כתמים שחורים",
+        "המילה 'מלשנית' בפצעונים סגולים",
+        "צלקת דמוית ברק",
+        "טלאים כסופים"
+      ],
+      "explanation": "המילה 'מלשנית' בפצעונים סגולים על פני כל הפנים — הכשף שהרמיוני הטילה על רשימת החותמים, בלי לספר לאיש.",
+      "source": "הארי פוטר ומסדר עוף החול, פרק 27"
+    },
+    "en": {
+      "prompt": "What appeared on Marietta Edgecombe's face after she gave away Dumbledore's Army?",
+      "choices": [
+        "Black blotches",
+        "The word 'SNEAK' in purple pustules",
+        "A lightning scar",
+        "Silver patches"
+      ],
+      "explanation": "The word SNEAK in close-set purple pustules across her face — a jinx Hermione had put on the list of signatures without telling anyone.",
+      "source": "Order of the Phoenix, ch. 27"
+    }
+  },
+  {
+    "id": "b5m-swamp",
+    "difficulty": 4,
+    "scope": "book",
+    "book": 5,
+    "chapter": 29,
+    "topics": [
+      "weasleys",
+      "castle"
+    ],
+    "answer": 2,
+    "probe": "swamp",
+    "verified": true,
+    "he": {
+      "prompt": "מה משאירים פרד וג'ורג' אחריהם במסדרון כשהם עוזבים את הוגוורטס?",
+      "choices": [
+        "מטח זיקוקים בלבד",
+        "עדר ניפלרים",
+        "ביצה בקומה החמישית",
+        "שלג נצחי"
+      ],
+      "explanation": "ביצה נייחת — פליטוויק משאיר במכוון חלק ממנה גם אחרי שאמברידג' מסולקת, כזכר להם.",
+      "source": "הארי פוטר ומסדר עוף החול, פרק 29"
+    },
+    "en": {
+      "prompt": "What do Fred and George leave behind in a corridor when they leave Hogwarts?",
+      "choices": [
+        "Only fireworks",
+        "A herd of Nifflers",
+        "A swamp on the fifth floor",
+        "Permanent snow"
+      ],
+      "explanation": "A portable swamp — and Flitwick deliberately leaves a patch of it behind after Umbridge is gone, as a memorial.",
+      "source": "Order of the Phoenix, ch. 29"
+    }
+  },
+  {
+    "id": "b5m-tapestry",
+    "difficulty": 4,
+    "scope": "book",
+    "book": 5,
+    "chapter": 6,
+    "topics": [
+      "black-family",
+      "objects"
+    ],
+    "answer": 1,
+    "probe": "tapestry",
+    "verified": true,
+    "he": {
+      "prompt": "מה תלוי בקיר הסלון בגרימולד פלייס, שסיריוס מראה להארי?",
+      "choices": [
+        "דיוקן של רגולוס",
+        "שטיח קיר עם אילן היוחסין של בית בלאק",
+        "מפת בריטניה הקוסמת",
+        "מראה מנופצת"
+      ],
+      "explanation": "שטיח קיר עם אילן היוחסין — ובו חורים חרוכים במקום כל מי שסולק מהמשפחה, כולל סיריוס עצמו ואנדרומדה.",
+      "source": "הארי פוטר ומסדר עוף החול, פרק 6"
+    },
+    "en": {
+      "prompt": "What hangs in the drawing room at Grimmauld Place that Sirius shows Harry?",
+      "choices": [
+        "A portrait of Regulus",
+        "A tapestry of the Black family tree",
+        "A map of magical Britain",
+        "A shattered mirror"
+      ],
+      "explanation": "A tapestry of the family tree — with burn holes where anyone disowned used to be, including Sirius himself and Andromeda.",
+      "source": "Order of the Phoenix, ch. 6"
+    }
+  },
+  {
+    "id": "b5m-locket-cleared",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 5,
+    "chapter": 6,
+    "topics": [
+      "horcruxes",
+      "plot"
+    ],
+    "answer": 2,
+    "probe": "locket",
+    "verified": true,
+    "he": {
+      "prompt": "איזה חפץ עובר בין ידיהם של הארי וחבריו כשהם מנקים את גרימולד פלייס, בלי שאיש יבין מה הוא?",
+      "choices": [
+        "טבעת גונט",
+        "הנזר של רייבנקלו",
+        "תליון כבד שאיש אינו מצליח לפתוח",
+        "גביע האפלפאף"
+      ],
+      "explanation": "תליון כבד שנעול — הם משליכים אותו לשק האשפה. שני ספרים מאוחר יותר מתברר שזה ההורקרוקס, וקריצ'ר הוא ששמר אותו.",
+      "source": "הארי פוטר ומסדר עוף החול, פרק 6"
+    },
+    "en": {
+      "prompt": "Which object passes through Harry's hands while they clear out Grimmauld Place, unrecognised?",
+      "choices": [
+        "Gaunt's ring",
+        "Ravenclaw's diadem",
+        "A heavy locket nobody can open",
+        "Hufflepuff's cup"
+      ],
+      "explanation": "A heavy locket that will not open — they throw it in a rubbish sack. Two books later it turns out to be the Horcrux, and Kreacher is the one who kept it.",
+      "source": "Order of the Phoenix, ch. 6"
+    }
+  },
+  {
+    "id": "b5m-centaurs-umbridge",
+    "difficulty": 4,
+    "scope": "book",
+    "book": 5,
+    "chapter": 33,
+    "topics": [
+      "umbridge",
+      "creatures"
+    ],
+    "answer": 1,
+    "probe": "centaurs",
+    "verified": true,
+    "he": {
+      "prompt": "מה קורה לאמברידג' ביער האסור?",
+      "choices": [
+        "גראופ תופס אותה",
+        "הקנטאורים נושאים אותה משם",
+        "היא נעקצת על ידי סקרוטים",
+        "היא מאבדת את שרביטה בלבד"
+      ],
+      "explanation": "הקנטאורים נושאים אותה אל תוך היער אחרי שהיא מעליבה אותם — היא חוזרת המומה ומצייצת כמו סוס.",
+      "source": "הארי פוטר ומסדר עוף החול, פרק 33"
+    },
+    "en": {
+      "prompt": "What happens to Umbridge in the Forbidden Forest?",
+      "choices": [
+        "Grawp grabs her",
+        "The centaurs carry her off",
+        "Skrewts sting her",
+        "She only loses her wand"
+      ],
+      "explanation": "The centaurs carry her into the forest after she insults them — she comes back in shock, making little whinnying noises.",
+      "source": "Order of the Phoenix, ch. 33"
+    }
+  },
+  {
+    "id": "b5m-kittens",
+    "difficulty": 4,
+    "scope": "book",
+    "book": 5,
+    "chapter": 16,
+    "topics": [
+      "umbridge",
+      "trivia"
+    ],
+    "answer": 2,
+    "probe": "kittens",
+    "verified": true,
+    "he": {
+      "prompt": "מה מצויר על הצלחות התלויות בקיר משרדה של אמברידג'?",
+      "choices": [
+        "פרחים",
+        "ינשופים",
+        "חתלתולים",
+        "פיות"
+      ],
+      "explanation": "חתלתולים — עשרות צלחות דקורטיביות עם חתלתולים שמתרפקים ומגרגרים, ברקע חדר העונשין הקשה בכל הספר.",
+      "source": "הארי פוטר ומסדר עוף החול, פרק 16"
+    },
+    "en": {
+      "prompt": "What is painted on the plates hanging in Umbridge's office?",
+      "choices": [
+        "Flowers",
+        "Owls",
+        "Kittens",
+        "Fairies"
+      ],
+      "explanation": "Kittens — dozens of decorative plates with frolicking, mewing kittens, as the backdrop to the cruellest detentions in the series.",
+      "source": "Order of the Phoenix, ch. 16"
+    }
+  }
+]

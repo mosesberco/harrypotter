@@ -1,0 +1,396 @@
+[
+  {
+    "id": "b6m-slug-club",
+    "difficulty": 3,
+    "scope": "book",
+    "book": 6,
+    "chapter": 7,
+    "topics": [
+      "slughorn"
+    ],
+    "answer": 1,
+    "probe": "Slug Club",
+    "verified": true,
+    "he": {
+      "prompt": "כיצד מכונה חוג המקורבים שסלגהורן אוסף סביבו?",
+      "choices": [
+        "מסדר החלזונות",
+        "מועדון הרפש",
+        "חוג השיקויים",
+        "שולחן המנהל"
+      ],
+      "explanation": "מועדון הרפש (Slug Club) — סלגהורן אוסף תלמידים בעלי קשרים או כישרון, ומרוויח מהם לאורך השנים.",
+      "source": "הארי פוטר והנסיך חצוי-הדם, פרק 7"
+    },
+    "en": {
+      "prompt": "What is Slughorn's circle of favoured students called?",
+      "choices": [
+        "The Order of Snails",
+        "The Slug Club",
+        "The Potions Circle",
+        "The Head's Table"
+      ],
+      "explanation": "The Slug Club — Slughorn collects students with connections or talent, and profits from them for years afterwards.",
+      "source": "Half-Blood Prince, ch. 7"
+    }
+  },
+  {
+    "id": "b6m-amortentia",
+    "difficulty": 4,
+    "scope": "book",
+    "book": 6,
+    "chapter": 9,
+    "topics": [
+      "potions"
+    ],
+    "answer": 1,
+    "probe": "Amortentia",
+    "verified": true,
+    "he": {
+      "prompt": "מהו שיקוי האהבה החזק בעולם, שריחו שונה לכל אדם?",
+      "choices": [
+        "פליציס פליקיס",
+        "אמורטנטיה",
+        "ורטסרום",
+        "פוליג'וס"
+      ],
+      "explanation": "אמורטנטיה — סלגהורן מדגיש שהיא אינה יוצרת אהבה אלא אובססיה, ושזה הופך אותה לשיקוי המסוכן בחדר.",
+      "source": "הארי פוטר והנסיך חצוי-הדם, פרק 9"
+    },
+    "en": {
+      "prompt": "What is the most powerful love potion in the world, which smells different to everyone?",
+      "choices": [
+        "Felix Felicis",
+        "Amortentia",
+        "Veritaserum",
+        "Polyjuice"
+      ],
+      "explanation": "Amortentia — Slughorn stresses it does not create love but obsession, which makes it the most dangerous potion in the room.",
+      "source": "Half-Blood Prince, ch. 9"
+    }
+  },
+  {
+    "id": "b6m-blackened-hand",
+    "difficulty": 3,
+    "scope": "both",
+    "book": 6,
+    "chapter": 4,
+    "topics": [
+      "dumbledore",
+      "plot"
+    ],
+    "answer": 2,
+    "probe": "blackened",
+    "verified": true,
+    "he": {
+      "prompt": "מה קרה לידו של דמבלדור בספר השישי?",
+      "choices": [
+        "היא נשרפה בקרב",
+        "בסיליסק נשך אותה",
+        "היא מושחרת ומתה מקללה שבטבעת",
+        "היא נפצעה מאש שאולה"
+      ],
+      "explanation": "מושחרת ומתה — מן הקללה שבטבעתו של מרוולו גונט, ההורקרוקס שדמבלדור הרס. סנייפ עצר את הקללה אבל לא יכול היה לרפא אותה.",
+      "source": "הארי פוטר והנסיך חצוי-הדם, פרק 4"
+    },
+    "en": {
+      "prompt": "What has happened to Dumbledore's hand in the sixth book?",
+      "choices": [
+        "Burned in a duel",
+        "Bitten by a basilisk",
+        "Blackened and dead from the curse on a ring",
+        "Injured by Fiendfyre"
+      ],
+      "explanation": "Blackened and dead — from the curse on Marvolo Gaunt's ring, the Horcrux Dumbledore destroyed. Snape halted the curse but could not undo it.",
+      "source": "Half-Blood Prince, ch. 4"
+    }
+  },
+  {
+    "id": "b6m-vanishing-cabinet",
+    "difficulty": 4,
+    "scope": "book",
+    "book": 6,
+    "chapter": 27,
+    "topics": [
+      "draco",
+      "objects"
+    ],
+    "answer": 1,
+    "probe": "Vanishing Cabinet",
+    "verified": true,
+    "he": {
+      "prompt": "כיצד דראקו מכניס את אוכלי המוות לתוך הטירה?",
+      "choices": [
+        "דרך מעבר מהוגסמיד",
+        "דרך זוג ארונות היעלמות",
+        "בשער-דרך",
+        "עם גלימות היעלמות"
+      ],
+      "explanation": "זוג ארונות היעלמות — האחד בחדר הנחוץ, האחר בבורגין ובורקס. דראקו תיקן את השבור, ובכך פתח דלת ישר לתוך הוגוורטס.",
+      "source": "הארי פוטר והנסיך חצוי-הדם, פרק 27"
+    },
+    "en": {
+      "prompt": "How does Draco get Death Eaters into the castle?",
+      "choices": [
+        "Through a passage from Hogsmeade",
+        "Through a pair of Vanishing Cabinets",
+        "By Portkey",
+        "Under Invisibility Cloaks"
+      ],
+      "explanation": "A pair of Vanishing Cabinets — one in the Room of Requirement, its twin in Borgin and Burkes. Draco mended the broken one, which opened a door straight into Hogwarts.",
+      "source": "Half-Blood Prince, ch. 27"
+    }
+  },
+  {
+    "id": "b6m-katie-bell",
+    "difficulty": 4,
+    "scope": "book",
+    "book": 6,
+    "chapter": 12,
+    "topics": [
+      "draco",
+      "plot"
+    ],
+    "answer": 1,
+    "probe": "Katie Bell",
+    "verified": true,
+    "he": {
+      "prompt": "מי נפגעת מן התליון המקולל שנשלח לדמבלדור?",
+      "choices": [
+        "ג'יני וויזלי",
+        "קייטי בל",
+        "רומילדה ויין",
+        "לוונדר בראון"
+      ],
+      "explanation": "קייטי בל — היא נוגעת בו דרך חור בעטיפה ומורמת באוויר, וזו ההוכחה הראשונה של הארי שדראקו מתכנן משהו.",
+      "source": "הארי פוטר והנסיך חצוי-הדם, פרק 12"
+    },
+    "en": {
+      "prompt": "Who is hurt by the cursed necklace meant for Dumbledore?",
+      "choices": [
+        "Ginny Weasley",
+        "Katie Bell",
+        "Romilda Vane",
+        "Lavender Brown"
+      ],
+      "explanation": "Katie Bell — she touches it through a hole in the wrapping and is lifted into the air, the first proof Harry has that Draco is up to something.",
+      "source": "Half-Blood Prince, ch. 12"
+    }
+  },
+  {
+    "id": "b6m-mclaggen",
+    "difficulty": 4,
+    "scope": "book",
+    "book": 6,
+    "chapter": 11,
+    "topics": [
+      "quidditch",
+      "names"
+    ],
+    "answer": 2,
+    "probe": "McLaggen",
+    "verified": true,
+    "he": {
+      "prompt": "מי מתמודד מול רון על תפקיד השוער, ומקבל בטעות בלאדג'ר בראשו?",
+      "choices": [
+        "זכריאס סמית'",
+        "ריצ'י קוט",
+        "קורמק מקלגן",
+        "ג'ימי פיקס"
+      ],
+      "explanation": "קורמק מקלגן — הרמיוני מבלבלת אותו בכשף כדי שרון יזכה בתפקיד, ובמשחק שבו הוא כן משחק הוא חובט בהארי בעצמו.",
+      "source": "הארי פוטר והנסיך חצוי-הדם, פרק 11"
+    },
+    "en": {
+      "prompt": "Who competes with Ron for Keeper, and later knocks Harry out with a Bludger?",
+      "choices": [
+        "Zacharias Smith",
+        "Ritchie Coote",
+        "Cormac McLaggen",
+        "Jimmy Peakes"
+      ],
+      "explanation": "Cormac McLaggen — Hermione Confunds him so Ron gets the place, and in the match he does play he cracks Harry's skull himself.",
+      "source": "Half-Blood Prince, ch. 11"
+    }
+  },
+  {
+    "id": "b6m-phlegm",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 6,
+    "chapter": 5,
+    "topics": [
+      "weasleys",
+      "trivia"
+    ],
+    "answer": 1,
+    "probe": "Phlegm",
+    "verified": true,
+    "he": {
+      "prompt": "באיזה כינוי קוראות ג'יני והרמיוני לפלר דלאקור?",
+      "choices": [
+        "ואלה",
+        "ליחה",
+        "כלה",
+        "הגברת הצחורה"
+      ],
+      "explanation": "'ליחה' (Phlegm) — משחק מילים על Fleur. ג'יני וגברת וויזלי לא סובלות אותה עד שמלחמה אמיתית מכריחה את כולם לצדדים אחרים.",
+      "source": "הארי פוטר והנסיך חצוי-הדם, פרק 5"
+    },
+    "en": {
+      "prompt": "What nickname do Ginny and Hermione use for Fleur Delacour?",
+      "choices": [
+        "Veela",
+        "Phlegm",
+        "The Bride",
+        "The Pale Lady"
+      ],
+      "explanation": "'Phlegm' — a pun on Fleur. Ginny and Mrs Weasley cannot stand her until a real war rearranges everyone's loyalties.",
+      "source": "Half-Blood Prince, ch. 5"
+    }
+  },
+  {
+    "id": "b6m-twycross",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 6,
+    "chapter": 18,
+    "topics": [
+      "apparition",
+      "names"
+    ],
+    "answer": 2,
+    "probe": "Twycross",
+    "verified": true,
+    "he": {
+      "prompt": "מה שמו של מדריך האפריציה שמגיע להוגוורטס?",
+      "choices": [
+        "ג'ון דוליש",
+        "ארני מקמילן",
+        "ווילקי טוויקרוס",
+        "דירק קרסוול"
+      ],
+      "explanation": "ווילקי טוויקרוס — פקיד מן המשרד, שמלמד את שלושת ה־D: יעד, נחישות ושיקול דעת.",
+      "source": "הארי פוטר והנסיך חצוי-הדם, פרק 18"
+    },
+    "en": {
+      "prompt": "What is the name of the Apparition instructor who comes to Hogwarts?",
+      "choices": [
+        "John Dawlish",
+        "Ernie Macmillan",
+        "Wilkie Twycross",
+        "Dirk Cresswell"
+      ],
+      "explanation": "Wilkie Twycross — a Ministry official, who teaches the three D's: Destination, Determination, Deliberation.",
+      "source": "Half-Blood Prince, ch. 18"
+    }
+  },
+  {
+    "id": "b6m-three-ds",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 6,
+    "chapter": 18,
+    "topics": [
+      "apparition",
+      "lore"
+    ],
+    "answer": 1,
+    "probe": "Destination, Determination, Deliberation",
+    "verified": true,
+    "he": {
+      "prompt": "מהם שלושת ה-D של אפריציה?",
+      "choices": [
+        "ריכוז, כיוון, תזמון",
+        "יעד, נחישות, שיקול דעת",
+        "עומק, מרחק, כיוון",
+        "ניתוק, סיבוב, הופעה"
+      ],
+      "explanation": "יעד (Destination), נחישות (Determination) ושיקול דעת (Deliberation) — ומי שממהר מדי מסתכן בפילוג, כלומר בהשארת חלק מגופו מאחור.",
+      "source": "הארי פוטר והנסיך חצוי-הדם, פרק 18"
+    },
+    "en": {
+      "prompt": "What are the three D's of Apparition?",
+      "choices": [
+        "Concentration, direction, timing",
+        "Destination, Determination, Deliberation",
+        "Depth, distance, direction",
+        "Detach, turn, arrive"
+      ],
+      "explanation": "Destination, Determination and Deliberation — and rushing risks Splinching, leaving part of yourself behind.",
+      "source": "Half-Blood Prince, ch. 18"
+    }
+  },
+  {
+    "id": "b6m-acromantula-venom",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 6,
+    "chapter": 22,
+    "topics": [
+      "slughorn",
+      "money"
+    ],
+    "answer": 2,
+    "probe": "Acromantula venom",
+    "verified": true,
+    "he": {
+      "prompt": "מה סלגהורן אוסף בשקט מגופו של ארגוג בהלוויה?",
+      "choices": [
+        "שערות",
+        "עיניים",
+        "ארס אקרומנטולה",
+        "רגל"
+      ],
+      "explanation": "ארס אקרומנטולה — חומר יקר ונדיר. הוא שואב אותו לבקבוקון בזמן שהאגריד מתאבל, וזו אותה שיחה שממנה הארי מוציא ממנו את הזיכרון האמיתי.",
+      "source": "הארי פוטר והנסיך חצוי-הדם, פרק 22"
+    },
+    "en": {
+      "prompt": "What does Slughorn quietly collect from Aragog's body at the funeral?",
+      "choices": [
+        "Hair",
+        "The eyes",
+        "Acromantula venom",
+        "A leg"
+      ],
+      "explanation": "Acromantula venom — rare and valuable. He siphons it into a bottle while Hagrid grieves, and it is that same evening Harry gets the true memory out of him.",
+      "source": "Half-Blood Prince, ch. 22"
+    }
+  },
+  {
+    "id": "b6m-won-won",
+    "difficulty": 4,
+    "scope": "book",
+    "book": 6,
+    "chapter": 17,
+    "topics": [
+      "ron",
+      "trivia"
+    ],
+    "answer": 1,
+    "probe": "Won.{0,2}Won",
+    "verified": true,
+    "he": {
+      "prompt": "באיזה כינוי לוונדר בראון קוראת לרון?",
+      "choices": [
+        "רוני",
+        "וון-וון",
+        "רונלד'לה",
+        "ווזלי שלי"
+      ],
+      "explanation": "'וון-וון' — כינוי שגורם לרון להתכרבל במקומו, ולהרמיוני להפוך אותו לעקיצה קבועה.",
+      "source": "הארי פוטר והנסיך חצוי-הדם, פרק 17"
+    },
+    "en": {
+      "prompt": "What does Lavender Brown call Ron?",
+      "choices": [
+        "Ronnie",
+        "Won-Won",
+        "Ronald dear",
+        "My Weasley"
+      ],
+      "explanation": "'Won-Won' — a name that makes Ron curl up where he sits, and which Hermione turns into a standing insult.",
+      "source": "Half-Blood Prince, ch. 17"
+    }
+  }
+]

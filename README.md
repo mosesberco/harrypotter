@@ -20,10 +20,13 @@ Five difficulty tiers, named from the world:
 Beasts, no Pottermore. Every question is tagged `book` / `film` / `both` so a
 film-only player is never punished for a detail that exists on the page only.
 
-**The daily — "The Five":** five questions a day, one per tier, ascending. One
-wrong answer ends the day. Your result is the rung you reached, shared as a
-spoiler-free block of wax-coloured squares. Streak, house points, and a wax-seal
-journal of the last five weeks.
+**The daily:** one question a day, the same one for everybody, rotating through
+the whole bank before it repeats. Reset at midnight Jerusalem time. Your record
+is a wax-seal journal of the last five weeks — the darker the wax, the harder
+the question you solved — plus a streak and a spoiler-free share block.
+
+**The quiz shelf:** everything, per book, or per film, at any of the five
+levels. Film quizzes ask only what is true on screen as well as on the page.
 
 ## Design
 
@@ -35,12 +38,35 @@ assets, no licensed imagery anywhere.
 Type: Frank Ruhl Libre (display), David Libre (Hebrew body), EB Garamond (Latin
 and figures).
 
+## Verification
+
+Every question carries a `probe` — a regex that must appear in the book it
+cites. `tools/verify_bank.py` runs each probe against a local text corpus and
+either confirms the citation, corrects the chapter, or fails the question; the
+app never serves a question whose `verified` flag is false. The corpus is
+copyrighted text and is **not** part of this repository — point `HP_CORPUS` at
+a directory of `bookN/chM.txt` files:
+
+```
+export HP_CORPUS=/path/to/books
+python3 tools/verify_bank.py          # report
+python3 tools/verify_bank.py --write  # stamp citations from the text
+python3 tools/verify.py "Mimsy-Porpington"   # look one fact up
+python3 tools/mine.py numbers 1              # find facts worth asking about
+```
+
+The pipeline has already caught real errors: a vault number that appears in no
+book, a chapter cited from memory that was two chapters off, and Ravenclaw's
+emblem (a bronze eagle, not a raven).
+
+Answers are compared in `app/api/answer/route.ts`, never in the browser.
+
 ## Status
 
-Design system and three screens are real; the question bank is a five-question
-sample of the production shape (`content/sample.ts`). Still to come: the
-verified question pipeline, Supabase (accounts, streaks, house cup, daily
-seeding), and server-side answer checking.
+176 questions, all confirmed against the book text, across all seven books and
+weighted towards the harder levels. Still to come: Supabase (accounts, real
+streaks, house cup), film-only questions — which need a source the book corpus
+cannot provide — and the bilingual glossary.
 
 ## Running it
 
