@@ -1,0 +1,434 @@
+[
+  {
+    "id": "b4-beauxbatons",
+    "difficulty": 1,
+    "scope": "both",
+    "book": 4,
+    "chapter": 15,
+    "topics": [
+      "triwizard",
+      "schools"
+    ],
+    "answer": 1,
+    "probe": "Beauxbatons",
+    "verified": true,
+    "he": {
+      "prompt": "מאיזה בית ספר באה פלר דלאקור?",
+      "choices": [
+        "דורמסטראנג",
+        "בּוֹבּטוֹן",
+        "אילברמורני",
+        "מהוטוקורו"
+      ],
+      "explanation": "בובטון (Beauxbatons) — משלחתה מגיעה בכרכרה ענקית שרתומה לסוסי-כנף.",
+      "source": "הארי פוטר וגביע האש, פרק 15"
+    },
+    "en": {
+      "prompt": "Which school does Fleur Delacour come from?",
+      "choices": [
+        "Durmstrang",
+        "Beauxbatons",
+        "Ilvermorny",
+        "Mahoutokoro"
+      ],
+      "explanation": "Beauxbatons — her delegation arrives in an enormous carriage drawn by winged horses.",
+      "source": "Goblet of Fire, ch. 15"
+    }
+  },
+  {
+    "id": "b4-krum",
+    "difficulty": 1,
+    "scope": "both",
+    "book": 4,
+    "chapter": 5,
+    "topics": [
+      "triwizard",
+      "quidditch"
+    ],
+    "answer": 2,
+    "probe": "Viktor Krum",
+    "verified": true,
+    "he": {
+      "prompt": "מי אלוף דורמסטראנג בטורניר שלושת הקוסמים?",
+      "choices": [
+        "איגור קרקרוף",
+        "צדריק דיגורי",
+        "ויקטור קרום",
+        "אנטונין דולוהוב"
+      ],
+      "explanation": "ויקטור קרום — שגם שיחק כתופס של בולגריה בגמר גביע העולם בקווידיץ' באותו קיץ.",
+      "source": "הארי פוטר וגביע האש, פרק 5"
+    },
+    "en": {
+      "prompt": "Who is the Durmstrang champion in the Triwizard Tournament?",
+      "choices": [
+        "Igor Karkaroff",
+        "Cedric Diggory",
+        "Viktor Krum",
+        "Antonin Dolohov"
+      ],
+      "explanation": "Viktor Krum — who also played Seeker for Bulgaria in the Quidditch World Cup final that summer.",
+      "source": "Goblet of Fire, ch. 5"
+    }
+  },
+  {
+    "id": "b4-horntail",
+    "difficulty": 2,
+    "scope": "both",
+    "book": 4,
+    "chapter": 20,
+    "topics": [
+      "triwizard",
+      "creatures"
+    ],
+    "answer": 3,
+    "probe": "Hungarian Horntail",
+    "verified": true,
+    "he": {
+      "prompt": "באיזה דרקון נתקל הארי במשימה הראשונה?",
+      "choices": [
+        "ירוק וולשי רגיל",
+        "קצר-חוטם שבדי",
+        "ריק-שיניים סיני",
+        "זנב-קרן הונגרי"
+      ],
+      "explanation": "זנב-קרן הונגרי — הדרקון הקשה מארבעת, שהארי שולף בפתק מתוך שקית.",
+      "source": "הארי פוטר וגביע האש, פרק 20"
+    },
+    "en": {
+      "prompt": "Which dragon does Harry face in the first task?",
+      "choices": [
+        "A Common Welsh Green",
+        "A Swedish Short-Snout",
+        "A Chinese Fireball",
+        "A Hungarian Horntail"
+      ],
+      "explanation": "The Hungarian Horntail — the nastiest of the four, drawn out of a bag on a slip of paper.",
+      "source": "Goblet of Fire, ch. 20"
+    }
+  },
+  {
+    "id": "b4-cup-number",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 4,
+    "chapter": 8,
+    "topics": [
+      "quidditch",
+      "numbers"
+    ],
+    "answer": 2,
+    "probe": "four hundred and twenty-second",
+    "verified": true,
+    "he": {
+      "prompt": "באיזה מספר גביע עולם בקווידיץ' צופים הארי וחבריו?",
+      "choices": [
+        "ה-322",
+        "ה-402",
+        "ה-422",
+        "ה-442"
+      ],
+      "explanation": "גביע העולם הארבע מאות עשרים ושתיים — הודפס על הכרטיסים שארתור וויזלי משיג.",
+      "source": "הארי פוטר וגביע האש, פרק 8"
+    },
+    "en": {
+      "prompt": "Which number Quidditch World Cup do Harry and the others attend?",
+      "choices": [
+        "The 322nd",
+        "The 402nd",
+        "The 422nd",
+        "The 442nd"
+      ],
+      "explanation": "The four hundred and twenty-second — printed on the tickets Arthur Weasley gets hold of.",
+      "source": "Goblet of Fire, ch. 8"
+    }
+  },
+  {
+    "id": "b4-lynch",
+    "difficulty": 3,
+    "scope": "book",
+    "book": 4,
+    "chapter": 8,
+    "topics": [
+      "quidditch",
+      "names"
+    ],
+    "answer": 1,
+    "probe": "Lynch",
+    "verified": true,
+    "he": {
+      "prompt": "מי התופס של אירלנד בגמר גביע העולם?",
+      "choices": [
+        "טרוי",
+        "איידן לינץ'",
+        "מוראן",
+        "קוויגלי"
+      ],
+      "explanation": "איידן לינץ' — שקרום מוליך אותו פעמיים לצלילה כושלת אל הקרקע.",
+      "source": "הארי פוטר וגביע האש, פרק 8"
+    },
+    "en": {
+      "prompt": "Who is Ireland's Seeker in the World Cup final?",
+      "choices": [
+        "Troy",
+        "Aidan Lynch",
+        "Moran",
+        "Quigley"
+      ],
+      "explanation": "Aidan Lynch — whom Krum twice lures into ploughing straight into the ground.",
+      "source": "Goblet of Fire, ch. 8"
+    }
+  },
+  {
+    "id": "b4-winky",
+    "difficulty": 3,
+    "scope": "book",
+    "book": 4,
+    "chapter": 8,
+    "topics": [
+      "house-elves",
+      "crouch"
+    ],
+    "answer": 0,
+    "probe": "Winky",
+    "verified": true,
+    "he": {
+      "prompt": "מה שמה של שדונת-הבית של משפחת קראוץ'?",
+      "choices": [
+        "וינקי",
+        "הוקי",
+        "מיפסי",
+        "לילי"
+      ],
+      "explanation": "וינקי — שנמצאת עם שרביטו של הארי אחרי מרקת המוות ביציע גביע העולם, ומשולחת בבושת פנים.",
+      "source": "הארי פוטר וגביע האש, פרק 8"
+    },
+    "en": {
+      "prompt": "What is the name of the Crouch family's house-elf?",
+      "choices": [
+        "Winky",
+        "Hokey",
+        "Mipsy",
+        "Lily"
+      ],
+      "explanation": "Winky — found holding Harry's wand after the Dark Mark is cast at the World Cup, and dismissed in disgrace.",
+      "source": "Goblet of Fire, ch. 8"
+    }
+  },
+  {
+    "id": "b4-bertha",
+    "difficulty": 4,
+    "scope": "book",
+    "book": 4,
+    "chapter": 1,
+    "topics": [
+      "ministry",
+      "names"
+    ],
+    "answer": 2,
+    "probe": "Bertha Jorkins",
+    "verified": true,
+    "he": {
+      "prompt": "שמה של מי נזכר בשיחת וולדמורט וזנבתן בפרק הפותח של גביע האש?",
+      "choices": [
+        "מייבל בגנולד",
+        "אמלין ואנס",
+        "ברתה ג'ורקינס",
+        "אריאנה דמבלדור"
+      ],
+      "explanation": "ברתה ג'ורקינס, פקידה במשרד לקסמות שנעלמה באלבניה — הזיכרון שנשאב ממנה הוא שאיפשר את כל התכנית.",
+      "source": "הארי פוטר וגביע האש, פרק 1"
+    },
+    "en": {
+      "prompt": "Whose name comes up in Voldemort and Wormtail's conversation in the opening chapter of Goblet of Fire?",
+      "choices": [
+        "Millicent Bagnold",
+        "Emmeline Vance",
+        "Bertha Jorkins",
+        "Ariana Dumbledore"
+      ],
+      "explanation": "Bertha Jorkins, a Ministry witch who vanished in Albania — the memories drained from her are what made the whole plan possible.",
+      "source": "Goblet of Fire, ch. 1"
+    }
+  },
+  {
+    "id": "b4-second-task-score",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 4,
+    "chapter": 26,
+    "topics": [
+      "triwizard",
+      "numbers"
+    ],
+    "answer": 2,
+    "probe": "score is forty-five points",
+    "verified": true,
+    "he": {
+      "prompt": "כמה נקודות קיבל הארי על המשימה השנייה, אחרי שנשאר לוודא שכל הנתונים חולצו?",
+      "choices": [
+        "שלושים",
+        "ארבעים",
+        "ארבעים וחמש",
+        "חמישים"
+      ],
+      "explanation": "ארבעים וחמש נקודות — הניקוד הועלה בשל 'סיב מוסרי', והביא את הארי לשוויון במקום הראשון עם צדריק.",
+      "source": "הארי פוטר וגביע האש, פרק 26"
+    },
+    "en": {
+      "prompt": "How many points did Harry get for the second task, after staying behind to see the other hostages freed?",
+      "choices": [
+        "Thirty",
+        "Forty",
+        "Forty-five",
+        "Fifty"
+      ],
+      "explanation": "Forty-five points — marked up for moral fibre, which tied him for first place with Cedric.",
+      "source": "Goblet of Fire, ch. 26"
+    }
+  },
+  {
+    "id": "b4-priori",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 4,
+    "chapter": 36,
+    "topics": [
+      "spells",
+      "wands"
+    ],
+    "answer": 1,
+    "probe": "Priori Incantatem",
+    "verified": true,
+    "he": {
+      "prompt": "איך דמבלדור מכנה את התופעה שבה שני שרביטים אחים נפגשים ומשחזרים לחשים קודמים?",
+      "choices": [
+        "ראברסו טוטאלום",
+        "פריורי אינקנטטם",
+        "אקו קדוקוס",
+        "רזורקטו"
+      ],
+      "explanation": "פריורי אינקנטטם — האפקט הפוך-הלחשים שמעלה מן השרביט של וולדמורט את צלמיהם של מי שהרג.",
+      "source": "הארי פוטר וגביע האש, פרק 36"
+    },
+    "en": {
+      "prompt": "What does Dumbledore call the effect in which two brother wands meet and force out the previous spells?",
+      "choices": [
+        "Reverso Totalum",
+        "Priori Incantatem",
+        "Echo Caducus",
+        "Resurrecto"
+      ],
+      "explanation": "Priori Incantatem — the reverse-spell effect that draws the shades of Voldemort's victims out of his wand.",
+      "source": "Goblet of Fire, ch. 36"
+    }
+  },
+  {
+    "id": "b4-portkey",
+    "difficulty": 4,
+    "scope": "both",
+    "book": 4,
+    "chapter": 34,
+    "topics": [
+      "objects",
+      "plot"
+    ],
+    "answer": 2,
+    "probe": "Portkey",
+    "verified": true,
+    "he": {
+      "prompt": "מה היה גביע שלושת הקוסמים באמת?",
+      "choices": [
+        "הורקרוקס",
+        "עצם מחפצי המוות",
+        "שער-דרך (פורטקי)",
+        "מראה מחוברת"
+      ],
+      "explanation": "שער-דרך — שקראוץ' הצעיר הכשיף כדי שיעביר את מי שיגע בו ישירות לבית הקברות בליטל הנגלטון.",
+      "source": "הארי פוטר וגביע האש, פרק 34"
+    },
+    "en": {
+      "prompt": "What was the Triwizard Cup really?",
+      "choices": [
+        "A Horcrux",
+        "A Deathly Hallow",
+        "A Portkey",
+        "A linked mirror"
+      ],
+      "explanation": "A Portkey — bewitched by the younger Crouch so that whoever touched it went straight to the graveyard at Little Hangleton.",
+      "source": "Goblet of Fire, ch. 34"
+    }
+  },
+  {
+    "id": "b4-crouch-jr",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 4,
+    "chapter": 35,
+    "topics": [
+      "plot",
+      "names"
+    ],
+    "answer": 1,
+    "probe": "Barty Crouch",
+    "verified": true,
+    "he": {
+      "prompt": "מי התחזה במשך שנה שלמה לפרופסור מודי?",
+      "choices": [
+        "איגור קרקרוף",
+        "ברטי קראוץ' הבן",
+        "אוגוסטוס רוקווד",
+        "פיטר פטיגרו"
+      ],
+      "explanation": "ברטי קראוץ' הבן, שהחזיק את מודי האמיתי בתחתית תיבה בת שבעה מנעולים והשתמש בשיקוי פוליג'וס כל שעה.",
+      "source": "הארי פוטר וגביע האש, פרק 35"
+    },
+    "en": {
+      "prompt": "Who spent an entire year impersonating Professor Moody?",
+      "choices": [
+        "Igor Karkaroff",
+        "Barty Crouch Jr",
+        "Augustus Rookwood",
+        "Peter Pettigrew"
+      ],
+      "explanation": "Barty Crouch Jr, who kept the real Moody at the bottom of a seven-locked trunk and took Polyjuice Potion every hour.",
+      "source": "Goblet of Fire, ch. 35"
+    }
+  },
+  {
+    "id": "b4-ollivander-wands",
+    "difficulty": 4,
+    "scope": "book",
+    "book": 4,
+    "chapter": 18,
+    "topics": [
+      "wands",
+      "names"
+    ],
+    "answer": 0,
+    "probe": "Ollivander",
+    "verified": true,
+    "he": {
+      "prompt": "מי נקרא לבדוק את שרביטי האלופים לפני הטורניר?",
+      "choices": [
+        "מר אוליבנדר",
+        "גרגורוביץ'",
+        "פיליוס פליטוויק",
+        "לודו בגמן"
+      ],
+      "explanation": "מר אוליבנדר, יוצר השרביטים מסמטת דיאגון — הוא מזהה בשרביטה של פלר שערה של ואלה, סבתה.",
+      "source": "הארי פוטר וגביע האש, פרק 18"
+    },
+    "en": {
+      "prompt": "Who is called in to examine the champions' wands before the tournament?",
+      "choices": [
+        "Mr Ollivander",
+        "Gregorovitch",
+        "Filius Flitwick",
+        "Ludo Bagman"
+      ],
+      "explanation": "Mr Ollivander, the Diagon Alley wandmaker — he identifies a veela hair in Fleur's wand, from her grandmother.",
+      "source": "Goblet of Fire, ch. 18"
+    }
+  }
+]

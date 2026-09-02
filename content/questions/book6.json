@@ -1,0 +1,434 @@
+[
+  {
+    "id": "b6-prince-identity",
+    "difficulty": 1,
+    "scope": "both",
+    "book": 6,
+    "chapter": 28,
+    "topics": [
+      "snape",
+      "plot"
+    ],
+    "answer": 2,
+    "probe": "I, the Half.?Blood Prince",
+    "verified": true,
+    "he": {
+      "prompt": "מי הוא הנסיך חצוי-הדם?",
+      "choices": [
+        "טום רידל",
+        "רגולוס בלאק",
+        "סוורוס סנייפ",
+        "הורס סלגהורן"
+      ],
+      "explanation": "סנייפ — הוא צועק את זה בעצמו בסוף הספר. 'פרינס' היה שם נעוריה של אמו, איילין פרינס, והיא הייתה קוסמת שנישאה למוגל.",
+      "source": "הארי פוטר והנסיך חצוי-הדם, פרק 28"
+    },
+    "en": {
+      "prompt": "Who is the Half-Blood Prince?",
+      "choices": [
+        "Tom Riddle",
+        "Regulus Black",
+        "Severus Snape",
+        "Horace Slughorn"
+      ],
+      "explanation": "Snape — he shouts it himself at the end of the book. Prince was his mother Eileen's maiden name; she was a witch who married a Muggle.",
+      "source": "Half-Blood Prince, ch. 28"
+    }
+  },
+  {
+    "id": "b6-felix",
+    "difficulty": 2,
+    "scope": "both",
+    "book": 6,
+    "chapter": 9,
+    "topics": [
+      "potions",
+      "slughorn"
+    ],
+    "answer": 1,
+    "probe": "Felix Felicis",
+    "verified": true,
+    "he": {
+      "prompt": "מה עושה שיקוי פליציס פליקיס?",
+      "choices": [
+        "מסתיר את השותה",
+        "מעניק מזל",
+        "כופה אמירת אמת",
+        "משנה צורה"
+      ],
+      "explanation": "מזל נוזלי. סלגהורן מציג בקבוקון קטן כפרס בשיעור הראשון, והארי זוכה בו.",
+      "source": "הארי פוטר והנסיך חצוי-הדם, פרק 9"
+    },
+    "en": {
+      "prompt": "What does Felix Felicis do?",
+      "choices": [
+        "Hides the drinker",
+        "Grants luck",
+        "Forces the truth",
+        "Changes shape"
+      ],
+      "explanation": "Liquid luck. Slughorn offers a small phial as the prize in his first lesson, and Harry wins it.",
+      "source": "Half-Blood Prince, ch. 9"
+    }
+  },
+  {
+    "id": "b6-slughorn",
+    "difficulty": 2,
+    "scope": "both",
+    "book": 6,
+    "chapter": 9,
+    "topics": [
+      "teachers",
+      "names"
+    ],
+    "answer": 0,
+    "probe": "Slughorn",
+    "verified": true,
+    "he": {
+      "prompt": "מי מלמד שיקויים בשנתו השישית של הארי?",
+      "choices": [
+        "הורס סלגהורן",
+        "סוורוס סנייפ",
+        "אורורה סינסטרה",
+        "פומונה ספראוט"
+      ],
+      "explanation": "הורס סלגהורן חוזר מהפנסיה — וסנייפ עובר סוף סוף להגנה מפני כשפים אפלים.",
+      "source": "הארי פוטר והנסיך חצוי-הדם, פרק 9"
+    },
+    "en": {
+      "prompt": "Who teaches Potions in Harry's sixth year?",
+      "choices": [
+        "Horace Slughorn",
+        "Severus Snape",
+        "Aurora Sinistra",
+        "Pomona Sprout"
+      ],
+      "explanation": "Horace Slughorn comes out of retirement — and Snape finally moves to Defence Against the Dark Arts.",
+      "source": "Half-Blood Prince, ch. 9"
+    }
+  },
+  {
+    "id": "b6-horcrux-count",
+    "difficulty": 4,
+    "scope": "book",
+    "book": 6,
+    "chapter": 23,
+    "topics": [
+      "voldemort",
+      "numbers"
+    ],
+    "answer": 2,
+    "probe": "seven Horcruxes|split his soul into seven",
+    "verified": true,
+    "he": {
+      "prompt": "לכמה חלקים ביקש וולדמורט לפצל את נשמתו, לפי הזיכרון של סלגהורן?",
+      "choices": [
+        "לשלושה",
+        "לחמישה",
+        "לשבעה",
+        "לתשעה"
+      ],
+      "explanation": "שבעה — וולדמורט שואל את סלגהורן על פיצול לשבעה חלקים, המספר הקסום ביותר. כלומר שישה הורקרוקסים ועוד הנשמה בגופו.",
+      "source": "הארי פוטר והנסיך חצוי-הדם, פרק 23"
+    },
+    "en": {
+      "prompt": "Into how many pieces did Voldemort want to split his soul, according to Slughorn's memory?",
+      "choices": [
+        "Three",
+        "Five",
+        "Seven",
+        "Nine"
+      ],
+      "explanation": "Seven — Voldemort asks Slughorn about splitting a soul seven ways, the most powerfully magical number. That is six Horcruxes plus the soul in his body.",
+      "source": "Half-Blood Prince, ch. 23"
+    }
+  },
+  {
+    "id": "b6-ron-keeper",
+    "difficulty": 3,
+    "scope": "both",
+    "book": 6,
+    "chapter": 11,
+    "topics": [
+      "quidditch",
+      "weasleys"
+    ],
+    "answer": 3,
+    "probe": "Keeper",
+    "verified": true,
+    "he": {
+      "prompt": "באיזה תפקיד משחק רון בנבחרת הקווידיץ' של גריפינדור?",
+      "choices": [
+        "חובט",
+        "רודף",
+        "תופס",
+        "שוער"
+      ],
+      "explanation": "שוער — תפקיד שרון נלחם עליו מול מקלגן, ובחלק מהמשחקים סובל מהלחץ עד שהוא חושב שקיבל מזל נוזלי.",
+      "source": "הארי פוטר והנסיך חצוי-הדם, פרק 11"
+    },
+    "en": {
+      "prompt": "What position does Ron play on the Gryffindor Quidditch team?",
+      "choices": [
+        "Beater",
+        "Chaser",
+        "Seeker",
+        "Keeper"
+      ],
+      "explanation": "Keeper — a place he fights McLaggen for, and one the nerves nearly ruin until he thinks he has been given liquid luck.",
+      "source": "Half-Blood Prince, ch. 11"
+    }
+  },
+  {
+    "id": "b6-sectumsempra",
+    "difficulty": 4,
+    "scope": "both",
+    "book": 6,
+    "chapter": 24,
+    "topics": [
+      "spells",
+      "snape"
+    ],
+    "answer": 1,
+    "probe": "Sectumsempra",
+    "verified": true,
+    "he": {
+      "prompt": "איזה לחש מספרו של הנסיך חצוי-הדם הארי מטיל בדראקו בשירותים?",
+      "choices": [
+        "לוונטה קורפוס",
+        "סקטומסמפרה",
+        "אינפרנו",
+        "קרוציו"
+      ],
+      "explanation": "סקטומסמפרה — לחש שסנייפ עצמו המציא, מסומן בספר כ'לאויבים'. סנייפ הוא שמציל את דראקו.",
+      "source": "הארי פוטר והנסיך חצוי-הדם, פרק 24"
+    },
+    "en": {
+      "prompt": "Which spell from the Half-Blood Prince's book does Harry cast at Draco in the bathroom?",
+      "choices": [
+        "Levicorpus",
+        "Sectumsempra",
+        "Inferno",
+        "Crucio"
+      ],
+      "explanation": "Sectumsempra — a spell Snape invented himself, marked in the book 'for enemies'. Snape is the one who saves Draco.",
+      "source": "Half-Blood Prince, ch. 24"
+    }
+  },
+  {
+    "id": "b6-unbreakable-vow",
+    "difficulty": 4,
+    "scope": "book",
+    "book": 6,
+    "chapter": 2,
+    "topics": [
+      "snape",
+      "spells"
+    ],
+    "answer": 2,
+    "probe": "Unbreakable Vow",
+    "verified": true,
+    "he": {
+      "prompt": "מה כורתים סנייפ ונרקיסה מאלפוי בפרק 'סמטת ספינרס'?",
+      "choices": [
+        "ברית דם",
+        "שבועת עוף החול",
+        "שבועה בלתי ניתנת להפרה",
+        "חוזה שקר"
+      ],
+      "explanation": "שבועה בלתי ניתנת להפרה, שבלטריקס היא הקושרת — סנייפ מתחייב להשלים את משימתו של דראקו אם הוא ייכשל.",
+      "source": "הארי פוטר והנסיך חצוי-הדם, פרק 2"
+    },
+    "en": {
+      "prompt": "What do Snape and Narcissa Malfoy make in the chapter 'Spinner's End'?",
+      "choices": [
+        "A blood pact",
+        "A Phoenix oath",
+        "An Unbreakable Vow",
+        "A false contract"
+      ],
+      "explanation": "An Unbreakable Vow, with Bellatrix as Bonder — Snape swears to finish Draco's task if the boy fails.",
+      "source": "Half-Blood Prince, ch. 2"
+    }
+  },
+  {
+    "id": "b6-merope",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 6,
+    "chapter": 13,
+    "topics": [
+      "voldemort",
+      "family"
+    ],
+    "answer": 1,
+    "probe": "Merope",
+    "verified": true,
+    "he": {
+      "prompt": "מה שמה של אמו של וולדמורט?",
+      "choices": [
+        "מורפין גונט",
+        "מרופה גונט",
+        "הפזיבה סמית'",
+        "איילין פרינס"
+      ],
+      "explanation": "מרופה גונט, מצאצאי סלית'רין — היא מכרה את התליון של סלית'רין בעשר גלאונים, ומתה בבית מחסה שעות אחרי שילדה.",
+      "source": "הארי פוטר והנסיך חצוי-הדם, פרק 13"
+    },
+    "en": {
+      "prompt": "What is the name of Voldemort's mother?",
+      "choices": [
+        "Morfin Gaunt",
+        "Merope Gaunt",
+        "Hepzibah Smith",
+        "Eileen Prince"
+      ],
+      "explanation": "Merope Gaunt, a descendant of Slytherin — she sold Slytherin's locket for ten Galleons, and died in an orphanage hours after giving birth.",
+      "source": "Half-Blood Prince, ch. 13"
+    }
+  },
+  {
+    "id": "b6-hepzibah",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 6,
+    "chapter": 20,
+    "topics": [
+      "voldemort",
+      "horcruxes"
+    ],
+    "answer": 2,
+    "probe": "Hepzibah Smith",
+    "verified": true,
+    "he": {
+      "prompt": "ממי גנב טום רידל את גביע האפלפאף ואת התליון של סלית'רין?",
+      "choices": [
+        "מקרקטקוס בורק",
+        "ממורפין גונט",
+        "מהפזיבה סמית'",
+        "מברתה ג'ורקינס"
+      ],
+      "explanation": "הפזיבה סמית', אספנית עשירה שהוא עבד אצל בורגין ובורקס וחיזר אחריה — ומתה בהרעלה יומיים אחרי שהראתה לו את שני החפצים.",
+      "source": "הארי פוטר והנסיך חצוי-הדם, פרק 20"
+    },
+    "en": {
+      "prompt": "Who did Tom Riddle steal Hufflepuff's cup and Slytherin's locket from?",
+      "choices": [
+        "Caractacus Burke",
+        "Morfin Gaunt",
+        "Hepzibah Smith",
+        "Bertha Jorkins"
+      ],
+      "explanation": "Hepzibah Smith, a rich collector he courted while working at Borgin and Burkes — poisoned two days after she showed him both objects.",
+      "source": "Half-Blood Prince, ch. 20"
+    }
+  },
+  {
+    "id": "b6-inferi",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 6,
+    "chapter": 26,
+    "topics": [
+      "creatures",
+      "dumbledore"
+    ],
+    "answer": 1,
+    "probe": "Inferi",
+    "verified": true,
+    "he": {
+      "prompt": "כיצד נקראים הגופות המונפשות שעולות מן האגם במערה?",
+      "choices": [
+        "דמנטורים",
+        "אינפרי",
+        "רדוקים",
+        "בנשים"
+      ],
+      "explanation": "אינפרי — גופות שקוסם אפל הנפיש. דמבלדור מבריח אותן באש, שכן הן חוששות מאור וחום.",
+      "source": "הארי פוטר והנסיך חצוי-הדם, פרק 26"
+    },
+    "en": {
+      "prompt": "What are the animated corpses that rise from the lake in the cave called?",
+      "choices": [
+        "Dementors",
+        "Inferi",
+        "Reduks",
+        "Banshees"
+      ],
+      "explanation": "Inferi — bodies animated by a dark wizard. Dumbledore drives them off with fire, which they fear along with light and warmth.",
+      "source": "Half-Blood Prince, ch. 26"
+    }
+  },
+  {
+    "id": "b6-rab",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 6,
+    "chapter": 28,
+    "topics": [
+      "horcruxes",
+      "plot"
+    ],
+    "answer": 2,
+    "probe": "R.A.B",
+    "verified": true,
+    "he": {
+      "prompt": "באילו אותיות חתום הפתק שנמצא במקום התליון בקערת המערה?",
+      "choices": [
+        "A.P.W.B.D.",
+        "S.S.",
+        "R.A.B.",
+        "T.M.R."
+      ],
+      "explanation": "ר.א.ב. — הארי אינו מזהה בשלב זה את מי שמאחורי האותיות, וזה נפתר רק בספר השביעי.",
+      "source": "הארי פוטר והנסיך חצוי-הדם, פרק 28"
+    },
+    "en": {
+      "prompt": "Which initials are signed on the note found in place of the locket in the cave basin?",
+      "choices": [
+        "A.P.W.B.D.",
+        "S.S.",
+        "R.A.B.",
+        "T.M.R."
+      ],
+      "explanation": "R.A.B. — Harry cannot place them at this point, and the answer only comes in the seventh book.",
+      "source": "Half-Blood Prince, ch. 28"
+    }
+  },
+  {
+    "id": "b6-borgin",
+    "difficulty": 3,
+    "scope": "both",
+    "book": 6,
+    "chapter": 6,
+    "topics": [
+      "places",
+      "draco"
+    ],
+    "answer": 0,
+    "probe": "Borgin",
+    "verified": true,
+    "he": {
+      "prompt": "לאיזו חנות בסמטת קנוקטורן נכנס דראקו, כשהארי עוקב אחריו?",
+      "choices": [
+        "בורגין ובורקס",
+        "החנות של אולוונדר",
+        "החנות של סקריבולוס",
+        "מלכודת המוות"
+      ],
+      "explanation": "בורגין ובורקס — שם דראקו מורה לבורגין לשמור פריט ולתקן את התאום שלו: ארון ההיעלמות שדרכו יכניס את אוכלי המוות לטירה.",
+      "source": "הארי פוטר והנסיך חצוי-הדם, פרק 6"
+    },
+    "en": {
+      "prompt": "Which Knockturn Alley shop does Draco enter while Harry follows him?",
+      "choices": [
+        "Borgin and Burkes",
+        "Ollivanders",
+        "Scrivenshaft's",
+        "The Deathtrap"
+      ],
+      "explanation": "Borgin and Burkes — where Draco tells Borgin to keep one item safe and mend its twin: the Vanishing Cabinet he uses to bring Death Eaters into the castle.",
+      "source": "Half-Blood Prince, ch. 6"
+    }
+  }
+]

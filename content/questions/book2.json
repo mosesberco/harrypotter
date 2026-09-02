@@ -1,0 +1,434 @@
+[
+  {
+    "id": "b2-dobby",
+    "difficulty": 1,
+    "scope": "both",
+    "book": 2,
+    "chapter": 2,
+    "topics": [
+      "house-elves",
+      "names"
+    ],
+    "answer": 1,
+    "probe": "Dobby",
+    "verified": true,
+    "he": {
+      "prompt": "מי שדון-הבית שמנסה למנוע מהארי לחזור להוגוורטס?",
+      "choices": [
+        "קריצ'ר",
+        "דובי",
+        "וינקי",
+        "הוקי"
+      ],
+      "explanation": "דובי, שדון-הבית של משפחת מאלפוי, שחוסם את מחסום הרציף ומרעיף על הארי אסונות מתוך כוונה טובה.",
+      "source": "הארי פוטר וחדר הסודות, פרק 2"
+    },
+    "en": {
+      "prompt": "Which house-elf tries to stop Harry returning to Hogwarts?",
+      "choices": [
+        "Kreacher",
+        "Dobby",
+        "Winky",
+        "Hokey"
+      ],
+      "explanation": "Dobby, the Malfoys' house-elf, who seals the platform barrier and visits disaster on Harry out of pure good intent.",
+      "source": "Chamber of Secrets, ch. 2"
+    }
+  },
+  {
+    "id": "b2-ford-anglia",
+    "difficulty": 1,
+    "scope": "both",
+    "book": 2,
+    "chapter": 5,
+    "topics": [
+      "weasleys",
+      "objects"
+    ],
+    "answer": 2,
+    "probe": "Ford Anglia",
+    "verified": true,
+    "he": {
+      "prompt": "איזו מכונית מעופפת יש למשפחת וויזלי?",
+      "choices": [
+        "מוריס מיינור",
+        "אוסטין 7",
+        "פורד אנגליה",
+        "רובר 90"
+      ],
+      "explanation": "פורד אנגליה כחולה טורקיז, שארתור וויזלי הכשיר בכשפים — ובסוף חיה בחופשיות ביער האסור.",
+      "source": "הארי פוטר וחדר הסודות, פרק 5"
+    },
+    "en": {
+      "prompt": "What flying car do the Weasleys own?",
+      "choices": [
+        "A Morris Minor",
+        "An Austin Seven",
+        "A Ford Anglia",
+        "A Rover 90"
+      ],
+      "explanation": "A turquoise Ford Anglia, bewitched by Arthur Weasley — and later living wild in the Forbidden Forest.",
+      "source": "Chamber of Secrets, ch. 5"
+    }
+  },
+  {
+    "id": "b2-myrtle",
+    "difficulty": 2,
+    "scope": "both",
+    "book": 2,
+    "chapter": 8,
+    "topics": [
+      "ghosts",
+      "castle"
+    ],
+    "answer": 1,
+    "probe": "Moaning Myrtle",
+    "verified": true,
+    "he": {
+      "prompt": "היכן רודפת מירטל המייבבת?",
+      "choices": [
+        "בגוזמת הינשופים",
+        "בשירותי הבנות בקומה השנייה",
+        "במגדל האסטרונומיה",
+        "במחסן השיקויים"
+      ],
+      "explanation": "בשירותי הבנות — ומתחת לכיור שם מסתתרת הכניסה לחדר הסודות.",
+      "source": "הארי פוטר וחדר הסודות, פרק 8"
+    },
+    "en": {
+      "prompt": "Where does Moaning Myrtle haunt?",
+      "choices": [
+        "The Owlery",
+        "The girls' bathroom",
+        "The Astronomy Tower",
+        "The Potions store"
+      ],
+      "explanation": "The girls' bathroom — and under one of its sinks hides the entrance to the Chamber of Secrets.",
+      "source": "Chamber of Secrets, ch. 8"
+    }
+  },
+  {
+    "id": "b2-obliviate",
+    "difficulty": 2,
+    "scope": "both",
+    "book": 2,
+    "chapter": 16,
+    "topics": [
+      "spells",
+      "lockhart"
+    ],
+    "answer": 0,
+    "probe": "Obliviate",
+    "verified": true,
+    "he": {
+      "prompt": "איזה לחש לוקהארט מנסה להטיל בחדר הסודות, והוא חוזר אליו?",
+      "choices": [
+        "אובליוויאטה",
+        "פטריפיקוס טוטאלוס",
+        "אקספליארמוס",
+        "ריקטוסמפרה"
+      ],
+      "explanation": "אובליוויאטה — לחש מחיקת זיכרון, הדבר היחיד שלוקהארט באמת מוכשר בו. הוא מטיל אותו בשרביט השבור של רון והזיכרון שנמחק הוא שלו.",
+      "source": "הארי פוטר וחדר הסודות, פרק 16"
+    },
+    "en": {
+      "prompt": "Which spell does Lockhart try to cast in the Chamber, and which rebounds on him?",
+      "choices": [
+        "Obliviate",
+        "Petrificus Totalus",
+        "Expelliarmus",
+        "Rictusempra"
+      ],
+      "explanation": "Obliviate — the Memory Charm, the one thing Lockhart is genuinely good at. He casts it with Ron's broken wand, and the memory it erases is his own.",
+      "source": "Chamber of Secrets, ch. 16"
+    }
+  },
+  {
+    "id": "b2-riddle-anagram",
+    "difficulty": 3,
+    "scope": "both",
+    "book": 2,
+    "chapter": 17,
+    "topics": [
+      "voldemort",
+      "names"
+    ],
+    "answer": 2,
+    "probe": "TOM MARVOLO RIDDLE",
+    "verified": true,
+    "he": {
+      "prompt": "מה שמו המלא של טום רידל, שממנו הוא בנה את השם 'לורד וולדמורט'?",
+      "choices": [
+        "טום מורפין רידל",
+        "טום מרוולו גונט",
+        "טום מרוולו רידל",
+        "טום אלוויס רידל"
+      ],
+      "explanation": "טום מרוולו רידל — הוא מסדר את אותיות השם באוויר בשרביטו של הארי כדי לגלות את 'אני לורד וולדמורט'.",
+      "source": "הארי פוטר וחדר הסודות, פרק 17"
+    },
+    "en": {
+      "prompt": "What is Tom Riddle's full name, the one he rearranged into 'Lord Voldemort'?",
+      "choices": [
+        "Tom Morfin Riddle",
+        "Tom Marvolo Gaunt",
+        "Tom Marvolo Riddle",
+        "Tom Elvis Riddle"
+      ],
+      "explanation": "Tom Marvolo Riddle — he writes it in the air with Harry's wand and shuffles the letters into 'I am Lord Voldemort'.",
+      "source": "Chamber of Secrets, ch. 17"
+    }
+  },
+  {
+    "id": "b2-aragog",
+    "difficulty": 3,
+    "scope": "both",
+    "book": 2,
+    "chapter": 15,
+    "topics": [
+      "creatures",
+      "hagrid"
+    ],
+    "answer": 0,
+    "probe": "Aragog",
+    "verified": true,
+    "he": {
+      "prompt": "מה שמו של האקרומנטולה שהאגריד גידל במחסן?",
+      "choices": [
+        "ארגוג",
+        "מוסאג",
+        "נאגיני",
+        "גראופ"
+      ],
+      "explanation": "ארגוג — האגריד גידל אותו כשהיה תלמיד, ולכן האשימו אותו בפתיחת חדר הסודות.",
+      "source": "הארי פוטר וחדר הסודות, פרק 15"
+    },
+    "en": {
+      "prompt": "What is the name of the Acromantula Hagrid raised in a cupboard?",
+      "choices": [
+        "Aragog",
+        "Mosag",
+        "Nagini",
+        "Grawp"
+      ],
+      "explanation": "Aragog — Hagrid raised him as a student, which is why he was blamed for opening the Chamber of Secrets.",
+      "source": "Chamber of Secrets, ch. 15"
+    }
+  },
+  {
+    "id": "b2-cat-hair",
+    "difficulty": 4,
+    "scope": "book",
+    "book": 2,
+    "chapter": 12,
+    "topics": [
+      "potions",
+      "hermione"
+    ],
+    "answer": 1,
+    "probe": "cat hair",
+    "verified": true,
+    "he": {
+      "prompt": "מה השתבש בשיקוי הפוליג'וס של הרמיוני?",
+      "choices": [
+        "היא שכחה את שערות הבּוּמסלַנג",
+        "היא לקחה שערה של חתול ולא של מילי בולסטרוד",
+        "היא בישלה אותו קצר מדי",
+        "היא החליפה בין העלוקות לזחלים"
+      ],
+      "explanation": "השערה הייתה של חתול, והשיקוי אינו מיועד לשינויי חיה — הרמיוני נשארת בשירותים עם פרווה, זנב ואוזניים חדות.",
+      "source": "הארי פוטר וחדר הסודות, פרק 12"
+    },
+    "en": {
+      "prompt": "What went wrong with Hermione's Polyjuice Potion?",
+      "choices": [
+        "She left out the boomslang skin",
+        "She took a cat hair instead of Millicent Bulstrode's",
+        "She let it stew too briefly",
+        "She swapped the leeches for the lacewings"
+      ],
+      "explanation": "The hair was a cat's, and the potion is not meant for animal transformations — Hermione is left in the bathroom with fur, a tail and pointed ears.",
+      "source": "Chamber of Secrets, ch. 12"
+    }
+  },
+  {
+    "id": "b2-nick-1492",
+    "difficulty": 4,
+    "scope": "book",
+    "book": 2,
+    "chapter": 8,
+    "topics": [
+      "ghosts",
+      "dates"
+    ],
+    "answer": 2,
+    "probe": "1492",
+    "verified": true,
+    "he": {
+      "prompt": "באיזו שנה מת ניק כמעט-חסר-הראש?",
+      "choices": [
+        "1392",
+        "1442",
+        "1492",
+        "1592"
+      ],
+      "explanation": "31 באוקטובר 1492 — התאריך מופיע בעוגת המצבה במסיבת יום-המוות החמש-מאות שלו.",
+      "source": "הארי פוטר וחדר הסודות, פרק 8"
+    },
+    "en": {
+      "prompt": "In which year did Nearly Headless Nick die?",
+      "choices": [
+        "1392",
+        "1442",
+        "1492",
+        "1592"
+      ],
+      "explanation": "31st October 1492 — the date is iced onto the tombstone-shaped cake at his five hundredth deathday party.",
+      "source": "Chamber of Secrets, ch. 8"
+    }
+  },
+  {
+    "id": "b2-nick-axe",
+    "difficulty": 4,
+    "scope": "book",
+    "book": 2,
+    "chapter": 8,
+    "topics": [
+      "ghosts",
+      "numbers"
+    ],
+    "answer": 3,
+    "probe": "forty-five times in the neck",
+    "verified": true,
+    "he": {
+      "prompt": "כמה מהלומות גרזן קהה בצוואר ספג ניק, ולכן נדחה ממסדר הפרשים חסרי-הראש?",
+      "choices": [
+        "שבע",
+        "עשרים ואחת",
+        "שלושים",
+        "ארבעים וחמש"
+      ],
+      "explanation": "ארבעים וחמש — ובכל זאת הראש נשאר תלוי בקצה מטפחת עור, ולכן 'כמעט' חסר ראש בלבד.",
+      "source": "הארי פוטר וחדר הסודות, פרק 8"
+    },
+    "en": {
+      "prompt": "How many blows of a blunt axe to the neck did Nick take — the reason the Headless Hunt turns him away?",
+      "choices": [
+        "Seven",
+        "Twenty-one",
+        "Thirty",
+        "Forty-five"
+      ],
+      "explanation": "Forty-five — and still the head hung on by a flap of skin, which is why he is only nearly headless.",
+      "source": "Chamber of Secrets, ch. 8"
+    }
+  },
+  {
+    "id": "b2-lockhart-lilac",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 2,
+    "chapter": 6,
+    "topics": [
+      "lockhart",
+      "trivia"
+    ],
+    "answer": 1,
+    "probe": "favorite colou?r|favourite colou?r",
+    "verified": true,
+    "he": {
+      "prompt": "בשאלון שלוקהארט מחלק בשיעורו הראשון, מה צבעו האהוב?",
+      "choices": [
+        "טורקיז",
+        "לילך",
+        "זהב",
+        "ורוד"
+      ],
+      "explanation": "לילך. השאלון בן ארבעים וחמש השאלות עוסק כולו בלוקהארט עצמו, והרמיוני היא היחידה שממלאת אותו נכון.",
+      "source": "הארי פוטר וחדר הסודות, פרק 6"
+    },
+    "en": {
+      "prompt": "On the quiz Lockhart hands out in his first lesson, what is his favourite colour?",
+      "choices": [
+        "Turquoise",
+        "Lilac",
+        "Gold",
+        "Pink"
+      ],
+      "explanation": "Lilac. The whole forty-five-question paper is about Lockhart himself, and Hermione is the only one who gets it right.",
+      "source": "Chamber of Secrets, ch. 6"
+    }
+  },
+  {
+    "id": "b2-riddle-award",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 2,
+    "chapter": 7,
+    "topics": [
+      "voldemort",
+      "castle"
+    ],
+    "answer": 0,
+    "probe": "Special Award for Services to the School",
+    "verified": true,
+    "he": {
+      "prompt": "איזה עיטור קיבל טום רידל מהוגוורטס — זה שהארי מצחצח בעונש?",
+      "choices": [
+        "עיטור מיוחד על שירות לבית הספר",
+        "מדליית הצטיינות בשיקויים",
+        "גביע הבתים",
+        "אות ההגנה מפני כשפים אפלים"
+      ],
+      "explanation": "עיטור מיוחד על שירות לבית הספר — על כך שהסגיר את האגריד. הארי מצחצח אותו בעונש, חמישים שנה אחרי.",
+      "source": "הארי פוטר וחדר הסודות, פרק 7"
+    },
+    "en": {
+      "prompt": "What award did Hogwarts give Tom Riddle — the one Harry polishes in detention?",
+      "choices": [
+        "A Special Award for Services to the School",
+        "A medal for excellence in Potions",
+        "The House Cup",
+        "An Order of Defence Against the Dark Arts"
+      ],
+      "explanation": "A Special Award for Services to the School — for turning in Hagrid. Harry polishes it in detention, fifty years later.",
+      "source": "Chamber of Secrets, ch. 7"
+    }
+  },
+  {
+    "id": "b2-basilisk-spiders",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 2,
+    "chapter": 16,
+    "topics": [
+      "creatures",
+      "lore"
+    ],
+    "answer": 2,
+    "probe": "spiders flee before",
+    "verified": true,
+    "he": {
+      "prompt": "לפי ארגוג, מה היחס בין העכבישים לבסיליסק?",
+      "choices": [
+        "הם משתפים איתו פעולה",
+        "הם עיוורים לו",
+        "הם בורחים מפניו",
+        "הם ניזונים משאריותיו"
+      ],
+      "explanation": "ארגוג אומר שהעכבישים בורחים מפני היצור — וזו הסיבה שהעכבישים בטירה נמלטים בשורה, רמז שהארי ורון עוקבים אחריו אל היער.",
+      "source": "הארי פוטר וחדר הסודות, פרק 16"
+    },
+    "en": {
+      "prompt": "According to Aragog, what is the spiders' relationship to the basilisk?",
+      "choices": [
+        "They work with it",
+        "They are blind to it",
+        "They flee before it",
+        "They feed on its leavings"
+      ],
+      "explanation": "Aragog says spiders flee before the creature — which is why the castle spiders stream away in a line, the clue Harry and Ron follow into the forest.",
+      "source": "Chamber of Secrets, ch. 16"
+    }
+  }
+]

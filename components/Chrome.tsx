@@ -11,7 +11,7 @@ export default function Chrome({ children }: { children: React.ReactNode }) {
 
   const nav = [
     { href: "/daily", label: t("daily") },
-    { href: "/quiz", label: t("practice") },
+    { href: "/quiz", label: t("shelf") },
   ];
 
   return (

@@ -1,0 +1,434 @@
+[
+  {
+    "id": "b7-hallows-three",
+    "difficulty": 2,
+    "scope": "both",
+    "book": 7,
+    "chapter": 21,
+    "topics": [
+      "hallows",
+      "lore"
+    ],
+    "answer": 1,
+    "probe": "Deathly Hallows",
+    "verified": true,
+    "he": {
+      "prompt": "מהם שלושת אוצרות המוות?",
+      "choices": [
+        "שרביט, טבעת, תליון",
+        "שרביט הסמבוק, אבן התחייה, גלימת ההיעלמות",
+        "מצנפת, גביע, יומן",
+        "מראה, פרגוד, נבואה"
+      ],
+      "explanation": "שרביט הסמבוק, אבן התחייה וגלימת ההיעלמות — שלושת האחים בסיפור שהרמיוני קוראת מתוך 'סיפורי בידל הפייטן'.",
+      "source": "הארי פוטר ואוצרות המוות, פרק 21"
+    },
+    "en": {
+      "prompt": "What are the three Deathly Hallows?",
+      "choices": [
+        "A wand, a ring and a locket",
+        "The Elder Wand, the Resurrection Stone and the Cloak of Invisibility",
+        "A diadem, a cup and a diary",
+        "A mirror, a veil and a prophecy"
+      ],
+      "explanation": "The Elder Wand, the Resurrection Stone and the Cloak of Invisibility — the three brothers' tale Hermione reads out of The Tales of Beedle the Bard.",
+      "source": "Deathly Hallows, ch. 21"
+    }
+  },
+  {
+    "id": "b7-deathstick",
+    "difficulty": 4,
+    "scope": "book",
+    "book": 7,
+    "chapter": 21,
+    "topics": [
+      "hallows",
+      "wands"
+    ],
+    "answer": 2,
+    "probe": "Deathstick",
+    "verified": true,
+    "he": {
+      "prompt": "באיזה שם נוסף מכונה שרביט הסמבוק?",
+      "choices": [
+        "שרביט האחים",
+        "שרביט האפר",
+        "מטה המוות",
+        "שרביט הגורל האחרון"
+      ],
+      "explanation": "מטה המוות (Deathstick), וגם 'שרביט הגורל' — שמות שונים לאותו חפץ בשורת האגדות שקסנופיליוס לאבגוד פורש בפני השלושה.",
+      "source": "הארי פוטר ואוצרות המוות, פרק 21"
+    },
+    "en": {
+      "prompt": "By what other name is the Elder Wand known?",
+      "choices": [
+        "The Brothers' Wand",
+        "The Ashen Wand",
+        "The Deathstick",
+        "The Wand of Last Fate"
+      ],
+      "explanation": "The Deathstick, and also the Wand of Destiny — different names for the same object in the legends Xenophilius Lovegood lays out for the three of them.",
+      "source": "Deathly Hallows, ch. 21"
+    }
+  },
+  {
+    "id": "b7-taboo",
+    "difficulty": 4,
+    "scope": "book",
+    "book": 7,
+    "chapter": 20,
+    "topics": [
+      "voldemort",
+      "lore"
+    ],
+    "answer": 1,
+    "probe": "Taboo",
+    "verified": true,
+    "he": {
+      "prompt": "מה קורה למי שאומר בקול את השם 'וולדמורט' בספר השביעי?",
+      "choices": [
+        "השרביט שלו נשבר",
+        "הוא נאתר מיד על ידי אוכלי מוות",
+        "הוא מאבד את קולו",
+        "השם מעורר את הפטרונוס שלו"
+      ],
+      "explanation": "השם הוטל עליו טאבו: כל מי שאומר אותו נאתר, וכשפי ההגנה סביבו מתפרקים. כך לוכדים את השלושה ביער דין.",
+      "source": "הארי פוטר ואוצרות המוות, פרק 20"
+    },
+    "en": {
+      "prompt": "What happens to anyone who says the name 'Voldemort' aloud in the seventh book?",
+      "choices": [
+        "Their wand breaks",
+        "They are located at once by Death Eaters",
+        "They lose their voice",
+        "The name summons their Patronus"
+      ],
+      "explanation": "A Taboo has been placed on the name: whoever speaks it is traced, and protective enchantments around them break. That is how the three are caught in the Forest of Dean.",
+      "source": "Deathly Hallows, ch. 20"
+    }
+  },
+  {
+    "id": "b7-potters-grave",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 7,
+    "chapter": 16,
+    "topics": [
+      "godrics-hollow",
+      "lore"
+    ],
+    "answer": 2,
+    "probe": "The last enemy that shall be destroyed is death",
+    "verified": true,
+    "he": {
+      "prompt": "מה חרוט על מצבת קברם של ג'יימס ולילי פוטר בגודריק'ס הולו?",
+      "choices": [
+        "'הם היו אור'",
+        "'באשר אוצרך שם יהיה לבבך'",
+        "'האויב האחרון שיבוטל הוא המוות'",
+        "'עד שוב האור'"
+      ],
+      "explanation": "'האויב האחרון שיבוטל הוא המוות'. על מצבת אמו ואחותו של דמבלדור, באותו בית קברות, חרוט משפט אחר לגמרי — והארי מבין את שניהם רק בסוף.",
+      "source": "הארי פוטר ואוצרות המוות, פרק 16"
+    },
+    "en": {
+      "prompt": "What is carved on James and Lily Potter's gravestone at Godric's Hollow?",
+      "choices": [
+        "'They were light'",
+        "'Where your treasure is, there will your heart be also'",
+        "'The last enemy that shall be destroyed is death'",
+        "'Until the light returns'"
+      ],
+      "explanation": "'The last enemy that shall be destroyed is death.' A different line is carved on the grave of Dumbledore's mother and sister in the same churchyard — and Harry only understands both at the end.",
+      "source": "Deathly Hallows, ch. 16"
+    }
+  },
+  {
+    "id": "b7-snape-doe",
+    "difficulty": 4,
+    "scope": "both",
+    "book": 7,
+    "chapter": 33,
+    "topics": [
+      "snape",
+      "spells"
+    ],
+    "answer": 1,
+    "probe": "silver doe|doe Patronus",
+    "verified": true,
+    "he": {
+      "prompt": "איזו צורה לובש הפטרונוס של סנייפ?",
+      "choices": [
+        "עורב",
+        "אַיָּלָה",
+        "כלב",
+        "נחש"
+      ],
+      "explanation": "איילה — זהה לפטרונוס של לילי פוטר. זו האיילה שמובילה את הארי אל האגם הקפוא ואל חרב גריפינדור.",
+      "source": "הארי פוטר ואוצרות המוות, פרק 33"
+    },
+    "en": {
+      "prompt": "What form does Snape's Patronus take?",
+      "choices": [
+        "A raven",
+        "A doe",
+        "A dog",
+        "A serpent"
+      ],
+      "explanation": "A doe — the same as Lily Potter's. It is the doe that leads Harry to the frozen pool and Gryffindor's sword.",
+      "source": "Deathly Hallows, ch. 33"
+    }
+  },
+  {
+    "id": "b7-diadem-place",
+    "difficulty": 4,
+    "scope": "book",
+    "book": 7,
+    "chapter": 31,
+    "topics": [
+      "horcruxes",
+      "castle"
+    ],
+    "answer": 2,
+    "probe": "diadem",
+    "verified": true,
+    "he": {
+      "prompt": "היכן הוסתר הנזר של רייבנקלו בהוגוורטס?",
+      "choices": [
+        "בחדר הסודות",
+        "במגדל האסטרונומיה",
+        "בחדר הנחוץ",
+        "בחדר המורים"
+      ],
+      "explanation": "בחדר הנחוץ, בגרסתו כמחסן של כל מה שהוסתר בטירה — הנזר נמצא שם והורקרוקס נהרס באש שאולה של קראב.",
+      "source": "הארי פוטר ואוצרות המוות, פרק 31"
+    },
+    "en": {
+      "prompt": "Where in Hogwarts was Ravenclaw's diadem hidden?",
+      "choices": [
+        "In the Chamber of Secrets",
+        "In the Astronomy Tower",
+        "In the Room of Requirement",
+        "In the staffroom"
+      ],
+      "explanation": "In the Room of Requirement, in its form as the store of everything hidden in the castle — and the Horcrux is destroyed by Crabbe's Fiendfyre.",
+      "source": "Deathly Hallows, ch. 31"
+    }
+  },
+  {
+    "id": "b7-grey-lady",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 7,
+    "chapter": 31,
+    "topics": [
+      "ghosts",
+      "names"
+    ],
+    "answer": 1,
+    "probe": "Helena Ravenclaw",
+    "verified": true,
+    "he": {
+      "prompt": "מהו שמה האמיתי של הגברת האפורה, רוח בית רייבנקלו?",
+      "choices": [
+        "רוונה רייבנקלו",
+        "הלנה רייבנקלו",
+        "הליגה סמית'",
+        "מירטל וורן"
+      ],
+      "explanation": "הלנה רייבנקלו, בתה של רוונה — היא גנבה את הנזר של אמה, והברון העקוב מדם הרג אותה. היא היחידה שיודעת היכן הוסתר.",
+      "source": "הארי פוטר ואוצרות המוות, פרק 31"
+    },
+    "en": {
+      "prompt": "What is the real name of the Grey Lady, the Ravenclaw house ghost?",
+      "choices": [
+        "Rowena Ravenclaw",
+        "Helena Ravenclaw",
+        "Helliga Smith",
+        "Myrtle Warren"
+      ],
+      "explanation": "Helena Ravenclaw, Rowena's daughter — she stole her mother's diadem, and the Bloody Baron killed her. She is the only one who knows where it was hidden.",
+      "source": "Deathly Hallows, ch. 31"
+    }
+  },
+  {
+    "id": "b7-ariana",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 7,
+    "chapter": 28,
+    "topics": [
+      "dumbledore",
+      "family"
+    ],
+    "answer": 2,
+    "probe": "Ariana",
+    "verified": true,
+    "he": {
+      "prompt": "מה שמה של אחותו של דמבלדור?",
+      "choices": [
+        "קנדרה",
+        "בת'ילדה",
+        "אריאנה",
+        "אמלין"
+      ],
+      "explanation": "אריאנה — דיוקנה במרתף ראש החזיר הוא המעבר הסודי אל הוגוורטס, ואחיה אברפורת' הוא ששולח דרכו את השלושה.",
+      "source": "הארי פוטר ואוצרות המוות, פרק 28"
+    },
+    "en": {
+      "prompt": "What is the name of Dumbledore's sister?",
+      "choices": [
+        "Kendra",
+        "Bathilda",
+        "Ariana",
+        "Emmeline"
+      ],
+      "explanation": "Ariana — her portrait in the Hog's Head cellar is the secret passage into Hogwarts, and her brother Aberforth is the one who sends the three of them through it.",
+      "source": "Deathly Hallows, ch. 28"
+    }
+  },
+  {
+    "id": "b7-albus-severus",
+    "difficulty": 3,
+    "scope": "both",
+    "book": 7,
+    "chapter": 36,
+    "topics": [
+      "epilogue",
+      "names"
+    ],
+    "answer": 1,
+    "probe": "A[bl]lus Severus",
+    "verified": true,
+    "he": {
+      "prompt": "מה שמו של בנו האמצעי של הארי באפילוג?",
+      "choices": [
+        "ג'יימס סיריוס",
+        "אלבוס סוורוס",
+        "רמוס אלבוס",
+        "סוורוס ג'יימס"
+      ],
+      "explanation": "אלבוס סוורוס פוטר — שהארי אומר לו שהוא נקרא על שם שני מנהלי הוגוורטס, ושאחד מהם היה האדם האמיץ ביותר שהכיר.",
+      "source": "הארי פוטר ואוצרות המוות, פרק 36"
+    },
+    "en": {
+      "prompt": "What is the name of Harry's middle child in the epilogue?",
+      "choices": [
+        "James Sirius",
+        "Albus Severus",
+        "Remus Albus",
+        "Severus James"
+      ],
+      "explanation": "Albus Severus Potter — Harry tells him he is named for two headmasters of Hogwarts, and that one of them was the bravest man he ever knew.",
+      "source": "Deathly Hallows, ch. 36"
+    }
+  },
+  {
+    "id": "b7-dobby-grave",
+    "difficulty": 3,
+    "scope": "both",
+    "book": 7,
+    "chapter": 24,
+    "topics": [
+      "house-elves",
+      "plot"
+    ],
+    "answer": 1,
+    "probe": "Here lies Dobby",
+    "verified": true,
+    "he": {
+      "prompt": "מה חורט הארי על קברו של דובי בקוטג' צדפת הים?",
+      "choices": [
+        "'חבר'",
+        "'כאן נח דובי, שדון חופשי'",
+        "'דובי, ידיד הארי פוטר'",
+        "'הוא היה חופשי'"
+      ],
+      "explanation": "'כאן נח דובי, שדון חופשי' — והארי חופר את הקבר בעצמו, בידיים, בלי קסם.",
+      "source": "הארי פוטר ואוצרות המוות, פרק 24"
+    },
+    "en": {
+      "prompt": "What does Harry carve on Dobby's grave at Shell Cottage?",
+      "choices": [
+        "'A friend'",
+        "'Here lies Dobby, a free elf'",
+        "'Dobby, friend of Harry Potter'",
+        "'He was free'"
+      ],
+      "explanation": "'Here lies Dobby, a free elf' — and Harry digs the grave himself, by hand, without magic.",
+      "source": "Deathly Hallows, ch. 24"
+    }
+  },
+  {
+    "id": "b7-kreacher-regulus",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 7,
+    "chapter": 10,
+    "topics": [
+      "house-elves",
+      "horcruxes"
+    ],
+    "answer": 2,
+    "probe": "Regulus",
+    "verified": true,
+    "he": {
+      "prompt": "מי היו האותיות ר.א.ב. שעל הפתק בקערת המערה?",
+      "choices": [
+        "רודולפוס בלאק",
+        "רוונה רייבנקלו",
+        "רגולוס ארקטורוס בלאק",
+        "ראמוס אלביוס בגשוט"
+      ],
+      "explanation": "רגולוס ארקטורוס בלאק, אחיו הצעיר של סיריוס — קריצ'ר מספר איך רגולוס שלח אותו לשתות את השיקוי, ואז החליף את התליון ונשאר במערה.",
+      "source": "הארי פוטר ואוצרות המוות, פרק 10"
+    },
+    "en": {
+      "prompt": "Who was R.A.B., the initials on the note in the cave basin?",
+      "choices": [
+        "Rodolphus Black",
+        "Rowena Ravenclaw",
+        "Regulus Arcturus Black",
+        "Ramus Albius Bagshot"
+      ],
+      "explanation": "Regulus Arcturus Black, Sirius's younger brother — Kreacher tells how Regulus made him drink the potion, then swapped the locket and stayed behind in the cave.",
+      "source": "Deathly Hallows, ch. 10"
+    }
+  },
+  {
+    "id": "b7-elder-wand-owner",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 7,
+    "chapter": 36,
+    "topics": [
+      "hallows",
+      "wands"
+    ],
+    "answer": 2,
+    "probe": "Draco.{0,200}Elder Wand|disarmed Dumbledore",
+    "verified": true,
+    "he": {
+      "prompt": "מי היה אדונו האמיתי של שרביט הסמבוק כשוולדמורט השתמש בו בקרב האחרון?",
+      "choices": [
+        "סנייפ",
+        "וולדמורט",
+        "הארי",
+        "דמבלדור"
+      ],
+      "explanation": "הארי — כי דראקו הוא שפרק את דמבלדור מנשקו וזכה בשליטה על השרביט, והארי לאחר מכן הכריע את דראקו. וולדמורט הרג את סנייפ לחינם.",
+      "source": "הארי פוטר ואוצרות המוות, פרק 36"
+    },
+    "en": {
+      "prompt": "Who was the Elder Wand's true master when Voldemort used it in the final duel?",
+      "choices": [
+        "Snape",
+        "Voldemort",
+        "Harry",
+        "Dumbledore"
+      ],
+      "explanation": "Harry — because Draco disarmed Dumbledore and so won the wand's allegiance, and Harry later overpowered Draco. Voldemort killed Snape for nothing.",
+      "source": "Deathly Hallows, ch. 36"
+    }
+  }
+]

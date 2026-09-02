@@ -83,7 +83,7 @@ export default function Home() {
               padding: ".85rem 2rem",
             }}
           >
-            {t("begin")}
+            {t("daily")}
           </Link>
           <Link
             href="/quiz"
@@ -93,7 +93,7 @@ export default function Home() {
               borderBottom: "1px solid var(--rule)",
             }}
           >
-            {t("practice")}
+            {t("shelf")}
           </Link>
         </div>
       </div>

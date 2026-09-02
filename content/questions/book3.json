@@ -1,0 +1,435 @@
+[
+  {
+    "id": "b3-patronus-stag",
+    "difficulty": 1,
+    "scope": "both",
+    "book": 3,
+    "chapter": 21,
+    "topics": [
+      "spells",
+      "harry"
+    ],
+    "answer": 2,
+    "probe": "stag",
+    "verified": true,
+    "he": {
+      "prompt": "איזו צורה לובש הפטרונוס של הארי?",
+      "choices": [
+        "כלב",
+        "לוטרה",
+        "אייל",
+        "פיניקס"
+      ],
+      "explanation": "אייל — כמו צורת האנימאגוס של אביו, ג'יימס, שכונה 'קרנפים'.",
+      "source": "הארי פוטר והאסיר מאזקבאן, פרק 21"
+    },
+    "en": {
+      "prompt": "What form does Harry's Patronus take?",
+      "choices": [
+        "A dog",
+        "An otter",
+        "A stag",
+        "A phoenix"
+      ],
+      "explanation": "A stag — the same as his father James's Animagus form, which earned James the name Prongs.",
+      "source": "Prisoner of Azkaban, ch. 21"
+    }
+  },
+  {
+    "id": "b3-stan-shunpike",
+    "difficulty": 2,
+    "scope": "book",
+    "book": 3,
+    "chapter": 3,
+    "topics": [
+      "knight-bus",
+      "names"
+    ],
+    "answer": 1,
+    "probe": "Stan Shunpike",
+    "verified": true,
+    "he": {
+      "prompt": "מה שמו של הכרטיסן באוטובוס האביר?",
+      "choices": [
+        "ארני פראנג",
+        "סטן שאנפייק",
+        "דדאלוס דיגל",
+        "אמוס דיגורי"
+      ],
+      "explanation": "סטן שאנפייק, כרטיסן בן שמונה עשרה עם פצעי בגרות, שמסביר להארי שהאוטובוס אינו נראה למוגלים.",
+      "source": "הארי פוטר והאסיר מאזקבאן, פרק 3"
+    },
+    "en": {
+      "prompt": "What is the name of the conductor on the Knight Bus?",
+      "choices": [
+        "Ernie Prang",
+        "Stan Shunpike",
+        "Dedalus Diggle",
+        "Amos Diggory"
+      ],
+      "explanation": "Stan Shunpike, an eighteen-year-old conductor with a good deal of acne, who explains that Muggles simply don't see the bus.",
+      "source": "Prisoner of Azkaban, ch. 3"
+    }
+  },
+  {
+    "id": "b3-buckbeak",
+    "difficulty": 2,
+    "scope": "both",
+    "book": 3,
+    "chapter": 6,
+    "topics": [
+      "creatures",
+      "hagrid"
+    ],
+    "answer": 0,
+    "probe": "Buckbeak",
+    "verified": true,
+    "he": {
+      "prompt": "מה שמו של ההיפוגריף שהאגריד מציג בשיעורו הראשון?",
+      "choices": [
+        "מקור-הזהב",
+        "ארגוג",
+        "נורברט",
+        "פירנצה"
+      ],
+      "explanation": "בשמו האנגלי Buckbeak — היפוגריף אפור-פלדה, שהארי הוא הראשון שמשתחווה לו ורוכב עליו.",
+      "source": "הארי פוטר והאסיר מאזקבאן, פרק 6"
+    },
+    "en": {
+      "prompt": "What is the name of the Hippogriff Hagrid brings to his first lesson?",
+      "choices": [
+        "Buckbeak",
+        "Aragog",
+        "Norbert",
+        "Firenze"
+      ],
+      "explanation": "Buckbeak — a steel-grey Hippogriff. Harry is the first to bow to him, and the first to ride him.",
+      "source": "Prisoner of Azkaban, ch. 6"
+    }
+  },
+  {
+    "id": "b3-marauders",
+    "difficulty": 3,
+    "scope": "book",
+    "book": 3,
+    "chapter": 10,
+    "topics": [
+      "marauders",
+      "names"
+    ],
+    "answer": 1,
+    "probe": "Moony, Wormtail, Padfoot and Prongs|Moony, Wormtail, Padfoot, and Prongs",
+    "verified": true,
+    "he": {
+      "prompt": "מהם ארבעת הכינויים החתומים על מפת השודדים?",
+      "choices": [
+        "ירחי, זנבתן, כפתן, ניבן",
+        "ירחי, זנבתן, כפתן, קרנפים",
+        "ליליתי, זנבתן, טפרן, קרנפים",
+        "ירחי, פרוותן, כפתן, קרנפים"
+      ],
+      "explanation": "ירחי (לופין), זנבתן (פטיגרו), כפתן (סיריוס) וקרנפים (ג'יימס) — ארבעה תלמידים שיצרו את המפה, שלושה מהם אנימאגים כדי ללוות זאב-אדם.",
+      "source": "הארי פוטר והאסיר מאזקבאן, פרק 10"
+    },
+    "en": {
+      "prompt": "What are the four nicknames signed on the Marauder's Map?",
+      "choices": [
+        "Moony, Wormtail, Padfoot and Fang",
+        "Moony, Wormtail, Padfoot and Prongs",
+        "Nightly, Wormtail, Clawfoot and Prongs",
+        "Moony, Furtail, Padfoot and Prongs"
+      ],
+      "explanation": "Moony (Lupin), Wormtail (Pettigrew), Padfoot (Sirius) and Prongs (James) — four students who made the map, three of them Animagi so they could keep a werewolf company.",
+      "source": "Prisoner of Azkaban, ch. 10"
+    }
+  },
+  {
+    "id": "b3-cadogan",
+    "difficulty": 3,
+    "scope": "book",
+    "book": 3,
+    "chapter": 9,
+    "topics": [
+      "castle",
+      "portraits"
+    ],
+    "answer": 2,
+    "probe": "Sir Cadogan",
+    "verified": true,
+    "he": {
+      "prompt": "מי מחליף את הגברת השמנה בשמירה על חדר גריפינדור אחרי שהיא נקרעת?",
+      "choices": [
+        "הנזיר השמן",
+        "הברון העקוב מדם",
+        "סר קדוגן",
+        "ויולט"
+      ],
+      "explanation": "סר קדוגן, אביר מצויר שמאתגר את כולם לדו-קרב ומחליף סיסמאות בכל יום — עד שמחזירים את הגברת השמנה.",
+      "source": "הארי פוטר והאסיר מאזקבאן, פרק 9"
+    },
+    "en": {
+      "prompt": "Who replaces the Fat Lady as guard of the Gryffindor entrance after her portrait is slashed?",
+      "choices": [
+        "The Fat Friar",
+        "The Bloody Baron",
+        "Sir Cadogan",
+        "Violet"
+      ],
+      "explanation": "Sir Cadogan, a painted knight who challenges everyone to duels and changes the password daily — until the Fat Lady is restored.",
+      "source": "Prisoner of Azkaban, ch. 9"
+    }
+  },
+  {
+    "id": "b3-grindylow",
+    "difficulty": 4,
+    "scope": "book",
+    "book": 3,
+    "chapter": 8,
+    "topics": [
+      "lupin",
+      "creatures",
+      "rooms"
+    ],
+    "answer": 0,
+    "probe": "Grindylow",
+    "verified": true,
+    "he": {
+      "prompt": "מה שחה באקווריום במשרדו של לופין, כשהארי נכנס אליו בפעם הראשונה?",
+      "choices": [
+        "גרינדילו",
+        "מרמן",
+        "קאפה",
+        "בת ים מן האגם"
+      ],
+      "explanation": "גרינדילו — שד מים ירקרק עם אצבעות ארוכות ושבירות, שלופין קיבל לקראת השיעור הבא. הארי שותה תה בדיוק כשסנייפ נכנס עם השיקוי.",
+      "source": "הארי פוטר והאסיר מאזקבאן, פרק 8"
+    },
+    "en": {
+      "prompt": "What was swimming in the tank in Lupin's office the first time Harry walked in?",
+      "choices": [
+        "A grindylow",
+        "A merman",
+        "A kappa",
+        "A lake mermaid"
+      ],
+      "explanation": "A grindylow — a sickly green water demon with long, brittle fingers, delivered for the next lesson. Harry is drinking tea when Snape walks in with the potion.",
+      "source": "Prisoner of Azkaban, ch. 8"
+    }
+  },
+  {
+    "id": "b3-lupin-boggart",
+    "difficulty": 4,
+    "scope": "book",
+    "book": 3,
+    "chapter": 7,
+    "topics": [
+      "lupin",
+      "creatures"
+    ],
+    "answer": 1,
+    "probe": "silvery.white orb",
+    "verified": true,
+    "he": {
+      "prompt": "לצורה של מה הופך הבוגארט של לופין?",
+      "choices": [
+        "לסוהרסן",
+        "לכדור כסוף-לבן",
+        "לסנייפ",
+        "לזאב-אדם"
+      ],
+      "explanation": "כדור כסוף-לבן — הירח. זהו הרמז הגדול לזהותו, שהרמיוני היא היחידה שמפענחת אותו.",
+      "source": "הארי פוטר והאסיר מאזקבאן, פרק 7"
+    },
+    "en": {
+      "prompt": "What shape does Lupin's own boggart take?",
+      "choices": [
+        "A dementor",
+        "A silvery-white orb",
+        "Snape",
+        "A werewolf"
+      ],
+      "explanation": "A silvery-white orb — the moon. It is the great clue to what he is, and Hermione is the only one who works it out.",
+      "source": "Prisoner of Azkaban, ch. 7"
+    }
+  },
+  {
+    "id": "b3-neville-boggart",
+    "difficulty": 4,
+    "scope": "book",
+    "book": 3,
+    "chapter": 7,
+    "topics": [
+      "neville",
+      "snape"
+    ],
+    "answer": 2,
+    "probe": "grandmother",
+    "verified": true,
+    "he": {
+      "prompt": "כיצד לופין מציע לנוויל להביס את הבוגארט שלו, שלובש דמות סנייפ?",
+      "choices": [
+        "לדמיין אותו קטן",
+        "לדמיין אותו מדבר בקול צווחני",
+        "להלביש אותו בבגדיה של סבתו",
+        "לדמיין אותו נופל במדרגות"
+      ],
+      "explanation": "בבגדיה של סבתו — כובע עם נשר מפוחלץ, שמלה ארוכה וארנק אדום. הכיתה כולה נופלת מצחוק.",
+      "source": "הארי פוטר והאסיר מאזקבאן, פרק 7"
+    },
+    "en": {
+      "prompt": "How does Lupin suggest Neville defeat his boggart, which takes Snape's shape?",
+      "choices": [
+        "Imagine him tiny",
+        "Imagine him squeaking",
+        "Dress him in his grandmother's clothes",
+        "Imagine him falling down the stairs"
+      ],
+      "explanation": "In his grandmother's clothes — the hat with the stuffed vulture, the long dress, the red handbag. The class collapses.",
+      "source": "Prisoner of Azkaban, ch. 7"
+    }
+  },
+  {
+    "id": "b3-firebolt",
+    "difficulty": 3,
+    "scope": "both",
+    "book": 3,
+    "chapter": 4,
+    "topics": [
+      "quidditch",
+      "objects"
+    ],
+    "answer": 1,
+    "probe": "Firebolt",
+    "verified": true,
+    "he": {
+      "prompt": "איזה מטאטא מוצג בחלון הראווה בסמטת דיאגון, וסיריוס שולח להארי בסוף הספר?",
+      "choices": [
+        "נימבוס 2001",
+        "פיירבולט",
+        "ניקויון 7",
+        "כוכב שביט 260"
+      ],
+      "explanation": "פיירבולט — מטאטא המרוץ החדש, שמקגונגל מחרימה לבדיקת כשפים לפני שהארי מורשה לעוף עליו.",
+      "source": "הארי פוטר והאסיר מאזקבאן, פרק 4"
+    },
+    "en": {
+      "prompt": "Which broom is displayed in the Diagon Alley window, and later sent to Harry by Sirius?",
+      "choices": [
+        "A Nimbus Two Thousand and One",
+        "A Firebolt",
+        "A Cleansweep Seven",
+        "A Comet Two Sixty"
+      ],
+      "explanation": "The Firebolt — the new racing broom, which McGonagall confiscates to be stripped for jinxes before Harry may fly it.",
+      "source": "Prisoner of Azkaban, ch. 4"
+    }
+  },
+  {
+    "id": "b3-dementor-kiss",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 3,
+    "chapter": 12,
+    "topics": [
+      "dementors",
+      "lore"
+    ],
+    "answer": 2,
+    "probe": "Dementors. Kiss",
+    "verified": true,
+    "he": {
+      "prompt": "כיצד קורא לופין למעשה שבו סוהרסן שואב מאדם את נשמתו?",
+      "choices": [
+        "הנשימה האחרונה",
+        "חיבוק הסוהרסן",
+        "נשיקת הסוהרסן",
+        "החתימה השחורה"
+      ],
+      "explanation": "נשיקת הסוהרסן. לופין מסביר שהגוף ממשיך לחיות בלי עצמי, בלי זיכרון ובלי שום דבר — ואין דרך חזרה.",
+      "source": "הארי פוטר והאסיר מאזקבאן, פרק 12"
+    },
+    "en": {
+      "prompt": "What does Lupin call the act by which a dementor sucks out a person's soul?",
+      "choices": [
+        "The Last Breath",
+        "The Dementor's Embrace",
+        "The Dementor's Kiss",
+        "The Black Signature"
+      ],
+      "explanation": "The Dementor's Kiss. Lupin explains the body lives on with no sense of self, no memory, nothing — and there is no coming back.",
+      "source": "Prisoner of Azkaban, ch. 12"
+    }
+  },
+  {
+    "id": "b3-boggart-riddikulus",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 3,
+    "chapter": 7,
+    "topics": [
+      "spells",
+      "creatures"
+    ],
+    "answer": 1,
+    "probe": "Riddikulus",
+    "verified": true,
+    "he": {
+      "prompt": "מהו הלחש שמשמש נגד בוגארט?",
+      "choices": [
+        "ריפרו",
+        "ריקנדילוס",
+        "רידיקולוס",
+        "רדוקטו"
+      ],
+      "explanation": "רידיקולוס — והדבר שבאמת מכריע את הבוגארט הוא הצחוק שבא אחרי הלחש.",
+      "source": "הארי פוטר והאסיר מאזקבאן, פרק 7"
+    },
+    "en": {
+      "prompt": "What is the charm used against a boggart?",
+      "choices": [
+        "Reparo",
+        "Recandilus",
+        "Riddikulus",
+        "Reducto"
+      ],
+      "explanation": "Riddikulus — and the thing that actually finishes a boggart is the laughter that follows the spell.",
+      "source": "Prisoner of Azkaban, ch. 7"
+    }
+  },
+  {
+    "id": "b3-hippogriff-bow",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 3,
+    "chapter": 6,
+    "topics": [
+      "creatures",
+      "lore"
+    ],
+    "answer": 0,
+    "probe": "never insult one",
+    "verified": true,
+    "he": {
+      "prompt": "מה האגריד מזהיר שאסור לעשות בשום פנים בנוכחות היפוגריף?",
+      "choices": [
+        "לפגוע בכבודו",
+        "להביט לו בעיניים",
+        "לפנות אליו את הגב",
+        "להראות לו מטאטא"
+      ],
+      "explanation": "האגריד מדגיש שהיפוגריפים גאים ומהירי-חימה, ושאסור לפגוע בכבודם — מה שדראקו עושה מיד, ומשלם על כך.",
+      "source": "הארי פוטר והאסיר מאזקבאן, פרק 6"
+    },
+    "en": {
+      "prompt": "What does Hagrid warn must never be done in a Hippogriff's presence?",
+      "choices": [
+        "Insult it",
+        "Look it in the eye",
+        "Turn your back on it",
+        "Show it a broomstick"
+      ],
+      "explanation": "Hagrid stresses that Hippogriffs are proud and quick to take offence, and must never be insulted — which Draco does at once, and pays for.",
+      "source": "Prisoner of Azkaban, ch. 6"
+    }
+  }
+]

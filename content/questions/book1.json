@@ -1,0 +1,542 @@
+[
+  {
+    "id": "b1-privet-drive",
+    "difficulty": 1,
+    "scope": "both",
+    "book": 1,
+    "chapter": 1,
+    "topics": [
+      "dursleys",
+      "places"
+    ],
+    "answer": 1,
+    "probe": "number four, Privet Drive",
+    "verified": true,
+    "he": {
+      "prompt": "בְּאיזו כתובת גרים בני דורסלי?",
+      "choices": [
+        "פריווט דרייב 12",
+        "פריווט דרייב 4",
+        "פריווט דרייב 7",
+        "ספינרס אנד 4"
+      ],
+      "explanation": "מספר ארבע, פריווט דרייב — הכתובת נאמרת במשפט הפותח של הספר הראשון.",
+      "source": "הארי פוטר ואבן החכמים, פרק 1"
+    },
+    "en": {
+      "prompt": "What is the Dursleys' address?",
+      "choices": [
+        "Number twelve, Privet Drive",
+        "Number four, Privet Drive",
+        "Number seven, Privet Drive",
+        "Number four, Spinner's End"
+      ],
+      "explanation": "Number four, Privet Drive — stated in the opening sentence of the first book.",
+      "source": "Philosopher's Stone, ch. 1"
+    }
+  },
+  {
+    "id": "b1-hedwig",
+    "difficulty": 1,
+    "scope": "both",
+    "book": 1,
+    "chapter": 6,
+    "topics": [
+      "animals",
+      "names"
+    ],
+    "answer": 2,
+    "probe": "Hedwig",
+    "verified": true,
+    "he": {
+      "prompt": "מה שמה של הינשופה של הארי?",
+      "choices": [
+        "ארול",
+        "הרמס",
+        "הדוויג",
+        "פיגוויג'ן"
+      ],
+      "explanation": "הדוויג. הארי בחר את השם מתוך ספר על תולדות הקוסמות.",
+      "source": "הארי פוטר ואבן החכמים, פרק 6"
+    },
+    "en": {
+      "prompt": "What is the name of Harry's owl?",
+      "choices": [
+        "Errol",
+        "Hermes",
+        "Hedwig",
+        "Pigwidgeon"
+      ],
+      "explanation": "Hedwig. Harry found the name in A History of Magic.",
+      "source": "Philosopher's Stone, ch. 6"
+    }
+  },
+  {
+    "id": "b1-platform",
+    "difficulty": 1,
+    "scope": "both",
+    "book": 1,
+    "chapter": 6,
+    "topics": [
+      "hogwarts-express",
+      "numbers"
+    ],
+    "answer": 2,
+    "probe": "nine and three-quarters",
+    "verified": true,
+    "he": {
+      "prompt": "מאיזה רציף יוצאת רכבת הוגוורטס?",
+      "choices": [
+        "רציף 9",
+        "רציף 10",
+        "רציף 9¾",
+        "רציף 7½"
+      ],
+      "explanation": "רציף תשע ושלושה רבעים בתחנת קינגס קרוס, בין רציף תשע לרציף עשר.",
+      "source": "הארי פוטר ואבן החכמים, פרק 6"
+    },
+    "en": {
+      "prompt": "Which platform does the Hogwarts Express leave from?",
+      "choices": [
+        "Platform nine",
+        "Platform ten",
+        "Platform nine and three-quarters",
+        "Platform seven and a half"
+      ],
+      "explanation": "Platform nine and three-quarters at King's Cross, between platforms nine and ten.",
+      "source": "Philosopher's Stone, ch. 6"
+    }
+  },
+  {
+    "id": "b1-fluffy",
+    "difficulty": 2,
+    "scope": "both",
+    "book": 1,
+    "chapter": 11,
+    "topics": [
+      "creatures",
+      "names"
+    ],
+    "answer": 0,
+    "probe": "Fluffy",
+    "verified": true,
+    "he": {
+      "prompt": "מה שמו של הכלב תלת-הראשי ששומר על הדלת במסדרון האסור?",
+      "choices": [
+        "פלאפי",
+        "פאנג",
+        "ריפר",
+        "מקור-הזהב"
+      ],
+      "explanation": "פלאפי — האגריד קנה אותו מיווני אחד בפאב, וגילה שהוא נרדם למשמע מוזיקה.",
+      "source": "הארי פוטר ואבן החכמים, פרק 11"
+    },
+    "en": {
+      "prompt": "What is the name of the three-headed dog guarding the forbidden corridor?",
+      "choices": [
+        "Fluffy",
+        "Fang",
+        "Ripper",
+        "Buckbeak"
+      ],
+      "explanation": "Fluffy — Hagrid bought him off a Greek chappie in a pub, and let slip that music sends him to sleep.",
+      "source": "Philosopher's Stone, ch. 11"
+    }
+  },
+  {
+    "id": "b1-nick-name",
+    "difficulty": 2,
+    "scope": "book",
+    "book": 1,
+    "chapter": 7,
+    "topics": [
+      "ghosts",
+      "names"
+    ],
+    "answer": 1,
+    "probe": "Sir Nicholas de Mimsy-Porpington",
+    "verified": true,
+    "he": {
+      "prompt": "מה שמו המלא של ניק כמעט-חסר-הראש?",
+      "choices": [
+        "סר ניקולס דה וימבורן-פורפינגטון",
+        "סר ניקולס דה מימסי-פורפינגטון",
+        "סר ניקולס דה מימסי-פנינגטון",
+        "סר ניקולס דה מורנינגטון-מימסי"
+      ],
+      "explanation": "הוא מציג את עצמו בשמו המלא בסעודת הפתיחה: רוח הבית של מגדל גריפינדור.",
+      "source": "הארי פוטר ואבן החכמים, פרק 7"
+    },
+    "en": {
+      "prompt": "What is Nearly Headless Nick's full name?",
+      "choices": [
+        "Sir Nicholas de Wimborne-Porpington",
+        "Sir Nicholas de Mimsy-Porpington",
+        "Sir Nicholas de Mimsy-Pennington",
+        "Sir Nicholas de Mornington-Mimsy"
+      ],
+      "explanation": "He introduces himself by his full name at the start-of-term feast: resident ghost of Gryffindor Tower.",
+      "source": "Philosopher's Stone, ch. 7"
+    }
+  },
+  {
+    "id": "b1-nimbus",
+    "difficulty": 2,
+    "scope": "both",
+    "book": 1,
+    "chapter": 9,
+    "topics": [
+      "quidditch",
+      "objects"
+    ],
+    "answer": 1,
+    "probe": "Nimbus Two Thousand",
+    "verified": true,
+    "he": {
+      "prompt": "איזה מטאטא מקבל הארי בשנתו הראשונה?",
+      "choices": [
+        "ניקויון 5",
+        "נימבוס 2000",
+        "נימבוס 2001",
+        "פיירבולט"
+      ],
+      "explanation": "נימבוס 2000, שנשלח לו אחרי שמקגונגל צירפה אותו לנבחרת בתור התופס הצעיר בזיכרון של מאה שנה.",
+      "source": "הארי פוטר ואבן החכמים, פרק 9"
+    },
+    "en": {
+      "prompt": "Which broom does Harry get in his first year?",
+      "choices": [
+        "A Cleansweep Five",
+        "A Nimbus Two Thousand",
+        "A Nimbus Two Thousand and One",
+        "A Firebolt"
+      ],
+      "explanation": "A Nimbus Two Thousand, sent after McGonagall made him the youngest Seeker in a century.",
+      "source": "Philosopher's Stone, ch. 9"
+    }
+  },
+  {
+    "id": "b1-snitch-points",
+    "difficulty": 3,
+    "scope": "book",
+    "book": 1,
+    "chapter": 10,
+    "topics": [
+      "quidditch",
+      "numbers"
+    ],
+    "answer": 2,
+    "probe": "hundred and fifty points",
+    "verified": true,
+    "he": {
+      "prompt": "כמה נקודות מקבלת קבוצה שהתופס שלה לוכד את הסניץ' הזהוב?",
+      "choices": [
+        "10",
+        "50",
+        "150",
+        "100"
+      ],
+      "explanation": "מאה וחמישים נקודות — ולכן לכידת הסניץ' מכריעה כמעט כל משחק.",
+      "source": "הארי פוטר ואבן החכמים, פרק 10"
+    },
+    "en": {
+      "prompt": "How many points does a team score when its Seeker catches the Golden Snitch?",
+      "choices": [
+        "Ten",
+        "Fifty",
+        "A hundred and fifty",
+        "A hundred"
+      ],
+      "explanation": "A hundred and fifty points — which is why catching the Snitch decides almost every match.",
+      "source": "Philosopher's Stone, ch. 10"
+    }
+  },
+  {
+    "id": "b1-vault-713",
+    "difficulty": 3,
+    "scope": "both",
+    "book": 1,
+    "chapter": 5,
+    "topics": [
+      "gringotts",
+      "numbers"
+    ],
+    "answer": 3,
+    "probe": "vault seven hundred and thirteen",
+    "verified": true,
+    "he": {
+      "prompt": "באיזו כספת בגרינגוטס הוחזקה אבן החכמים לפני שהועברה להוגוורטס?",
+      "choices": [
+        "687",
+        "711",
+        "731",
+        "713"
+      ],
+      "explanation": "כספת שבע מאות ושלוש עשרה — ללא חור מנעול, נפתחת רק בליטוף אצבע של גובלין. האגריד הוציא ממנה צרור קטן ומרופט. מספר הכספת של הארי עצמו לא נזכר בספרים.",
+      "source": "הארי פוטר ואבן החכמים, פרק 5"
+    },
+    "en": {
+      "prompt": "Which Gringotts vault held the Philosopher's Stone before it moved to Hogwarts?",
+      "choices": [
+        "687",
+        "711",
+        "731",
+        "713"
+      ],
+      "explanation": "Vault seven hundred and thirteen — no keyhole, opened by a goblin's finger. Hagrid took a small grubby package out of it. Harry's own vault is never numbered in the books.",
+      "source": "Philosopher's Stone, ch. 5"
+    }
+  },
+  {
+    "id": "b1-mirror-socks",
+    "difficulty": 4,
+    "scope": "book",
+    "book": 1,
+    "chapter": 12,
+    "topics": [
+      "dumbledore",
+      "objects"
+    ],
+    "answer": 1,
+    "probe": "woolen socks|woollen socks",
+    "verified": true,
+    "he": {
+      "prompt": "מה אומר דמבלדור שהוא רואה במראת יֶאֱרִיס?",
+      "choices": [
+        "את אחותו",
+        "את עצמו מחזיק זוג גרבי צמר עבים",
+        "את משפחתו סביב שולחן",
+        "כלום"
+      ],
+      "explanation": "הוא אומר שהוא רואה את עצמו מחזיק זוג גרבי צמר עבים — ומוסיף שאיש אינו מעניק לו ספרים, כי כולם חושבים שהוא רוצה גרביים. אין שום סימן בטקסט שזו האמת.",
+      "source": "הארי פוטר ואבן החכמים, פרק 12"
+    },
+    "en": {
+      "prompt": "What does Dumbledore say he sees in the Mirror of Erised?",
+      "choices": [
+        "His sister",
+        "Himself holding a pair of thick, woollen socks",
+        "His family around a table",
+        "Nothing at all"
+      ],
+      "explanation": "He says he sees himself holding a pair of thick, woollen socks — adding that nobody gives him books, because they all assume he wants socks. Nothing in the text says this is the truth.",
+      "source": "Philosopher's Stone, ch. 12"
+    }
+  },
+  {
+    "id": "b1-snape-asphodel",
+    "difficulty": 4,
+    "scope": "book",
+    "book": 1,
+    "chapter": 8,
+    "topics": [
+      "snape",
+      "potions"
+    ],
+    "answer": 2,
+    "probe": "asphodel",
+    "verified": true,
+    "he": {
+      "prompt": "בשיעור השיקויים הראשון סנייפ שואל את הארי מה מתקבל מאבקת שורש אספודל בחליטת לענה. מה התשובה?",
+      "choices": [
+        "שיקוי ריפוי הרעלה",
+        "שיקוי הפוליג'וס",
+        "שיקוי שנת המוות",
+        "פליציס פליקיס"
+      ],
+      "explanation": "שיקוי שנת המוות — אחת משלוש שאלות שסנייפ יורה על הארי בשיעור הראשון, לפני שהוא מלמד דבר.",
+      "source": "הארי פוטר ואבן החכמים, פרק 8"
+    },
+    "en": {
+      "prompt": "In the first Potions lesson Snape asks Harry what he gets from powdered root of asphodel added to an infusion of wormwood. What is the answer?",
+      "choices": [
+        "A cure for boils",
+        "Polyjuice Potion",
+        "The Draught of Living Death",
+        "Felix Felicis"
+      ],
+      "explanation": "The Draught of Living Death — one of three questions Snape fires at Harry in that first lesson, before teaching anything.",
+      "source": "Philosopher's Stone, ch. 8"
+    }
+  },
+  {
+    "id": "b1-bezoar",
+    "difficulty": 4,
+    "scope": "book",
+    "book": 1,
+    "chapter": 8,
+    "topics": [
+      "snape",
+      "potions"
+    ],
+    "answer": 0,
+    "probe": "bezoar",
+    "verified": true,
+    "he": {
+      "prompt": "היכן, לפי סנייפ, מחפשים בזואר?",
+      "choices": [
+        "בבטן של עז",
+        "בשורש של מנדרייק",
+        "בקן של גריפין",
+        "במעמקי האגם"
+      ],
+      "explanation": "בבטנה של עז. הבזואר מציל חיים בהמשך הסדרה, כשהארי דוחף אחד לפיו של רון.",
+      "source": "הארי פוטר ואבן החכמים, פרק 8"
+    },
+    "en": {
+      "prompt": "Where, according to Snape, would you look for a bezoar?",
+      "choices": [
+        "In the stomach of a goat",
+        "In the root of a mandrake",
+        "In a griffin's nest",
+        "At the bottom of the lake"
+      ],
+      "explanation": "In the stomach of a goat. A bezoar saves a life later in the series, when Harry forces one down Ron's throat.",
+      "source": "Philosopher's Stone, ch. 8"
+    }
+  },
+  {
+    "id": "b1-monkshood",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 1,
+    "chapter": 8,
+    "topics": [
+      "snape",
+      "herbology"
+    ],
+    "answer": 3,
+    "probe": "monkshood",
+    "verified": true,
+    "he": {
+      "prompt": "סנייפ שואל מה ההבדל בין אקוניטון לזאבון. מה התשובה הנכונה?",
+      "choices": [
+        "האחד עלה והשני שורש",
+        "האחד רעיל והשני מרפא",
+        "האחד גדל ביום והשני בלילה",
+        "אין הבדל — זה אותו צמח"
+      ],
+      "explanation": "אין הבדל: שני השמות מתייחסים לאותו צמח, המכונה גם אקוניט. הרמיוני יודעת את התשובה ומנופפת ביד, וסנייפ מתעלם ממנה.",
+      "source": "הארי פוטר ואבן החכמים, פרק 8"
+    },
+    "en": {
+      "prompt": "Snape asks what the difference is between monkshood and wolfsbane. What is the correct answer?",
+      "choices": [
+        "One is the leaf, the other the root",
+        "One is poisonous, the other curative",
+        "One grows by day, the other by night",
+        "There is none — they are the same plant"
+      ],
+      "explanation": "There is no difference: both names refer to the same plant, also known as aconite. Hermione knows and is waving her hand; Snape ignores her.",
+      "source": "Philosopher's Stone, ch. 8"
+    }
+  },
+  {
+    "id": "b1-staircases",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 1,
+    "chapter": 8,
+    "topics": [
+      "castle",
+      "numbers"
+    ],
+    "answer": 2,
+    "probe": "hundred and forty-two staircases",
+    "verified": true,
+    "he": {
+      "prompt": "כמה גרמי מדרגות יש בהוגוורטס?",
+      "choices": [
+        "112",
+        "124",
+        "142",
+        "148"
+      ],
+      "explanation": "מאה ארבעים ושתיים — רחבים ומרווחים, צרים ורעועים, כאלה שמובילים למקום אחר בימי שישי, וכאלה עם מדרגה נעלמת שצריך לזכור לדלג עליה.",
+      "source": "הארי פוטר ואבן החכמים, פרק 8"
+    },
+    "en": {
+      "prompt": "How many staircases does Hogwarts have?",
+      "choices": [
+        "112",
+        "124",
+        "142",
+        "148"
+      ],
+      "explanation": "A hundred and forty-two — wide and sweeping, narrow and rickety, some that led somewhere different on a Friday, some with a vanishing step you had to remember to jump.",
+      "source": "Philosopher's Stone, ch. 8"
+    }
+  },
+  {
+    "id": "b1-tenpin-bowling",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 1,
+    "chapter": 6,
+    "topics": [
+      "dumbledore",
+      "objects"
+    ],
+    "answer": 1,
+    "probe": "tenpin bowling",
+    "verified": true,
+    "he": {
+      "prompt": "לפי קלף שוקולד הצפרדע, מה שני הדברים שדמבלדור נהנה מהם?",
+      "choices": [
+        "דיג ותה",
+        "מוזיקה קאמרית וכדורת",
+        "שחמט וגבינה",
+        "אסטרונומיה וריבה"
+      ],
+      "explanation": "מוזיקה קאמרית וכדורת — פרט שמופיע על קלף שוקולד הצפרדע שרון נותן להארי ברכבת, ליד ניצחונו על גרינדלוולד ב-1945 ושתים-עשרה השימושים בדם דרקון.",
+      "source": "הארי פוטר ואבן החכמים, פרק 6"
+    },
+    "en": {
+      "prompt": "According to his Chocolate Frog card, what two things does Dumbledore enjoy?",
+      "choices": [
+        "Fishing and tea",
+        "Chamber music and tenpin bowling",
+        "Chess and cheese",
+        "Astronomy and jam"
+      ],
+      "explanation": "Chamber music and tenpin bowling — from the Chocolate Frog card Ron hands Harry on the train, alongside his 1945 defeat of Grindelwald and the twelve uses of dragon's blood.",
+      "source": "Philosopher's Stone, ch. 6"
+    }
+  },
+  {
+    "id": "b1-sirius-motorbike",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 1,
+    "chapter": 1,
+    "topics": [
+      "sirius",
+      "objects"
+    ],
+    "answer": 2,
+    "probe": "young Sirius Black",
+    "verified": true,
+    "he": {
+      "prompt": "בפרק הראשון של הספר הראשון, ממי האגריד אומר שהשאיל את האופנוע המעופף?",
+      "choices": [
+        "מארתור וויזלי",
+        "מדמבלדור",
+        "מסיריוס בלאק",
+        "מהמשרד לקסמות"
+      ],
+      "explanation": "האגריד אומר שהשאיל אותו מ'סיריוס בלאק הצעיר' — שמו של סיריוס מופיע בעמודים הראשונים של הסדרה, שלושה ספרים לפני שהוא נכנס לעלילה.",
+      "source": "הארי פוטר ואבן החכמים, פרק 1"
+    },
+    "en": {
+      "prompt": "In chapter one of the first book, who does Hagrid say he borrowed the flying motorbike from?",
+      "choices": [
+        "Arthur Weasley",
+        "Dumbledore",
+        "Sirius Black",
+        "The Ministry of Magic"
+      ],
+      "explanation": "Hagrid says he borrowed it from 'young Sirius Black' — his name appears in the opening pages of the series, three books before he enters the plot.",
+      "source": "Philosopher's Stone, ch. 1"
+    }
+  }
+]

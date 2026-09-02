@@ -1,77 +1,22 @@
-"use client";
+import { BOOK_TITLES, FILMS, counts, type Filter } from "@/lib/bank";
+import ShelfChrome from "@/components/ShelfChrome";
 
-import { useState } from "react";
-import { useUI, TIERS } from "@/lib/i18n";
-import { SAMPLE } from "@/content/sample";
-import QuestionPlate from "@/components/QuestionPlate";
-import { Snitch, Tank } from "@/components/Engravings";
+/* The library: everything, per book, per film — each at any of five levels. */
+export default function ShelfPage() {
+  const rows: { slug: string; kind: Filter["kind"]; he: string; en: string; n: number; byDifficulty: Record<number, number> }[] = [];
 
-export default function QuizPage() {
-  const { lang, t } = useUI();
-  const [i, setI] = useState(4);
-  const q = SAMPLE[i];
+  const all = counts({ kind: "all" });
+  rows.push({ slug: "all", kind: "all", he: "הכל", en: "Everything", ...all, n: all.total });
 
-  return (
-    <div className="px-5 sm:px-9 py-10">
-      <div className="mx-auto max-w-4xl">
-        <div className="flex flex-wrap items-end gap-x-8 gap-y-4 mb-8">
-          <div>
-            <p className="caption m-0 mb-1.5">
-              {lang === "he" ? "אימון חופשי" : "Free practice"}
-            </p>
-            <h1
-              className="display m-0"
-              style={{ fontSize: "clamp(1.8rem,1.3rem + 2vw,2.6rem)", letterSpacing: "-.02em" }}
-            >
-              {t("practice")}
-            </h1>
-          </div>
+  for (let b = 1; b <= 7; b++) {
+    const c = counts({ kind: "book", book: b });
+    rows.push({ slug: `book-${b}`, kind: "book", he: BOOK_TITLES[b].he, en: BOOK_TITLES[b].en, n: c.total, byDifficulty: c.byDifficulty });
+  }
 
-          {/* rung picker — five wax stamps */}
-          <div className="ms-auto flex items-center gap-2">
-            {TIERS.map((tier, n) => {
-              const on = n === i;
-              return (
-                <button
-                  key={tier.key}
-                  onClick={() => setI(n)}
-                  title={tier[lang]}
-                  aria-label={tier[lang]}
-                  className={on ? "seal" : ""}
-                  style={{
-                    width: 34, height: 34,
-                    background: on ? "var(--seal)" : "transparent",
-                    color: on ? "rgba(255,240,220,.92)" : "var(--ink-3)",
-                    border: on ? 0 : "1px solid var(--rule)",
-                    borderRadius: "50%",
-                    fontFamily: "var(--font-latin)",
-                    fontSize: ".82rem",
-                    cursor: "pointer",
-                    display: "grid",
-                    placeItems: "center",
-                    transition: "color .2s ease, border-color .2s ease",
-                  }}
-                >
-                  {tier.roman}
-                </button>
-              );
-            })}
-          </div>
-        </div>
+  for (const f of FILMS) {
+    const c = counts({ kind: "film", film: f.n });
+    rows.push({ slug: `film-${f.n}`, kind: "film", he: f.he, en: f.en, n: c.total, byDifficulty: c.byDifficulty });
+  }
 
-        <QuestionPlate
-          key={q.id}
-          q={q}
-          folio={`${i + 1} · ${TIERS[i][lang]}`}
-          plate={i >= 3 ? <Tank size={330} /> : <Snitch size={380} />}
-        />
-
-        <p className="marginalia text-[.85rem] mt-6 m-0">
-          {lang === "he"
-            ? "באימון אין רצף ואין נקודות בית — רק שאלות ומקורות."
-            : "Practice carries no streak and no house points — only questions and their sources."}
-        </p>
-      </div>
-    </div>
-  );
+  return <ShelfChrome rows={rows} />;
 }

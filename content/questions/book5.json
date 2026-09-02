@@ -1,0 +1,434 @@
+[
+  {
+    "id": "b5-umbridge",
+    "difficulty": 1,
+    "scope": "both",
+    "book": 5,
+    "chapter": 12,
+    "topics": [
+      "teachers",
+      "ministry"
+    ],
+    "answer": 1,
+    "probe": "Dolores.{0,40}Umbridge|Umbridge",
+    "verified": true,
+    "he": {
+      "prompt": "מי מונתה למורה להגנה מפני כשפים אפלים בשנתו החמישית של הארי?",
+      "choices": [
+        "צ'אריטי בורבייג'",
+        "דולורס אמברידג'",
+        "וילהלמינה גראבלי-פלאנק",
+        "אליסיה ספינט"
+      ],
+      "explanation": "דולורס ג'יין אמברידג', עוזרת ראשית לשר הקסמים — המורה הראשונה שהמשרד כופה על הוגוורטס.",
+      "source": "הארי פוטר ומסדר עוף החול, פרק 12"
+    },
+    "en": {
+      "prompt": "Who is appointed Defence Against the Dark Arts teacher in Harry's fifth year?",
+      "choices": [
+        "Charity Burbage",
+        "Dolores Umbridge",
+        "Wilhelmina Grubbly-Plank",
+        "Alicia Spinnet"
+      ],
+      "explanation": "Dolores Jane Umbridge, Senior Undersecretary to the Minister — the first teacher the Ministry forces on Hogwarts.",
+      "source": "Order of the Phoenix, ch. 12"
+    }
+  },
+  {
+    "id": "b5-da-name",
+    "difficulty": 2,
+    "scope": "both",
+    "book": 5,
+    "chapter": 18,
+    "topics": [
+      "da",
+      "names"
+    ],
+    "answer": 2,
+    "probe": "Dumbledore's Army",
+    "verified": true,
+    "he": {
+      "prompt": "איך נקראת הקבוצה שהארי מאמן בסתר?",
+      "choices": [
+        "מסדר עוף החול",
+        "גדוד ההגנה",
+        "צבא דמבלדור",
+        "חוליית החדר הנעלם"
+      ],
+      "explanation": "צבא דמבלדור — ג'יני היא שמציעה את השם, בדיוק משום שזה מה שהמשרד הכי חושש ממנו.",
+      "source": "הארי פוטר ומסדר עוף החול, פרק 18"
+    },
+    "en": {
+      "prompt": "What is the group Harry secretly trains called?",
+      "choices": [
+        "The Order of the Phoenix",
+        "The Defence Association",
+        "Dumbledore's Army",
+        "The Room Brigade"
+      ],
+      "explanation": "Dumbledore's Army — Ginny suggests the name precisely because it is the thing the Ministry most fears.",
+      "source": "Order of the Phoenix, ch. 18"
+    }
+  },
+  {
+    "id": "b5-grimmauld",
+    "difficulty": 2,
+    "scope": "both",
+    "book": 5,
+    "chapter": 4,
+    "topics": [
+      "order",
+      "places"
+    ],
+    "answer": 1,
+    "probe": "twelve, Grimmauld Place",
+    "verified": true,
+    "he": {
+      "prompt": "מה הכתובת של מטה מסדר עוף החול?",
+      "choices": [
+        "גרימולד פלייס 11",
+        "גרימולד פלייס 12",
+        "גרימולד פלייס 13",
+        "סמטת ספינרס 9"
+      ],
+      "explanation": "מספר שתים עשרה, גרימולד פלייס — בית משפחת בלאק, שמופיע בין 11 ל-13 רק למי שקרא את הכתובת בכתב ידו של דמבלדור.",
+      "source": "הארי פוטר ומסדר עוף החול, פרק 4"
+    },
+    "en": {
+      "prompt": "What is the address of the Order of the Phoenix's headquarters?",
+      "choices": [
+        "Number eleven, Grimmauld Place",
+        "Number twelve, Grimmauld Place",
+        "Number thirteen, Grimmauld Place",
+        "Nine Spinner's End"
+      ],
+      "explanation": "Number twelve, Grimmauld Place — the Black family house, which appears between 11 and 13 only for those who have read the address in Dumbledore's hand.",
+      "source": "Order of the Phoenix, ch. 4"
+    }
+  },
+  {
+    "id": "b5-hermione-otter",
+    "difficulty": 3,
+    "scope": "book",
+    "book": 5,
+    "chapter": 27,
+    "topics": [
+      "spells",
+      "hermione"
+    ],
+    "answer": 2,
+    "probe": "silver otter",
+    "verified": true,
+    "he": {
+      "prompt": "איזו צורה לובש הפטרונוס של הרמיוני?",
+      "choices": [
+        "ארנבת",
+        "סוס",
+        "לוטרה",
+        "ציפור"
+      ],
+      "explanation": "לוטרה כסופה — היא הראשונה בצבא דמבלדור שמצליחה להעלות פטרונוס גופני.",
+      "source": "הארי פוטר ומסדר עוף החול, פרק 27"
+    },
+    "en": {
+      "prompt": "What form does Hermione's Patronus take?",
+      "choices": [
+        "A hare",
+        "A horse",
+        "An otter",
+        "A bird"
+      ],
+      "explanation": "A silver otter — she is the first in Dumbledore's Army to produce a corporeal Patronus.",
+      "source": "Order of the Phoenix, ch. 27"
+    }
+  },
+  {
+    "id": "b5-must-not-tell-lies",
+    "difficulty": 3,
+    "scope": "book",
+    "book": 5,
+    "chapter": 13,
+    "topics": [
+      "umbridge",
+      "detention"
+    ],
+    "answer": 0,
+    "probe": "I must not tell lies",
+    "verified": true,
+    "he": {
+      "prompt": "מה נחרט על גב ידו של הארי בעונשים אצל אמברידג'?",
+      "choices": [
+        "'אסור לי לשקר'",
+        "'אני אכבד את המשרד'",
+        "'לא אדבר מחוץ לתור'",
+        "'הוא לא חזר'"
+      ],
+      "explanation": "העט השחור של אמברידג' כותב בדמו של הכותב, והמילים נחרטות בגב היד עד שנשארת צלקת.",
+      "source": "הארי פוטר ומסדר עוף החול, פרק 13"
+    },
+    "en": {
+      "prompt": "What is cut into the back of Harry's hand during Umbridge's detentions?",
+      "choices": [
+        "'I must not tell lies'",
+        "'I will respect the Ministry'",
+        "'I must not speak out of turn'",
+        "'He has not returned'"
+      ],
+      "explanation": "Umbridge's black quill writes in the writer's own blood, and the words score into the hand until they scar.",
+      "source": "Order of the Phoenix, ch. 13"
+    }
+  },
+  {
+    "id": "b5-thestrals",
+    "difficulty": 3,
+    "scope": "book",
+    "book": 5,
+    "chapter": 21,
+    "topics": [
+      "creatures",
+      "lore"
+    ],
+    "answer": 1,
+    "probe": "Thestral",
+    "verified": true,
+    "he": {
+      "prompt": "מי יכול לראות תסטרלים?",
+      "choices": [
+        "רק אנימאגים",
+        "רק מי שראה מוות במו עיניו",
+        "רק בעלי דם טהור",
+        "רק מי שהחזיק בשרביט סמבוק"
+      ],
+      "explanation": "רק מי שראה מישהו מת, והפנים את המשמעות. הארי מתחיל לראות אותם אחרי מותו של צדריק.",
+      "source": "הארי פוטר ומסדר עוף החול, פרק 21"
+    },
+    "en": {
+      "prompt": "Who can see Thestrals?",
+      "choices": [
+        "Only Animagi",
+        "Only those who have seen death",
+        "Only purebloods",
+        "Only holders of the Elder Wand"
+      ],
+      "explanation": "Only those who have seen someone die, and taken it in. Harry begins to see them after Cedric's death.",
+      "source": "Order of the Phoenix, ch. 21"
+    }
+  },
+  {
+    "id": "b5-grawp",
+    "difficulty": 4,
+    "scope": "book",
+    "book": 5,
+    "chapter": 30,
+    "topics": [
+      "hagrid",
+      "creatures"
+    ],
+    "answer": 0,
+    "probe": "Grawp",
+    "verified": true,
+    "he": {
+      "prompt": "מה שמו של האח החורג הענק של האגריד?",
+      "choices": [
+        "גראופ",
+        "גורג",
+        "מקנוס",
+        "קארקוס"
+      ],
+      "explanation": "גראופ — ענק בגובה כחמישה מטרים שהאגריד מביא מן ההרים ומסתיר ביער האסור.",
+      "source": "הארי פוטר ומסדר עוף החול, פרק 30"
+    },
+    "en": {
+      "prompt": "What is the name of Hagrid's giant half-brother?",
+      "choices": [
+        "Grawp",
+        "Gurg",
+        "Macnus",
+        "Karkus"
+      ],
+      "explanation": "Grawp — a sixteen-foot giant Hagrid brings back from the mountains and hides in the Forbidden Forest.",
+      "source": "Order of the Phoenix, ch. 30"
+    }
+  },
+  {
+    "id": "b5-hall-of-prophecy",
+    "difficulty": 4,
+    "scope": "book",
+    "book": 5,
+    "chapter": 35,
+    "topics": [
+      "ministry",
+      "places"
+    ],
+    "answer": 2,
+    "probe": "Hall of Prophecy",
+    "verified": true,
+    "he": {
+      "prompt": "כיצד נקרא האולם במחלקה למסתורין שבו נשמרות הנבואות?",
+      "choices": [
+        "חדר המוח",
+        "חדר הזמן",
+        "אולם הנבואה",
+        "לשכת הצללים"
+      ],
+      "explanation": "אולם הנבואה — שורות על שורות של מדפים ובהם כדורי זכוכית מאובקים, שרק מי שהנבואה עוסקת בו רשאי להרים.",
+      "source": "הארי פוטר ומסדר עוף החול, פרק 35"
+    },
+    "en": {
+      "prompt": "What is the room in the Department of Mysteries where prophecies are kept called?",
+      "choices": [
+        "The Brain Room",
+        "The Time Room",
+        "The Hall of Prophecy",
+        "The Shadow Chamber"
+      ],
+      "explanation": "The Hall of Prophecy — towering shelves of dusty glass spheres, which only the subject of a prophecy may lift.",
+      "source": "Order of the Phoenix, ch. 35"
+    }
+  },
+  {
+    "id": "b5-educational-decree",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 5,
+    "chapter": 17,
+    "topics": [
+      "umbridge",
+      "ministry"
+    ],
+    "answer": 1,
+    "probe": "Educational Decree Number Twenty-Four",
+    "verified": true,
+    "he": {
+      "prompt": "איזו תקנה חינוכית מפרקת את כל האגודות והקבוצות בהוגוורטס?",
+      "choices": [
+        "מספר עשרים ושתיים",
+        "מספר עשרים וארבע",
+        "מספר עשרים ושמונה",
+        "מספר שלושים ואחת"
+      ],
+      "explanation": "תקנה חינוכית מספר עשרים וארבע — התקנה שהופכת את צבא דמבלדור לארגון בלתי חוקי מרגע היווסדו.",
+      "source": "הארי פוטר ומסדר עוף החול, פרק 17"
+    },
+    "en": {
+      "prompt": "Which Educational Decree disbands all Hogwarts societies and groups?",
+      "choices": [
+        "Number Twenty-Two",
+        "Number Twenty-Four",
+        "Number Twenty-Eight",
+        "Number Thirty-One"
+      ],
+      "explanation": "Educational Decree Number Twenty-Four — the one that makes Dumbledore's Army illegal from the moment it forms.",
+      "source": "Order of the Phoenix, ch. 17"
+    }
+  },
+  {
+    "id": "b5-janus-thickey",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 5,
+    "chapter": 23,
+    "topics": [
+      "neville",
+      "places"
+    ],
+    "answer": 2,
+    "probe": "Janus Thickey",
+    "verified": true,
+    "he": {
+      "prompt": "מה שם המחלקה בבית החולים סנט מנגו שבה שוכבים הוריו של נוויל?",
+      "choices": [
+        "מחלקת מירייבל",
+        "מחלקת דיי לוולין",
+        "מחלקת יאנוס ת'יקי",
+        "מחלקת אגברט"
+      ],
+      "explanation": "מחלקת יאנוס ת'יקי לחולים ממושכים — הארי מגלה שם במקרה למה נוויל וסבתו באים לבקר.",
+      "source": "הארי פוטר ומסדר עוף החול, פרק 23"
+    },
+    "en": {
+      "prompt": "What is the name of the St Mungo's ward where Neville's parents are?",
+      "choices": [
+        "The Mirabel Ward",
+        "The Dai Llewellyn Ward",
+        "The Janus Thickey Ward",
+        "The Egbert Ward"
+      ],
+      "explanation": "The Janus Thickey ward for long-term residents — where Harry stumbles on why Neville and his grandmother visit.",
+      "source": "Order of the Phoenix, ch. 23"
+    }
+  },
+  {
+    "id": "b5-figg-squib",
+    "difficulty": 4,
+    "scope": "book",
+    "book": 5,
+    "chapter": 2,
+    "topics": [
+      "lore",
+      "dursleys"
+    ],
+    "answer": 1,
+    "probe": "Squib",
+    "verified": true,
+    "he": {
+      "prompt": "מה מתגלה על גברת פיג, השכנה שהארי נשלח אליה שנים?",
+      "choices": [
+        "היא אנימאגית",
+        "היא סקוויב",
+        "היא בת דודה של פטוניה",
+        "היא מוגלית לחלוטין"
+      ],
+      "explanation": "סקוויב — ילידת משפחה קוסמת שאין לה כוחות. דמבלדור הציב אותה בפריווט דרייב כדי לשמור על הארי בלי שידע.",
+      "source": "הארי פוטר ומסדר עוף החול, פרק 2"
+    },
+    "en": {
+      "prompt": "What is revealed about Mrs Figg, the neighbour Harry was sent to for years?",
+      "choices": [
+        "She is an Animagus",
+        "She is a Squib",
+        "She is Petunia's cousin",
+        "She is entirely a Muggle"
+      ],
+      "explanation": "A Squib — born to a magical family but without power. Dumbledore placed her in Privet Drive to watch Harry without his knowing.",
+      "source": "Order of the Phoenix, ch. 2"
+    }
+  },
+  {
+    "id": "b5-sirius-veil",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 5,
+    "chapter": 35,
+    "topics": [
+      "sirius",
+      "ministry"
+    ],
+    "answer": 2,
+    "probe": "veil",
+    "verified": true,
+    "he": {
+      "prompt": "לאן נופל סיריוס בקרב במחלקה למסתורין?",
+      "choices": [
+        "לתוך אולם הנבואה",
+        "אל מאחורי דלת הזמן",
+        "אל מעבר לפרגוד שבקשת האבן",
+        "אל בור המוחות"
+      ],
+      "explanation": "אל מעבר לפרגוד המתנופף בקשת האבן שבחדר המוות — הארי שומע לחישות מאחוריו, ולופין הוא שעוצר אותו מלרוץ אחריו.",
+      "source": "הארי פוטר ומסדר עוף החול, פרק 35"
+    },
+    "en": {
+      "prompt": "Where does Sirius fall in the battle in the Department of Mysteries?",
+      "choices": [
+        "Into the Hall of Prophecy",
+        "Behind the door of Time",
+        "Through the veil in the stone archway",
+        "Into the tank of brains"
+      ],
+      "explanation": "Through the fluttering veil in the stone archway in the Death Chamber — Harry hears whispering behind it, and Lupin is the one who stops him going after it.",
+      "source": "Order of the Phoenix, ch. 35"
+    }
+  }
+]

@@ -1,0 +1,254 @@
+[
+  {
+    "id": "g-house-animals",
+    "difficulty": 2,
+    "scope": "both",
+    "book": 4,
+    "chapter": 15,
+    "topics": [
+      "houses",
+      "lore"
+    ],
+    "answer": 2,
+    "probe": "bronze eagle for Ravenclaw",
+    "verified": true,
+    "he": {
+      "prompt": "איזו חיה מסמלת את בית רייבנקלו?",
+      "choices": [
+        "עורב",
+        "ינשוף",
+        "נשר",
+        "עפרוני"
+      ],
+      "explanation": "נשר ארד — למרות השם. השם 'רייבנקלו' מכיל עורב, אבל סמל הבית הוא נשר: אריה זהב לגריפינדור, נשר ארד לרייבנקלו, גיריט שחור להאפלפאף ונחש כסף לסלית'רין.",
+      "source": "הארי פוטר וגביע האש, פרק 15"
+    },
+    "en": {
+      "prompt": "Which animal is Ravenclaw's emblem?",
+      "choices": [
+        "A raven",
+        "An owl",
+        "An eagle",
+        "A lark"
+      ],
+      "explanation": "A bronze eagle — despite the name. The house name contains a raven, but the emblem is an eagle: a gold lion for Gryffindor, a bronze eagle for Ravenclaw, a black badger for Hufflepuff and a silver serpent for Slytherin.",
+      "source": "Goblet of Fire, ch. 15"
+    }
+  },
+  {
+    "id": "g-unforgivable",
+    "difficulty": 3,
+    "scope": "both",
+    "book": 4,
+    "chapter": 14,
+    "topics": [
+      "spells",
+      "lore"
+    ],
+    "answer": 1,
+    "probe": "Unforgivable Curses",
+    "verified": true,
+    "he": {
+      "prompt": "כמה קללות בלתי נסלחות יש?",
+      "choices": [
+        "שתיים",
+        "שלוש",
+        "ארבע",
+        "שבע"
+      ],
+      "explanation": "שלוש: אימפריוס, קרוציאטוס ואבדה קדברה. שימוש בכל אחת מהן על אדם גורר מאסר עולם באזקבאן.",
+      "source": "הארי פוטר וגביע האש, פרק 14"
+    },
+    "en": {
+      "prompt": "How many Unforgivable Curses are there?",
+      "choices": [
+        "Two",
+        "Three",
+        "Four",
+        "Seven"
+      ],
+      "explanation": "Three: the Imperius, the Cruciatus and Avada Kedavra. Using any one of them on a human being carries a life sentence in Azkaban.",
+      "source": "Goblet of Fire, ch. 14"
+    }
+  },
+  {
+    "id": "g-hogwarts-founders",
+    "difficulty": 3,
+    "scope": "book",
+    "book": 2,
+    "chapter": 9,
+    "topics": [
+      "history",
+      "hogwarts"
+    ],
+    "answer": 1,
+    "probe": "Godric Gryffindor, Helga Hufflepuff",
+    "verified": true,
+    "he": {
+      "prompt": "מי הם ארבעת מייסדי הוגוורטס?",
+      "choices": [
+        "גודריק, רוונה, סלזאר, מרלין",
+        "גודריק גריפינדור, הלגה האפלפאף, רוונה רייבנקלו, סלזאר סלית'רין",
+        "גודריק, הלגה, מורגנה, סלזאר",
+        "אמריק, רוונה, הלגה, סלזאר"
+      ],
+      "explanation": "גודריק גריפינדור, הלגה האפלפאף, רוונה רייבנקלו וסלזאר סלית'רין — ארבעה מכשפים גדולים שהקימו את בית הספר יחד, לפני שסלית'רין פרש.",
+      "source": "הארי פוטר וחדר הסודות, פרק 9"
+    },
+    "en": {
+      "prompt": "Who are the four founders of Hogwarts?",
+      "choices": [
+        "Godric, Rowena, Salazar and Merlin",
+        "Godric Gryffindor, Helga Hufflepuff, Rowena Ravenclaw and Salazar Slytherin",
+        "Godric, Helga, Morgana and Salazar",
+        "Emeric, Rowena, Helga and Salazar"
+      ],
+      "explanation": "Godric Gryffindor, Helga Hufflepuff, Rowena Ravenclaw and Salazar Slytherin — four great witches and wizards who built the school together, before Slytherin walked out.",
+      "source": "Chamber of Secrets, ch. 9"
+    }
+  },
+  {
+    "id": "g-galleon-sickle",
+    "difficulty": 4,
+    "scope": "book",
+    "book": 1,
+    "chapter": 5,
+    "topics": [
+      "money",
+      "numbers"
+    ],
+    "answer": 1,
+    "probe": "seventeen silver Sickles to a Galleon",
+    "verified": true,
+    "he": {
+      "prompt": "כמה סיקלים יש בגלאון אחד?",
+      "choices": [
+        "עשרה",
+        "שבעה עשר",
+        "עשרים ותשעה",
+        "שלושים ואחד"
+      ],
+      "explanation": "שבעה עשר סיקלי כסף לגלאון, ועשרים ותשעה קנוטים לסיקל. האגריד מסביר את זה להארי בגרינגוטס ומוסיף שזה 'די פשוט'.",
+      "source": "הארי פוטר ואבן החכמים, פרק 5"
+    },
+    "en": {
+      "prompt": "How many Sickles are there in one Galleon?",
+      "choices": [
+        "Ten",
+        "Seventeen",
+        "Twenty-nine",
+        "Thirty-one"
+      ],
+      "explanation": "Seventeen silver Sickles to a Galleon, and twenty-nine Knuts to a Sickle. Hagrid explains it to Harry at Gringotts and calls it easy enough.",
+      "source": "Philosopher's Stone, ch. 5"
+    }
+  },
+  {
+    "id": "g-quidditch-players",
+    "difficulty": 3,
+    "scope": "book",
+    "book": 1,
+    "chapter": 10,
+    "topics": [
+      "quidditch",
+      "numbers"
+    ],
+    "answer": 2,
+    "probe": "seven players",
+    "verified": true,
+    "he": {
+      "prompt": "כמה שחקנים יש בקבוצת קווידיץ'?",
+      "choices": [
+        "חמישה",
+        "שישה",
+        "שבעה",
+        "שמונה"
+      ],
+      "explanation": "שבעה: שלושה רודפים, שני חובטים, שוער ותופס.",
+      "source": "הארי פוטר ואבן החכמים, פרק 10"
+    },
+    "en": {
+      "prompt": "How many players are on a Quidditch team?",
+      "choices": [
+        "Five",
+        "Six",
+        "Seven",
+        "Eight"
+      ],
+      "explanation": "Seven: three Chasers, two Beaters, a Keeper and a Seeker.",
+      "source": "Philosopher's Stone, ch. 10"
+    }
+  },
+  {
+    "id": "g-harry-wand",
+    "difficulty": 4,
+    "scope": "book",
+    "book": 1,
+    "chapter": 5,
+    "topics": [
+      "wands",
+      "harry"
+    ],
+    "answer": 1,
+    "probe": "holly and phoenix feather",
+    "verified": true,
+    "he": {
+      "prompt": "ממה עשוי שרביטו של הארי?",
+      "choices": [
+        "מאלון ושערת יחידה",
+        "מעץ אשחר ונוצת פיניקס",
+        "מסמבוק וגיד לב דרקון",
+        "ממייפל ונוצת פיניקס"
+      ],
+      "explanation": "עץ אשחר (הוֹלִי) ונוצת פיניקס, אחת עשרה אינץ' — הנוצה נלקחה מאותו פיניקס שנתן את הנוצה בשרביטו של וולדמורט.",
+      "source": "הארי פוטר ואבן החכמים, פרק 5"
+    },
+    "en": {
+      "prompt": "What is Harry's wand made of?",
+      "choices": [
+        "Oak and unicorn hair",
+        "Holly and phoenix feather",
+        "Elder and dragon heartstring",
+        "Maple and phoenix feather"
+      ],
+      "explanation": "Holly and phoenix feather, eleven inches — and the feather came from the same phoenix as the one in Voldemort's wand.",
+      "source": "Philosopher's Stone, ch. 5"
+    }
+  },
+  {
+    "id": "g-flamel-age",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 1,
+    "chapter": 13,
+    "topics": [
+      "history",
+      "numbers"
+    ],
+    "answer": 2,
+    "probe": "six hundred and sixty-five",
+    "verified": true,
+    "he": {
+      "prompt": "בן כמה ניקולא פלאמל, לפי הספר הראשון?",
+      "choices": [
+        "465",
+        "565",
+        "665",
+        "765"
+      ],
+      "explanation": "שש מאות שישים וחמש — הרמיוני מוצאת את זה בספר שלקחה מן הספרייה, וזו הפריצה בחקירת אבן החכמים.",
+      "source": "הארי פוטר ואבן החכמים, פרק 13"
+    },
+    "en": {
+      "prompt": "How old is Nicolas Flamel, according to the first book?",
+      "choices": [
+        "465",
+        "565",
+        "665",
+        "765"
+      ],
+      "explanation": "Six hundred and sixty-five — Hermione finds it in a book she took from the library, and it breaks the whole Philosopher's Stone mystery open.",
+      "source": "Philosopher's Stone, ch. 13"
+    }
+  }
+]
