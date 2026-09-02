@@ -1,101 +1,102 @@
-import Image from "next/image";
+"use client";
+
+import Link from "next/link";
+import { useUI, TIERS } from "@/lib/i18n";
+import { Snitch, Fleuron } from "@/components/Engravings";
 
 export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+  const { lang, t } = useUI();
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+  const examples: Record<string, { he: string; en: string }> = {
+    muggle:  { he: "איזו חיה מסמלת את בית גריפינדור?", en: "Which beast stands for Gryffindor house?" },
+    first:   { he: "מה שמו המלא של ניק כמעט-חסר-הראש?", en: "What is Nearly Headless Nick's full name?" },
+    owl:     { he: "באיזו כספת בגרינגוטס הוחזקה אבן החכמים?", en: "Which Gringotts vault held the Stone?" },
+    newt:    { he: "מה שחה באקווריום במשרדו של לופין?", en: "What swam in the tank in Lupin's office?" },
+    mystery: { he: "כמה גרמי מדרגות יש בהוגוורטס?", en: "How many staircases does Hogwarts have?" },
+  };
+
+  return (
+    <div className="px-5 sm:px-9 py-12 sm:py-16">
+      <div className="mx-auto max-w-5xl">
+        {/* title page */}
+        <div className="text-center">
+          <div
+            className="grid place-items-center mb-6"
+            style={{ color: "var(--ink-2)", opacity: 0.55 }}
+            aria-hidden
           >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+            <Snitch size={168} />
+          </div>
+          <p className="caption m-0 mb-5">{t("tagline")}</p>
+          <h1
+            className="display m-0"
+            style={{ fontSize: "clamp(2.4rem,1.4rem + 4.4vw,5rem)", letterSpacing: "-.035em", lineHeight: .98 }}
           >
-            Read our docs
-          </a>
+            {t("siteName")}
+          </h1>
+          <div className="flex items-center gap-3 mt-7 mb-2" style={{ color: "var(--ink-3)" }}>
+            <hr className="rule flex-1" />
+            <Fleuron />
+            <hr className="rule flex-1" />
+          </div>
+          <p className="marginalia m-0 mx-auto" style={{ maxWidth: "34rem", fontSize: "1.02rem" }}>
+            {lang === "he"
+              ? "חמש רמות קושי, מ״מוגל״ ועד ״המחלקה למסתורין״. שבעת הספרים ושמונת הסרטים. כל תשובה מגיעה עם מקור — פרק ושורה."
+              : "Five rungs, from Muggle to the Department of Mysteries. Seven books, eight films. Every answer arrives with its source — chapter and verse."}
+          </p>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+
+        {/* the ladder, as a printed table of contents */}
+        <section className="mt-14 plate px-6 sm:px-10 py-8">
+          <div className="flex items-baseline gap-4 mb-4">
+            <h2 className="display m-0 text-[1.1rem]">
+              {lang === "he" ? "סולם הקושי" : "The ladder"}
+            </h2>
+            <hr className="rule-hair flex-1" />
+          </div>
+          <ol className="list-none p-0 m-0">
+            {TIERS.map((tier, n) => (
+              <li
+                key={tier.key}
+                className="grid items-baseline gap-x-4 gap-y-1 py-4"
+                style={{
+                  gridTemplateColumns: "2rem minmax(6rem,10rem) minmax(0,1fr)",
+                  borderTop: n ? "1px solid var(--rule-soft)" : undefined,
+                }}
+              >
+                <span className="folio text-[.85rem]">{tier.roman}</span>
+                <span className="display text-[1.02rem]">{tier[lang]}</span>
+                <span className="marginalia text-[.92rem] min-w-0">
+                  {examples[tier.key][lang]}
+                </span>
+              </li>
+            ))}
+          </ol>
+        </section>
+
+        <div className="flex flex-wrap items-center gap-4 mt-10 justify-center">
+          <Link
+            href="/daily"
+            className="caption no-underline"
+            style={{
+              background: "var(--ink)", color: "var(--parchment-hi)",
+              padding: ".85rem 2rem",
+            }}
+          >
+            {t("begin")}
+          </Link>
+          <Link
+            href="/quiz"
+            className="caption no-underline"
+            style={{
+              color: "var(--ink)", padding: ".85rem 1.5rem",
+              borderBottom: "1px solid var(--rule)",
+            }}
+          >
+            {t("practice")}
+          </Link>
+        </div>
+      </div>
     </div>
   );
 }

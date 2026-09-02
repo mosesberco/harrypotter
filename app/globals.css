@@ -2,26 +2,296 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ============================================================
+   INK ON PARCHMENT — engraved textbook design system
+   light: an 1890s printed plate.  dark: the Restricted Section
+   read by candlelight.
+   ============================================================ */
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --parchment:    #E8DBBC;
+  --parchment-hi: #F3E9D3;
+  --parchment-lo: #D9C8A2;
+  --ink:          #17120C;
+  --ink-2:        #453A2C;
+  --ink-3:        #7C6B54;
+  --rule:         rgba(23, 18, 12, 0.24);
+  --rule-soft:    rgba(23, 18, 12, 0.10);
+  --oxblood:      #6E1F14;
+  --brass:        #966E23;
+  --candle:       #C1842B;
+  --verdigris:    #2E5C4E;
+  --seal:         #7E2318;
+  --wash:         rgba(23, 18, 12, 0.055);
+  --plate-shadow: 0 1px 0 rgba(255,250,235,.55), 0 18px 40px -28px rgba(60,45,25,.75);
+  --grain-blend:  multiply;
+  --grain-alpha:  0.30;
+  --vignette:     radial-gradient(120% 90% at 50% 0%, transparent 40%, rgba(90,70,40,.16) 100%);
+  --plate-sheen:  radial-gradient(90% 60% at 20% 0%, rgba(255,250,235,.5), transparent 60%);
+
+  --font-display: var(--f-frank), Georgia, serif;
+  --font-body:    var(--f-david), Georgia, serif;
+  --font-latin:   var(--f-garamond), Georgia, serif;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  :root:not([data-theme="light"]) {
+    --parchment:    #0E1317;
+    --parchment-hi: #171F25;
+    --parchment-lo: #090C0F;
+    --ink:          #E7DABC;
+    --ink-2:        #B6A78A;
+    --ink-3:        #877A62;
+    --rule:         rgba(231, 218, 188, 0.22);
+    --rule-soft:    rgba(231, 218, 188, 0.09);
+    --oxblood:      #B04430;
+    --brass:        #C9A45C;
+    --candle:       #E7B65E;
+    --verdigris:    #78B39A;
+    --seal:         #A6392A;
+    --wash:         rgba(231, 218, 188, 0.06);
+    --plate-shadow: 0 1px 0 rgba(255,255,255,.04), 0 22px 50px -30px rgba(0,0,0,.9);
+    --grain-blend:  overlay;
+    --grain-alpha:  0.22;
+    --vignette:     radial-gradient(115% 85% at 50% -5%, rgba(231,182,94,.10) 0%, transparent 55%),
+                    radial-gradient(120% 100% at 50% 100%, transparent 35%, rgba(0,0,0,.6) 100%);
+    --plate-sheen:  linear-gradient(180deg, rgba(231,182,94,.05), transparent 45%);
   }
 }
+
+:root[data-theme="dark"] {
+  --parchment:    #0E1317;
+  --parchment-hi: #171F25;
+  --parchment-lo: #090C0F;
+  --ink:          #E7DABC;
+  --ink-2:        #B6A78A;
+  --ink-3:        #877A62;
+  --rule:         rgba(231, 218, 188, 0.22);
+  --rule-soft:    rgba(231, 218, 188, 0.09);
+  --oxblood:      #B04430;
+  --brass:        #C9A45C;
+  --candle:       #E7B65E;
+  --verdigris:    #78B39A;
+  --seal:         #A6392A;
+  --wash:         rgba(231, 218, 188, 0.06);
+  --plate-shadow: 0 1px 0 rgba(255,255,255,.04), 0 22px 50px -30px rgba(0,0,0,.9);
+  --grain-blend:  overlay;
+  --grain-alpha:  0.22;
+  --vignette:     radial-gradient(115% 85% at 50% -5%, rgba(231,182,94,.10) 0%, transparent 55%),
+                  radial-gradient(120% 100% at 50% 100%, transparent 35%, rgba(0,0,0,.6) 100%);
+  --plate-sheen:  linear-gradient(180deg, rgba(231,182,94,.05), transparent 45%);
+}
+
+* { box-sizing: border-box; }
+
+html, body { height: 100%; }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: var(--parchment);
+  background-image: var(--vignette);
+  background-attachment: fixed;
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+/* paper grain, fixed over everything */
+.grain {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 90;
+  opacity: var(--grain-alpha);
+  mix-blend-mode: var(--grain-blend);
+}
+
+/* ---------- type ---------- */
+
+h1, h2, h3, .display { font-family: var(--font-display); font-weight: 700; line-height: 1.15; }
+
+.latin { font-family: var(--font-latin); }
+
+/* small-caps label: the engraved plate caption */
+.caption {
+  font-family: var(--font-latin);
+  font-size: 0.72rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+  font-weight: 500;
+}
+[dir="rtl"] .caption { letter-spacing: 0.12em; font-family: var(--font-body); }
+
+.marginalia {
+  font-family: var(--font-latin);
+  font-style: italic;
+  color: var(--ink-2);
+}
+[dir="rtl"] .marginalia { font-family: var(--font-body); font-style: normal; }
+
+/* drop-cap for the question opener */
+.folio {
+  font-family: var(--font-latin);
+  font-variant-numeric: oldstyle-nums;
+  color: var(--ink-3);
+  letter-spacing: .08em;
+}
+
+/* ---------- printed rules ---------- */
+
+.rule        { border: 0; border-top: 1px solid var(--rule); }
+.rule-double { border: 0; border-top: 3px double var(--rule); }
+.rule-hair   { border: 0; border-top: 1px solid var(--rule-soft); }
+
+/* ---------- the plate: a sheet laid on the desk ---------- */
+
+.plate {
+  position: relative;
+  background: var(--plate-sheen), var(--parchment-hi);
+  box-shadow: var(--plate-shadow);
+  border: 1px solid var(--rule-soft);
+}
+/* deckle: torn-looking top and bottom edge */
+.deckle::before,
+.deckle::after {
+  content: "";
+  position: absolute;
+  left: 0; right: 0;
+  height: 6px;
+  background: repeating-linear-gradient(90deg,
+    var(--parchment-hi) 0 3px, transparent 3px 5px,
+    var(--parchment-hi) 5px 11px, transparent 11px 12px);
+  opacity: .9;
+}
+.deckle::before { top: -3px; }
+.deckle::after  { bottom: -3px; transform: scaleY(-1); }
+
+/* ---------- ledger answer rows ---------- */
+
+.ledger-row {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 1.15rem;
+  width: 100%;
+  padding: 1.05rem 1.35rem;
+  text-align: start;
+  background: transparent;
+  border: 0;
+  border-top: 1px solid var(--rule-soft);
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  transition: color .25s ease;
+}
+.ledger-row:last-child { border-bottom: 1px solid var(--rule-soft); }
+
+/* ink wash sweeps in from the reading edge */
+.ledger-row::before {
+  content: "";
+  position: absolute;
+  inset-block: 0;
+  inset-inline-start: 0;
+  inline-size: 0;
+  background: var(--wash);
+  transition: inline-size .38s cubic-bezier(.22,.61,.36,1);
+  z-index: 0;
+}
+.ledger-row:hover::before,
+.ledger-row:focus-visible::before { inline-size: 100%; }
+.ledger-row > * { position: relative; z-index: 1; }
+.ledger-row:focus-visible { outline: none; }
+.ledger-row:focus-visible .glyph { border-color: var(--ink); }
+
+/* the lettered glyph in its engraved ring */
+.glyph {
+  display: grid;
+  place-items: center;
+  inline-size: 2.25rem;
+  block-size: 2.25rem;
+  border: 1px solid var(--rule);
+  border-radius: 50%;
+  font-family: var(--font-latin);
+  font-size: .95rem;
+  color: var(--ink-2);
+  flex: none;
+  transition: border-color .25s ease, background .25s ease, color .25s ease;
+}
+[dir="rtl"] .glyph { font-family: var(--font-display); font-size: 1rem; }
+.ledger-row:hover .glyph { border-color: var(--ink-2); }
+
+.ledger-row[data-state="correct"] .glyph {
+  background: var(--verdigris); border-color: var(--verdigris);
+  color: var(--parchment-hi);
+}
+.ledger-row[data-state="wrong"] .glyph {
+  background: var(--oxblood); border-color: var(--oxblood);
+  color: var(--parchment-hi);
+}
+.ledger-row[data-state="correct"]::before { inline-size: 100%; background: rgba(46,92,78,.10); }
+.ledger-row[data-state="wrong"]::before   { inline-size: 100%; background: rgba(110,31,20,.09); }
+.ledger-row[data-state="muted"] { color: var(--ink-3); }
+.ledger-row:disabled { cursor: default; }
+
+/* ---------- wax seal ---------- */
+
+.seal {
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  color: rgba(255,240,220,.92);
+  font-family: var(--font-latin);
+  box-shadow:
+    inset 0 1px 2px rgba(255,255,255,.28),
+    inset 0 -2px 5px rgba(0,0,0,.45),
+    0 2px 5px -1px rgba(0,0,0,.45);
+  background-image: radial-gradient(60% 55% at 32% 28%, rgba(255,255,255,.30), transparent 60%);
+}
+
+/* ---------- motion ---------- */
+
+@keyframes ink-in {
+  from { opacity: 0; transform: translateY(6px); filter: blur(3px); }
+  to   { opacity: 1; transform: none; filter: none; }
+}
+.ink-in { animation: ink-in .7s cubic-bezier(.22,.61,.36,1) both; }
+
+@keyframes draw { to { stroke-dashoffset: 0; } }
+
+@keyframes flicker {
+  0%, 100% { opacity: .92; }
+  18%      { opacity: .72; }
+  22%      { opacity: .95; }
+  55%      { opacity: .78; }
+  62%      { opacity: .9; }
+}
+.flicker { animation: flicker 5.5s ease-in-out infinite; }
+
+@keyframes sway {
+  0%, 100% { transform: rotate(-1.1deg); }
+  50%      { transform: rotate(1.1deg); }
+}
+
+@keyframes stamp {
+  0%   { opacity: 0; transform: scale(1.6) rotate(-14deg); }
+  60%  { opacity: 1; transform: scale(.94) rotate(3deg); }
+  100% { opacity: 1; transform: scale(1) rotate(0deg); }
+}
+.stamp { animation: stamp .5s cubic-bezier(.3,1.4,.5,1) both; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .001ms !important;
   }
 }
+
+::selection { background: var(--candle); color: #17120C; }
