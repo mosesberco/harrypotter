@@ -6,7 +6,7 @@ export default function ShelfPage() {
   const rows: { slug: string; kind: Filter["kind"]; he: string; en: string; n: number; byDifficulty: Record<number, number> }[] = [];
 
   const all = counts({ kind: "all" });
-  rows.push({ slug: "all", kind: "all", he: "הכל", en: "Everything", ...all, n: all.total });
+  rows.push({ slug: "all", kind: "all", he: "כל השאלות", en: "All questions", ...all, n: all.total });
 
   for (let b = 1; b <= 7; b++) {
     const c = counts({ kind: "book", book: b });

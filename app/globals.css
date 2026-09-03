@@ -179,9 +179,9 @@ h1, h2, h3, .display { font-family: var(--font-display); font-weight: 700; line-
   display: grid;
   grid-template-columns: auto 1fr auto;
   align-items: center;
-  gap: 1.15rem;
+  gap: .9rem;
   width: 100%;
-  padding: 1.05rem 1.35rem;
+  padding: .95rem 1rem;
   text-align: start;
   background: transparent;
   border: 0;
@@ -192,6 +192,10 @@ h1, h2, h3, .display { font-family: var(--font-display); font-weight: 700; line-
   transition: color .25s ease;
 }
 .ledger-row:last-child { border-bottom: 1px solid var(--rule-soft); }
+
+@media (min-width: 640px) {
+  .ledger-row { gap: 1.15rem; padding: 1.05rem 1.35rem; }
+}
 
 /* ink wash sweeps in from the reading edge */
 .ledger-row::before {
@@ -239,6 +243,30 @@ h1, h2, h3, .display { font-family: var(--font-display); font-weight: 700; line-
 .ledger-row[data-state="wrong"]::before   { inline-size: 100%; background: rgba(110,31,20,.09); }
 .ledger-row[data-state="muted"] { color: var(--ink-3); }
 .ledger-row:disabled { cursor: default; }
+
+/* ---------- buttons: one shape, thumb-sized ---------- */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  min-height: 48px;
+  padding: .75rem 1.75rem;
+  background: var(--ink);
+  color: var(--parchment-hi);
+  border: 0;
+  cursor: pointer;
+  text-decoration: none;
+  transition: opacity .2s ease;
+}
+.btn:active { opacity: .82; }
+.btn-quiet {
+  background: transparent;
+  color: var(--ink);
+  border: 1px solid var(--rule);
+}
+.btn-wide { width: 100%; }
 
 /* ---------- wax seal ---------- */
 

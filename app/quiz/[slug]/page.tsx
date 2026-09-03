@@ -1,5 +1,4 @@
 import { notFound } from "next/navigation";
-import Link from "next/link";
 import { BOOK_TITLES, FILMS, parseSlug, select, shuffle, strip } from "@/lib/bank";
 import Runner from "@/components/Runner";
 
@@ -33,14 +32,9 @@ export default function RunPage({
       : FILMS.find((f) => f.n === filter.film)?.en ?? "";
 
   return (
-    <div className="px-5 sm:px-9 py-10">
-      <div className="mx-auto max-w-4xl">
+    <div className="px-4 sm:px-9 py-7 sm:py-10">
+      <div className="mx-auto max-w-3xl">
         <Runner questions={picked.map(strip)} title={title} slug={params.slug} />
-        <p className="mt-8">
-          <Link href="/quiz" className="caption no-underline" style={{ color: "var(--ink-3)" }}>
-            ← {" "}
-          </Link>
-        </p>
       </div>
     </div>
   );

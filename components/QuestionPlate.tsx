@@ -79,7 +79,7 @@ export default function QuestionPlate({
       className={
         bare
           ? "ink-in"
-          : "plate deckle ink-in px-6 sm:px-10 py-8 sm:py-10 overflow-hidden"
+          : "plate deckle ink-in px-4 sm:px-10 py-7 sm:py-10 overflow-hidden"
       }
     >
       {!bare && plate && (
@@ -111,7 +111,7 @@ export default function QuestionPlate({
         >
           <span
             className="seal shrink-0"
-            style={{ background: "var(--seal)", width: 46, height: 46, fontSize: "1.05rem", fontWeight: 600 }}
+            style={{ background: "var(--seal)", width: 38, height: 38, fontSize: ".95rem", fontWeight: 600 }}
             title={tier[lang]}
           >
             {tier.roman}
@@ -131,8 +131,8 @@ export default function QuestionPlate({
           {folio && <p className="folio text-[.78rem] m-0 mb-3">{folio}</p>}
 
           <h2
-            className="display m-0 mb-7"
-            style={{ fontSize: "clamp(1.5rem, 1.15rem + 1.5vw, 2.15rem)", letterSpacing: "-.01em" }}
+            className="display m-0 mb-6"
+            style={{ fontSize: "clamp(1.35rem, 1.1rem + 1.4vw, 2.05rem)", letterSpacing: "-.01em" }}
           >
             {copy.prompt}
           </h2>

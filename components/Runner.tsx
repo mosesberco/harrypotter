@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { useUI, TIERS } from "@/lib/i18n";
+import { useUI } from "@/lib/i18n";
 import QuestionPlate, { type ClientQuestion } from "./QuestionPlate";
 import { Fleuron, Snitch } from "./Engravings";
 
@@ -27,7 +27,7 @@ export default function Runner({
   if (finished) {
     const pct = Math.round((right / questions.length) * 100);
     return (
-      <div className="plate deckle px-6 sm:px-12 py-12 text-center ink-in">
+      <div className="plate deckle px-5 sm:px-12 py-10 sm:py-12 text-center ink-in">
         <div className="grid place-items-center mb-6" style={{ color: "var(--ink-3)", opacity: 0.5 }}>
           <Snitch size={150} />
         </div>
@@ -46,24 +46,16 @@ export default function Runner({
         </div>
         <p className="marginalia m-0">
           {pct === 100
-            ? lang === "he" ? "מושלם. אין מה להוסיף." : "Perfect. Nothing to add."
+            ? lang === "he" ? "הכל נכון." : "All correct."
             : pct >= 70
-            ? lang === "he" ? "ידע של מי שקרא יותר מפעם אחת." : "The knowledge of someone who read them twice."
-            : lang === "he" ? "יש עוד מדרגות לטפס." : "There are more stairs to climb."}
+            ? lang === "he" ? "קרוב מאוד." : "Very close."
+            : lang === "he" ? "שווה עוד סיבוב." : "Worth another go."}
         </p>
-        <div className="flex flex-wrap gap-4 justify-center mt-9">
-          <Link
-            href={`/quiz/${slug}`}
-            className="caption no-underline"
-            style={{ background: "var(--ink)", color: "var(--parchment-hi)", padding: ".8rem 1.9rem" }}
-          >
+        <div className="grid gap-3 mt-9 mx-auto" style={{ maxWidth: "22rem" }}>
+          <Link href={`/quiz/${slug}`} className="btn caption btn-wide">
             {t("again")}
           </Link>
-          <Link
-            href="/quiz"
-            className="caption no-underline"
-            style={{ color: "var(--ink)", padding: ".8rem 1.4rem", borderBottom: "1px solid var(--rule)" }}
-          >
+          <Link href="/quiz" className="btn btn-quiet caption btn-wide">
             {t("backToShelf")}
           </Link>
         </div>
@@ -74,8 +66,8 @@ export default function Runner({
   return (
     <div>
       {/* progress: one tick per question, filled as you go */}
-      <div className="flex items-center gap-3 mb-6">
-        <span className="caption">{title}</span>
+      <div className="flex items-center gap-3 mb-5">
+        <span className="caption truncate hidden sm:block">{title}</span>
         <div className="flex-1 flex items-center gap-1.5">
           {questions.map((_, i) => (
             <span
@@ -97,7 +89,7 @@ export default function Runner({
       <QuestionPlate
         key={q.id}
         q={q}
-        folio={`${t("question")} ${at + 1} · ${TIERS[q.difficulty - 1][lang]}`}
+        folio={`${t("question")} ${at + 1}`}
         onAnswered={(ok) => {
           setAnswered(true);
           if (ok) setRight((n) => n + 1);
@@ -109,11 +101,7 @@ export default function Runner({
                 setAnswered(false);
                 setAt((n) => n + 1);
               }}
-              className="caption"
-              style={{
-                background: "var(--ink)", color: "var(--parchment-hi)",
-                border: 0, padding: ".65rem 1.7rem", cursor: "pointer",
-              }}
+              className="btn caption btn-wide sm:w-auto"
             >
               {last ? t("finish") : t("nextQ")}
             </button>
