@@ -33,7 +33,8 @@
       ],
       "explanation": "A stag — the same as his father James's Animagus form, which earned James the name Prongs.",
       "source": "Prisoner of Azkaban, ch. 21"
-    }
+    },
+    "category": "spell"
   },
   {
     "id": "b3-stan-shunpike",
@@ -69,7 +70,8 @@
       ],
       "explanation": "Stan Shunpike, an eighteen-year-old conductor with a good deal of acne, who explains that Muggles simply don't see the bus.",
       "source": "Prisoner of Azkaban, ch. 3"
-    }
+    },
+    "category": "person"
   },
   {
     "id": "b3-buckbeak",
@@ -105,7 +107,8 @@
       ],
       "explanation": "Buckbeak — a steel-grey Hippogriff. Harry is the first to bow to him, and the first to ride him.",
       "source": "Prisoner of Azkaban, ch. 6"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b3-marauders",
@@ -141,7 +144,8 @@
       ],
       "explanation": "Moony (Lupin), Wormtail (Pettigrew), Padfoot (Sirius) and Prongs (James) — four students who made the map, three of them Animagi so they could keep a werewolf company.",
       "source": "Prisoner of Azkaban, ch. 10"
-    }
+    },
+    "category": "person"
   },
   {
     "id": "b3-cadogan",
@@ -177,7 +181,8 @@
       ],
       "explanation": "Sir Cadogan, a painted knight who challenges everyone to duels and changes the password daily — until the Fat Lady is restored.",
       "source": "Prisoner of Azkaban, ch. 9"
-    }
+    },
+    "category": "person"
   },
   {
     "id": "b3-grindylow",
@@ -214,7 +219,8 @@
       ],
       "explanation": "A grindylow — a sickly green water demon with long, brittle fingers, delivered for the next lesson. Harry is drinking tea when Snape walks in with the potion.",
       "source": "Prisoner of Azkaban, ch. 8"
-    }
+    },
+    "category": "place"
   },
   {
     "id": "b3-lupin-boggart",
@@ -250,7 +256,8 @@
       ],
       "explanation": "A silvery-white orb — the moon. It is the great clue to what he is, and Hermione is the only one who works it out.",
       "source": "Prisoner of Azkaban, ch. 7"
-    }
+    },
+    "category": "person"
   },
   {
     "id": "b3-neville-boggart",
@@ -286,7 +293,8 @@
       ],
       "explanation": "In his grandmother's clothes — the hat with the stuffed vulture, the long dress, the red handbag. The class collapses.",
       "source": "Prisoner of Azkaban, ch. 7"
-    }
+    },
+    "category": "person"
   },
   {
     "id": "b3-firebolt",
@@ -322,7 +330,8 @@
       ],
       "explanation": "The Firebolt — the new racing broom, which McGonagall confiscates to be stripped for jinxes before Harry may fly it.",
       "source": "Prisoner of Azkaban, ch. 4"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b3-dementor-kiss",
@@ -358,7 +367,8 @@
       ],
       "explanation": "The Dementor's Kiss. Lupin explains the body lives on with no sense of self, no memory, nothing — and there is no coming back.",
       "source": "Prisoner of Azkaban, ch. 12"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b3-boggart-riddikulus",
@@ -394,7 +404,8 @@
       ],
       "explanation": "Riddikulus — and the thing that actually finishes a boggart is the laughter that follows the spell.",
       "source": "Prisoner of Azkaban, ch. 7"
-    }
+    },
+    "category": "spell"
   },
   {
     "id": "b3-hippogriff-bow",
@@ -430,6 +441,7 @@
       ],
       "explanation": "Hagrid stresses that Hippogriffs are proud and quick to take offence, and must never be insulted — which Draco does at once, and pays for.",
       "source": "Prisoner of Azkaban, ch. 6"
-    }
+    },
+    "category": "other"
   }
 ]

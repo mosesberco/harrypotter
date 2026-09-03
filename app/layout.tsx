@@ -27,9 +27,9 @@ const garamond = EB_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: "מאה ארבעים ושתיים · חידון לפוטרהדים",
+  title: "פרק ושורה · חידון הארי פוטר לפוטרהדים",
   description:
-    "חידון הארי פוטר בחמש רמות קושי, על שבעת הספרים ושמונת הסרטים. כל תשובה עם מקור.",
+    "חידון הארי פוטר בחמש רמות קושי, על שבעת הספרים ושמונת הסרטים. שלוש שאלות ביום — אדם, מקום, לחש — וכל תשובה עם המקור שלה: פרק ושורה.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

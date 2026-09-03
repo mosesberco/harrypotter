@@ -11,8 +11,11 @@ export type Scope = "book" | "film" | "both";
 
 export type Copy = { prompt: string; choices: string[]; explanation: string; source: string };
 
+export type Category = "person" | "place" | "spell" | "other";
+
 export type Question = {
   id: string;
+  category: Category;
   difficulty: 1 | 2 | 3 | 4 | 5;
   scope: Scope;
   book: number;
@@ -151,13 +154,22 @@ export function todayKey(now = new Date()) {
   }).format(now);
 }
 
-/** One question a day, the same one for everybody, walking the whole bank
-    before it repeats. */
+export const DAILY_TABS: Category[] = ["person", "place", "spell"];
+
+/** Three questions a day — a person, a place and a spell — the same three for
+    everybody, each category walking its own pool before it repeats. */
 export function daily(now = new Date()) {
   const key = todayKey(now);
-  const pool = shuffle(bank(), "142-daily-v1");
   const epoch = Date.UTC(2026, 0, 1);
   const day = Math.floor((Date.parse(key + "T00:00:00Z") - epoch) / 86400000);
-  const q = pool[((day % pool.length) + pool.length) % pool.length];
-  return { key, question: q, index: day, poolSize: pool.length };
+
+  const questions = DAILY_TABS.map((category) => {
+    const pool = shuffle(
+      bank().filter((q) => q.category === category),
+      `daily-${category}-v1`
+    );
+    return pool[((day % pool.length) + pool.length) % pool.length];
+  });
+
+  return { key, questions, index: day };
 }

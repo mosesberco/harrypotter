@@ -33,7 +33,8 @@
       ],
       "explanation": "Beauxbatons — her delegation arrives in an enormous carriage drawn by winged horses.",
       "source": "Goblet of Fire, ch. 15"
-    }
+    },
+    "category": "place"
   },
   {
     "id": "b4-krum",
@@ -69,7 +70,8 @@
       ],
       "explanation": "Viktor Krum — who also played Seeker for Bulgaria in the Quidditch World Cup final that summer.",
       "source": "Goblet of Fire, ch. 5"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b4-horntail",
@@ -105,7 +107,8 @@
       ],
       "explanation": "The Hungarian Horntail — the nastiest of the four, drawn out of a bag on a slip of paper.",
       "source": "Goblet of Fire, ch. 20"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b4-cup-number",
@@ -141,7 +144,8 @@
       ],
       "explanation": "The four hundred and twenty-second — printed on the tickets Arthur Weasley gets hold of.",
       "source": "Goblet of Fire, ch. 8"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b4-lynch",
@@ -177,7 +181,8 @@
       ],
       "explanation": "Aidan Lynch — whom Krum twice lures into ploughing straight into the ground.",
       "source": "Goblet of Fire, ch. 8"
-    }
+    },
+    "category": "person"
   },
   {
     "id": "b4-winky",
@@ -213,7 +218,8 @@
       ],
       "explanation": "Winky — found holding Harry's wand after the Dark Mark is cast at the World Cup, and dismissed in disgrace.",
       "source": "Goblet of Fire, ch. 8"
-    }
+    },
+    "category": "person"
   },
   {
     "id": "b4-bertha",
@@ -249,7 +255,8 @@
       ],
       "explanation": "Bertha Jorkins, a Ministry witch who vanished in Albania — the memories drained from her are what made the whole plan possible.",
       "source": "Goblet of Fire, ch. 1"
-    }
+    },
+    "category": "person"
   },
   {
     "id": "b4-second-task-score",
@@ -285,7 +292,8 @@
       ],
       "explanation": "Forty-five points — marked up for moral fibre, which tied him for first place with Cedric.",
       "source": "Goblet of Fire, ch. 26"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b4-priori",
@@ -321,7 +329,8 @@
       ],
       "explanation": "Priori Incantatem — the reverse-spell effect that draws the shades of Voldemort's victims out of his wand.",
       "source": "Goblet of Fire, ch. 36"
-    }
+    },
+    "category": "spell"
   },
   {
     "id": "b4-portkey",
@@ -357,7 +366,8 @@
       ],
       "explanation": "A Portkey — bewitched by the younger Crouch so that whoever touched it went straight to the graveyard at Little Hangleton.",
       "source": "Goblet of Fire, ch. 34"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b4-crouch-jr",
@@ -393,7 +403,8 @@
       ],
       "explanation": "Barty Crouch Jr, who kept the real Moody at the bottom of a seven-locked trunk and took Polyjuice Potion every hour.",
       "source": "Goblet of Fire, ch. 35"
-    }
+    },
+    "category": "person"
   },
   {
     "id": "b4-ollivander-wands",
@@ -429,6 +440,7 @@
       ],
       "explanation": "Mr Ollivander, the Diagon Alley wandmaker — he identifies a veela hair in Fleur's wand, from her grandmother.",
       "source": "Goblet of Fire, ch. 18"
-    }
+    },
+    "category": "person"
   }
 ]

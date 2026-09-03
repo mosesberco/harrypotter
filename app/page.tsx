@@ -41,8 +41,8 @@ export default function Home() {
           </div>
           <p className="marginalia m-0 mx-auto" style={{ maxWidth: "34rem", fontSize: "1.02rem" }}>
             {lang === "he"
-              ? "חמש רמות קושי, מ״מוגל״ ועד ״המחלקה למסתורין״. שבעת הספרים ושמונת הסרטים. כל תשובה מגיעה עם מקור — פרק ושורה."
-              : "Five rungs, from Muggle to the Department of Mysteries. Seven books, eight films. Every answer arrives with its source — chapter and verse."}
+              ? "חמש רמות קושי, מ״מוגל״ ועד ״המחלקה למסתורין״. שבעת הספרים ושמונת הסרטים. כל שאלה נבדקה מול הטקסט, וכל תשובה מגיעה עם המקור שלה — פרק ושורה."
+              : "Five levels, from Muggle to the Department of Mysteries. Seven books, eight films. Every question checked against the text, and every answer arrives with its source — chapter and verse."}
           </p>
         </div>
 

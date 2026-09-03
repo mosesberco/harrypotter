@@ -33,7 +33,8 @@
       ],
       "explanation": "The Elder Wand, the Resurrection Stone and the Cloak of Invisibility — the three brothers' tale Hermione reads out of The Tales of Beedle the Bard.",
       "source": "Deathly Hallows, ch. 21"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b7-deathstick",
@@ -69,7 +70,8 @@
       ],
       "explanation": "The Deathstick, and also the Wand of Destiny — different names for the same object in the legends Xenophilius Lovegood lays out for the three of them.",
       "source": "Deathly Hallows, ch. 21"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b7-taboo",
@@ -105,7 +107,8 @@
       ],
       "explanation": "A Taboo has been placed on the name: whoever speaks it is traced, and protective enchantments around them break. That is how the three are caught in the Forest of Dean.",
       "source": "Deathly Hallows, ch. 20"
-    }
+    },
+    "category": "spell"
   },
   {
     "id": "b7-potters-grave",
@@ -141,7 +144,8 @@
       ],
       "explanation": "'The last enemy that shall be destroyed is death.' A different line is carved on the grave of Dumbledore's mother and sister in the same churchyard — and Harry only understands both at the end.",
       "source": "Deathly Hallows, ch. 16"
-    }
+    },
+    "category": "place"
   },
   {
     "id": "b7-snape-doe",
@@ -177,7 +181,8 @@
       ],
       "explanation": "A doe — the same as Lily Potter's. It is the doe that leads Harry to the frozen pool and Gryffindor's sword.",
       "source": "Deathly Hallows, ch. 33"
-    }
+    },
+    "category": "spell"
   },
   {
     "id": "b7-diadem-place",
@@ -213,7 +218,8 @@
       ],
       "explanation": "In the Room of Requirement, in its form as the store of everything hidden in the castle — and the Horcrux is destroyed by Crabbe's Fiendfyre.",
       "source": "Deathly Hallows, ch. 31"
-    }
+    },
+    "category": "place"
   },
   {
     "id": "b7-grey-lady",
@@ -249,7 +255,8 @@
       ],
       "explanation": "Helena Ravenclaw, Rowena's daughter — she stole her mother's diadem, and the Bloody Baron killed her. She is the only one who knows where it was hidden.",
       "source": "Deathly Hallows, ch. 31"
-    }
+    },
+    "category": "person"
   },
   {
     "id": "b7-ariana",
@@ -285,7 +292,8 @@
       ],
       "explanation": "Ariana — her portrait in the Hog's Head cellar is the secret passage into Hogwarts, and her brother Aberforth is the one who sends the three of them through it.",
       "source": "Deathly Hallows, ch. 28"
-    }
+    },
+    "category": "person"
   },
   {
     "id": "b7-albus-severus",
@@ -321,7 +329,8 @@
       ],
       "explanation": "Albus Severus Potter — Harry tells him he is named for two headmasters of Hogwarts, and that one of them was the bravest man he ever knew.",
       "source": "Deathly Hallows, ch. 36"
-    }
+    },
+    "category": "person"
   },
   {
     "id": "b7-dobby-grave",
@@ -357,7 +366,8 @@
       ],
       "explanation": "'Here lies Dobby, a free elf' — and Harry digs the grave himself, by hand, without magic.",
       "source": "Deathly Hallows, ch. 24"
-    }
+    },
+    "category": "person"
   },
   {
     "id": "b7-kreacher-regulus",
@@ -393,7 +403,8 @@
       ],
       "explanation": "Regulus Arcturus Black, Sirius's younger brother — Kreacher tells how Regulus made him drink the potion, then swapped the locket and stayed behind in the cave.",
       "source": "Deathly Hallows, ch. 10"
-    }
+    },
+    "category": "person"
   },
   {
     "id": "b7-elder-wand-owner",
@@ -429,6 +440,7 @@
       ],
       "explanation": "Harry — because Draco disarmed Dumbledore and so won the wand's allegiance, and Harry later overpowered Draco. Voldemort killed Snape for nothing.",
       "source": "Deathly Hallows, ch. 36"
-    }
+    },
+    "category": "other"
   }
 ]

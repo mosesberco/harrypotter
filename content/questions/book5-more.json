@@ -33,7 +33,8 @@
       ],
       "explanation": "The Quibbler — and it carries Harry's interview, the first time the truth about that night is printed anywhere.",
       "source": "Order of the Phoenix, ch. 10"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b5m-metamorphmagus",
@@ -69,7 +70,8 @@
       ],
       "explanation": "A Metamorphmagus — something you are born as, not something learned. She changes hair colour and features in an instant.",
       "source": "Order of the Phoenix, ch. 3"
-    }
+    },
+    "category": "person"
   },
   {
     "id": "b5m-occlumency",
@@ -105,7 +107,8 @@
       ],
       "explanation": "Occlumency — defending the mind against intrusion. Harry barely progresses, and that is what Voldemort exploits at the end.",
       "source": "Order of the Phoenix, ch. 24"
-    }
+    },
+    "category": "spell"
   },
   {
     "id": "b5m-snackboxes",
@@ -141,7 +144,8 @@
       ],
       "explanation": "Skiving Snackboxes — containing Fever Fudge, Puking Pastilles, Nosebleed Nougat and Fainting Fancies.",
       "source": "Order of the Phoenix, ch. 12"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b5m-protean",
@@ -177,7 +181,8 @@
       ],
       "explanation": "The Protean Charm — N.E.W.T. level work that changes every coin at once from the master one. Moody remarks how impressive it is.",
       "source": "Order of the Phoenix, ch. 19"
-    }
+    },
+    "category": "spell"
   },
   {
     "id": "b5m-sneak",
@@ -213,7 +218,8 @@
       ],
       "explanation": "The word SNEAK in close-set purple pustules across her face — a jinx Hermione had put on the list of signatures without telling anyone.",
       "source": "Order of the Phoenix, ch. 27"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b5m-swamp",
@@ -249,7 +255,8 @@
       ],
       "explanation": "A portable swamp — and Flitwick deliberately leaves a patch of it behind after Umbridge is gone, as a memorial.",
       "source": "Order of the Phoenix, ch. 29"
-    }
+    },
+    "category": "place"
   },
   {
     "id": "b5m-tapestry",
@@ -285,7 +292,8 @@
       ],
       "explanation": "A tapestry of the family tree — with burn holes where anyone disowned used to be, including Sirius himself and Andromeda.",
       "source": "Order of the Phoenix, ch. 6"
-    }
+    },
+    "category": "place"
   },
   {
     "id": "b5m-locket-cleared",
@@ -321,7 +329,8 @@
       ],
       "explanation": "A heavy locket that will not open — they throw it in a rubbish sack. Two books later it turns out to be the Horcrux, and Kreacher is the one who kept it.",
       "source": "Order of the Phoenix, ch. 6"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b5m-centaurs-umbridge",
@@ -357,7 +366,8 @@
       ],
       "explanation": "The centaurs carry her into the forest after she insults them — she comes back in shock, making little whinnying noises.",
       "source": "Order of the Phoenix, ch. 33"
-    }
+    },
+    "category": "person"
   },
   {
     "id": "b5m-kittens",
@@ -393,6 +403,7 @@
       ],
       "explanation": "Kittens — dozens of decorative plates with frolicking, mewing kittens, as the backdrop to the cruellest detentions in the series.",
       "source": "Order of the Phoenix, ch. 16"
-    }
+    },
+    "category": "place"
   }
 ]

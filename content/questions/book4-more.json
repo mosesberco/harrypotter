@@ -33,7 +33,8 @@
       ],
       "explanation": "Morsmordre — heard at the World Cup campsite, and Winky the house-elf is found holding Harry's wand at the spot.",
       "source": "Goblet of Fire, ch. 9"
-    }
+    },
+    "category": "spell"
   },
   {
     "id": "b4m-age-line",
@@ -69,7 +70,8 @@
       ],
       "explanation": "An Age Line — Fred and George cross it on an Ageing Potion and are thrown back with long white beards.",
       "source": "Goblet of Fire, ch. 16"
-    }
+    },
+    "category": "spell"
   },
   {
     "id": "b4m-skrewts",
@@ -105,7 +107,8 @@
       ],
       "explanation": "Blast-Ended Skrewts — creatures with no visible mouths that Hagrid crossbred himself, and nobody can see the point of. One turns up in the maze too.",
       "source": "Goblet of Fire, ch. 13"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b4m-constant-vigilance",
@@ -141,7 +144,8 @@
       ],
       "explanation": "'CONSTANT VIGILANCE' — he roars it in class, and it becomes the phrase most associated with him.",
       "source": "Goblet of Fire, ch. 14"
-    }
+    },
+    "category": "person"
   },
   {
     "id": "b4m-gillyweed",
@@ -177,7 +181,8 @@
       ],
       "explanation": "Gillyweed — Dobby steals it from Snape's store and brings it to Harry at the last moment. Fleur and Cedric use the Bubble-Head Charm.",
       "source": "Goblet of Fire, ch. 26"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b4m-quick-quotes",
@@ -213,7 +218,8 @@
       ],
       "explanation": "A Quick-Quotes Quill — it writes by itself, turning whatever is said into something more dramatic. Harry watches it write things he never said.",
       "source": "Goblet of Fire, ch. 18"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b4m-skeeter-beetle",
@@ -249,7 +255,8 @@
       ],
       "explanation": "An unregistered Animagus in beetle form — Hermione catches her in a glass jar, and that is what silences her for a year.",
       "source": "Goblet of Fire, ch. 37"
-    }
+    },
+    "category": "person"
   },
   {
     "id": "b4m-pine-fresh",
@@ -285,7 +292,8 @@
       ],
       "explanation": "'Pine fresh' — Cedric passes it on to repay the warning about the dragons, and it is there that Harry works out the golden egg.",
       "source": "Goblet of Fire, ch. 25"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b4m-weatherby",
@@ -321,7 +329,8 @@
       ],
       "explanation": "'Weatherby' — even though Percy works directly under him and idolises him, Crouch cannot remember his name. The joke runs through the book.",
       "source": "Goblet of Fire, ch. 7"
-    }
+    },
+    "category": "person"
   },
   {
     "id": "b4m-sphinx",
@@ -357,7 +366,8 @@
       ],
       "explanation": "A sphinx — a woman's head on a lion's body. She lets him pass only if he answers her riddle, and warns she will attack if he gets it wrong.",
       "source": "Goblet of Fire, ch. 31"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b4m-leprechaun-gold",
@@ -393,6 +403,7 @@
       ],
       "explanation": "Leprechaun gold — which looks real and evaporates within hours. Bagman was deep in debt to goblins, so he cheated them.",
       "source": "Goblet of Fire, ch. 37"
-    }
+    },
+    "category": "person"
   }
 ]

@@ -26,6 +26,20 @@ export function Fleuron({ className }: P) {
   );
 }
 
+/* the house mark: a quill in an inkwell. sits inside the wax seal. */
+export function Quill({ className, size = 18 }: P) {
+  return (
+    <svg viewBox="0 0 24 24" width={size} height={size} className={className} aria-hidden="true">
+      <g fill="none" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M20 3c-4 .6-8.5 3.4-11 7.4-1 1.6-1.6 3.3-1.8 5" />
+        <path d="M20 3c.5 3.4-.4 6.5-2.2 8.6-1.3 1.5-3 2.3-4.6 2.2" />
+        <path d="M7.2 15.4 4.6 20.4" />
+        <path d="M9.6 12.6c1.2.5 2.2 1.4 2.8 2.6" opacity=".55" />
+      </g>
+    </svg>
+  );
+}
+
 /* theme toggle: a candle, lit at night */
 export function Candle({ lit, className }: P & { lit: boolean }) {
   return (

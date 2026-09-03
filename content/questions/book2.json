@@ -33,7 +33,8 @@
       ],
       "explanation": "Dobby, the Malfoys' house-elf, who seals the platform barrier and visits disaster on Harry out of pure good intent.",
       "source": "Chamber of Secrets, ch. 2"
-    }
+    },
+    "category": "person"
   },
   {
     "id": "b2-ford-anglia",
@@ -69,7 +70,8 @@
       ],
       "explanation": "A turquoise Ford Anglia, bewitched by Arthur Weasley — and later living wild in the Forbidden Forest.",
       "source": "Chamber of Secrets, ch. 5"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b2-myrtle",
@@ -105,7 +107,8 @@
       ],
       "explanation": "The girls' bathroom — and under one of its sinks hides the entrance to the Chamber of Secrets.",
       "source": "Chamber of Secrets, ch. 8"
-    }
+    },
+    "category": "place"
   },
   {
     "id": "b2-obliviate",
@@ -141,7 +144,8 @@
       ],
       "explanation": "Obliviate — the Memory Charm, the one thing Lockhart is genuinely good at. He casts it with Ron's broken wand, and the memory it erases is his own.",
       "source": "Chamber of Secrets, ch. 16"
-    }
+    },
+    "category": "spell"
   },
   {
     "id": "b2-riddle-anagram",
@@ -177,7 +181,8 @@
       ],
       "explanation": "Tom Marvolo Riddle — he writes it in the air with Harry's wand and shuffles the letters into 'I am Lord Voldemort'.",
       "source": "Chamber of Secrets, ch. 17"
-    }
+    },
+    "category": "person"
   },
   {
     "id": "b2-aragog",
@@ -213,7 +218,8 @@
       ],
       "explanation": "Aragog — Hagrid raised him as a student, which is why he was blamed for opening the Chamber of Secrets.",
       "source": "Chamber of Secrets, ch. 15"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b2-cat-hair",
@@ -249,7 +255,8 @@
       ],
       "explanation": "The hair was a cat's, and the potion is not meant for animal transformations — Hermione is left in the bathroom with fur, a tail and pointed ears.",
       "source": "Chamber of Secrets, ch. 12"
-    }
+    },
+    "category": "spell"
   },
   {
     "id": "b2-nick-1492",
@@ -285,7 +292,8 @@
       ],
       "explanation": "31st October 1492 — the date is iced onto the tombstone-shaped cake at his five hundredth deathday party.",
       "source": "Chamber of Secrets, ch. 8"
-    }
+    },
+    "category": "person"
   },
   {
     "id": "b2-nick-axe",
@@ -321,7 +329,8 @@
       ],
       "explanation": "Forty-five — and still the head hung on by a flap of skin, which is why he is only nearly headless.",
       "source": "Chamber of Secrets, ch. 8"
-    }
+    },
+    "category": "person"
   },
   {
     "id": "b2-lockhart-lilac",
@@ -357,7 +366,8 @@
       ],
       "explanation": "Lilac. The whole forty-five-question paper is about Lockhart himself, and Hermione is the only one who gets it right.",
       "source": "Chamber of Secrets, ch. 6"
-    }
+    },
+    "category": "person"
   },
   {
     "id": "b2-riddle-award",
@@ -393,7 +403,8 @@
       ],
       "explanation": "A Special Award for Services to the School — for turning in Hagrid. Harry polishes it in detention, fifty years later.",
       "source": "Chamber of Secrets, ch. 7"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b2-basilisk-spiders",
@@ -429,6 +440,7 @@
       ],
       "explanation": "Aragog says spiders flee before the creature — which is why the castle spiders stream away in a line, the clue Harry and Ron follow into the forest.",
       "source": "Chamber of Secrets, ch. 16"
-    }
+    },
+    "category": "other"
   }
 ]

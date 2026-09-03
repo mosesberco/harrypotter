@@ -30,12 +30,14 @@ export default function QuestionPlate({
   plate,
   onAnswered,
   footer,
+  bare = false,
 }: {
   q: ClientQuestion;
   folio?: string;
   plate?: ReactNode;
   onAnswered?: (correct: boolean) => void;
   footer?: ReactNode;
+  bare?: boolean;
 }) {
   const { lang, t } = useUI();
   const [picked, setPicked] = useState<number | null>(null);
@@ -70,9 +72,17 @@ export default function QuestionPlate({
   const scopeLabel =
     q.scope === "book" ? t("scopeBook") : q.scope === "film" ? t("scopeFilm") : t("scopeBoth");
 
+  const Wrap = bare ? "div" : "article";
+
   return (
-    <article className="plate deckle ink-in px-6 sm:px-10 py-8 sm:py-10 overflow-hidden">
-      {plate && (
+    <Wrap
+      className={
+        bare
+          ? "ink-in"
+          : "plate deckle ink-in px-6 sm:px-10 py-8 sm:py-10 overflow-hidden"
+      }
+    >
+      {!bare && plate && (
         <div
           aria-hidden
           className="pointer-events-none absolute hidden sm:block"
@@ -87,9 +97,18 @@ export default function QuestionPlate({
         </div>
       )}
 
-      <div className="sm:grid sm:gap-10" style={{ gridTemplateColumns: "7rem 1px minmax(0,1fr)" }}>
+      <div
+        className={bare ? "" : "sm:grid sm:gap-10"}
+        style={bare ? undefined : { gridTemplateColumns: "7rem 1px minmax(0,1fr)" }}
+      >
         {/* --- margin --- */}
-        <div className="flex sm:flex-col items-center sm:items-start gap-4 sm:gap-5 mb-6 sm:mb-0">
+        <div
+          className={
+            bare
+              ? "flex items-center gap-4 mb-6"
+              : "flex sm:flex-col items-center sm:items-start gap-4 sm:gap-5 mb-6 sm:mb-0"
+          }
+        >
           <span
             className="seal shrink-0"
             style={{ background: "var(--seal)", width: 46, height: 46, fontSize: "1.05rem", fontWeight: 600 }}
@@ -105,7 +124,7 @@ export default function QuestionPlate({
           </div>
         </div>
 
-        <div className="hidden sm:block" style={{ background: "var(--rule-soft)" }} />
+        {!bare && <div className="hidden sm:block" style={{ background: "var(--rule-soft)" }} />}
 
         {/* --- body --- */}
         <div className="min-w-0">
@@ -164,6 +183,6 @@ export default function QuestionPlate({
           )}
         </div>
       </div>
-    </article>
+    </Wrap>
   );
 }

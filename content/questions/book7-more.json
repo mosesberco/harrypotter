@@ -33,7 +33,8 @@
       ],
       "explanation": "Seven Harry Potters — six volunteers on Polyjuice leave in pairs in different directions, so nobody knows which is the real one.",
       "source": "Deathly Hallows, ch. 4"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b7m-trace",
@@ -69,7 +70,8 @@
       ],
       "explanation": "A charm that detects magic performed around an underage wizard — which is why adults cannot use magic near Harry until his seventeenth birthday.",
       "source": "Deathly Hallows, ch. 4"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b7m-bathilda",
@@ -105,7 +107,8 @@
       ],
       "explanation": "Nagini — Voldemort had left her inside the corpse of old Bathilda Bagshot, who leads them into her house. Harry's wand is broken in the escape.",
       "source": "Deathly Hallows, ch. 17"
-    }
+    },
+    "category": "person"
   },
   {
     "id": "b7m-deluminator",
@@ -141,7 +144,8 @@
       ],
       "explanation": "The Deluminator — and it is through it that Ron hears Hermione's voice and finds his way back to them in the forest.",
       "source": "Deathly Hallows, ch. 7"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b7m-luna-ceiling",
@@ -177,7 +181,8 @@
       ],
       "explanation": "Five portraits — Harry, Ron, Hermione, Ginny and Neville — linked by a golden chain of the word 'friends', repeated over and over. It is the moment Harry understands what she is.",
       "source": "Deathly Hallows, ch. 21"
-    }
+    },
+    "category": "place"
   },
   {
     "id": "b7m-xenophilius-sign",
@@ -213,7 +218,8 @@
       ],
       "explanation": "Xenophilius Lovegood — he wears the sign himself, and reads them the Tale of the Three Brothers. He then tries to turn them in to get Luna back.",
       "source": "Deathly Hallows, ch. 20"
-    }
+    },
+    "category": "person"
   },
   {
     "id": "b7m-gringotts-dragon",
@@ -249,7 +255,8 @@
       ],
       "explanation": "On the back of the pale, half-blind dragon that guarded the deepest vaults — they set it loose and it smashes out through the roof.",
       "source": "Deathly Hallows, ch. 26"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b7m-neville-nagini",
@@ -285,7 +292,8 @@
       ],
       "explanation": "Neville — with Gryffindor's sword, pulled from the burning Sorting Hat Voldemort had forced onto his head. It is the last Horcrux.",
       "source": "Deathly Hallows, ch. 36"
-    }
+    },
+    "category": "person"
   },
   {
     "id": "b7m-teddy",
@@ -321,7 +329,8 @@
       ],
       "explanation": "Teddy — after Tonks's father, Edward. Harry is his godfather, at Lupin's own request.",
       "source": "Deathly Hallows, ch. 25"
-    }
+    },
+    "category": "person"
   },
   {
     "id": "b7m-kings-cross",
@@ -357,7 +366,8 @@
       ],
       "explanation": "A place that looks like King's Cross, white and empty. When Harry asks whether it is real or in his head, Dumbledore answers that there is no reason it cannot be both.",
       "source": "Deathly Hallows, ch. 35"
-    }
+    },
+    "category": "place"
   },
   {
     "id": "b7m-molly-bellatrix",
@@ -393,6 +403,7 @@
       ],
       "explanation": "Molly Weasley — after Bellatrix aims a curse at Ginny. The three girls fall back and Molly takes the duel for herself.",
       "source": "Deathly Hallows, ch. 36"
-    }
+    },
+    "category": "person"
   }
 ]

@@ -33,7 +33,8 @@
       ],
       "explanation": "Butterbeer — warm and sweet, and it heats you to your fingertips. Not even dementors spoil it.",
       "source": "Prisoner of Azkaban, ch. 10"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b3m-honeydukes",
@@ -69,7 +70,8 @@
       ],
       "explanation": "Honeydukes — the passage comes out in its cellar, and that is how Harry gets into Hogsmeade without permission.",
       "source": "Prisoner of Azkaban, ch. 10"
-    }
+    },
+    "category": "place"
   },
   {
     "id": "b3m-crookshanks",
@@ -105,7 +107,8 @@
       ],
       "explanation": "Crookshanks — a ginger cat with a squashed face, part Kneazle, and the only one who spots from the start that Scabbers is no rat.",
       "source": "Prisoner of Azkaban, ch. 4"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b3m-ripper",
@@ -141,7 +144,8 @@
       ],
       "explanation": "Ripper — her favourite, who once chased Harry up a tree and kept him there until past midnight.",
       "source": "Prisoner of Azkaban, ch. 2"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b3m-grim",
@@ -177,7 +181,8 @@
       ],
       "explanation": "The Grim — a giant spectral dog, the omen of death. In fact it is Sirius's Animagus form.",
       "source": "Prisoner of Azkaban, ch. 6"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b3m-time-turner",
@@ -213,7 +218,8 @@
       ],
       "explanation": "A Time-Turner — a tiny hourglass on a chain, which McGonagall got her from the Ministry. It also saves Sirius and Buckbeak.",
       "source": "Prisoner of Azkaban, ch. 21"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b3m-scabbers-toe",
@@ -249,7 +255,8 @@
       ],
       "explanation": "A finger — Pettigrew cut his own off to fake his death, and it was all that was recovered. The rat is missing the same toe.",
       "source": "Prisoner of Azkaban, ch. 19"
-    }
+    },
+    "category": "person"
   },
   {
     "id": "b3m-twelve-years",
@@ -285,7 +292,8 @@
       ],
       "explanation": "Twelve years — exactly the length of Sirius's imprisonment. Sirius points out it is a suspiciously long-lived rat.",
       "source": "Prisoner of Azkaban, ch. 19"
-    }
+    },
+    "category": "person"
   },
   {
     "id": "b3m-mischief",
@@ -321,7 +329,8 @@
       ],
       "explanation": "'Mischief managed' — opening it needs the opposite oath, that you are up to no good.",
       "source": "Prisoner of Azkaban, ch. 10"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b3m-fortuna",
@@ -357,7 +366,8 @@
       ],
       "explanation": "'Fortuna Major' — the password Neville can never remember, which leaves him waiting outside for someone else to turn up.",
       "source": "Prisoner of Azkaban, ch. 5"
-    }
+    },
+    "category": "place"
   },
   {
     "id": "b3m-macnair",
@@ -393,7 +403,8 @@
       ],
       "explanation": "Walden Macnair — later revealed as a Death Eater, and Hagrid notes they used to drink together.",
       "source": "Prisoner of Azkaban, ch. 16"
-    }
+    },
+    "category": "person"
   },
   {
     "id": "b3m-nimbus-smashed",
@@ -429,6 +440,7 @@
       ],
       "explanation": "Harry blacks out in mid-air, the broom flies on and is smashed by the Whomping Willow — he is left with a bag of splinters.",
       "source": "Prisoner of Azkaban, ch. 9"
-    }
+    },
+    "category": "other"
   }
 ]

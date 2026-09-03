@@ -32,7 +32,8 @@
       ],
       "explanation": "The Whomping Willow — a tree that hits anything that comes near. Ron's wand snaps in the crash, and he suffers for it all year.",
       "source": "Chamber of Secrets, ch. 5"
-    }
+    },
+    "category": "place"
   },
   {
     "id": "b2m-earmuffs",
@@ -67,7 +68,8 @@
       ],
       "explanation": "Earmuffs — the cry of a mature Mandrake kills, and a seedling's only knocks you out. Sprout hands a pair to everyone.",
       "source": "Chamber of Secrets, ch. 6"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b2m-mudblood",
@@ -103,7 +105,8 @@
       ],
       "explanation": "Mudblood — a foul name for someone Muggle-born. Ron tries to curse him and his broken wand turns it back on himself, so he vomits slugs.",
       "source": "Chamber of Secrets, ch. 7"
-    }
+    },
+    "category": "person"
   },
   {
     "id": "b2m-colin",
@@ -138,7 +141,8 @@
       ],
       "explanation": "Colin Creevey — Muggle-born, and Petrified later that year while trying to photograph what he thinks is the creature.",
       "source": "Chamber of Secrets, ch. 6"
-    }
+    },
+    "category": "person"
   },
   {
     "id": "b2m-fawkes-tears",
@@ -174,7 +178,8 @@
       ],
       "explanation": "Phoenix tears — Fawkes weeps over the wound in his arm. Their healing power is named outright.",
       "source": "Chamber of Secrets, ch. 17"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b2m-sock",
@@ -210,7 +215,8 @@
       ],
       "explanation": "Harry slips his sock into the diary, and Lucius throws the diary at Dobby — a house-elf is freed when his master gives him clothes.",
       "source": "Chamber of Secrets, ch. 18"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b2m-rooster",
@@ -246,7 +252,8 @@
       ],
       "explanation": "The crowing of the rooster. That is why Riddle killed Hagrid's roosters — and why dead roosters signalled the Chamber had been opened again.",
       "source": "Chamber of Secrets, ch. 16"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b2m-lucius-diary",
@@ -282,7 +289,8 @@
       ],
       "explanation": "Lucius Malfoy slipped it into her cauldron at Flourish and Blotts, during the scuffle with Arthur Weasley.",
       "source": "Chamber of Secrets, ch. 4"
-    }
+    },
+    "category": "person"
   },
   {
     "id": "b2m-penelope",
@@ -318,7 +326,8 @@
       ],
       "explanation": "Penelope Clearwater — Muggle-born, and Percy's secret girlfriend, which explains his odd behaviour all year.",
       "source": "Chamber of Secrets, ch. 14"
-    }
+    },
+    "category": "person"
   },
   {
     "id": "b2m-mosag",
@@ -354,7 +363,8 @@
       ],
       "explanation": "Mosag — Hagrid found her for him far away, and the whole colony in the forest descends from her.",
       "source": "Chamber of Secrets, ch. 15"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b2m-fifty-years",
@@ -390,7 +400,8 @@
       ],
       "explanation": "Fifty years — when the basilisk killed Myrtle, and Hagrid was blamed and expelled.",
       "source": "Chamber of Secrets, ch. 13"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b2m-parseltongue",
@@ -426,6 +437,7 @@
       ],
       "explanation": "Parseltongue. Harry reveals in public that he can speak it at the Duelling Club, and the whole hall concludes he is Slytherin's heir.",
       "source": "Chamber of Secrets, ch. 11"
-    }
+    },
+    "category": "spell"
   }
 ]

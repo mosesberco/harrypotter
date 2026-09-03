@@ -1,0 +1,843 @@
+[
+  {
+    "id": "sp-alohomora",
+    "difficulty": 1,
+    "scope": "both",
+    "book": 1,
+    "chapter": 9,
+    "category": "spell",
+    "topics": [
+      "spells"
+    ],
+    "answer": 1,
+    "probe": "Alohomora",
+    "verified": true,
+    "he": {
+      "prompt": "איזה לחש פותח דלת נעולה?",
+      "choices": [
+        "אקסימיום",
+        "אלוהומורה",
+        "אפרטו",
+        "קלאוויס"
+      ],
+      "explanation": "אלוהומורה — הרמיוני משתמשת בו בבריחה מפילץ' במסדרון האסור, ומציינת שקראה עליו ב'לחשי כשף למתחילים'.",
+      "source": "הארי פוטר ואבן החכמים, פרק 9"
+    },
+    "en": {
+      "prompt": "Which charm opens a locked door?",
+      "choices": [
+        "Aximium",
+        "Alohomora",
+        "Aperto",
+        "Clavis"
+      ],
+      "explanation": "Alohomora — Hermione uses it escaping Filch in the forbidden corridor, and notes she read about it in Standard Book of Spells.",
+      "source": "Philosopher's Stone, ch. 9"
+    }
+  },
+  {
+    "id": "sp-lumos",
+    "difficulty": 1,
+    "scope": "both",
+    "book": 4,
+    "chapter": 26,
+    "category": "spell",
+    "topics": [
+      "spells"
+    ],
+    "answer": 2,
+    "probe": "Lumos",
+    "verified": true,
+    "he": {
+      "prompt": "איזה לחש מדליק אור בקצה השרביט?",
+      "choices": [
+        "אינסנדיו",
+        "פוקוס",
+        "לומוס",
+        "קלארה"
+      ],
+      "explanation": "לומוס — והלחש ההופכי, שמכבה את האור, הוא נוקס.",
+      "source": "הארי פוטר וגביע האש, פרק 26"
+    },
+    "en": {
+      "prompt": "Which spell lights the tip of a wand?",
+      "choices": [
+        "Incendio",
+        "Focus",
+        "Lumos",
+        "Clara"
+      ],
+      "explanation": "Lumos — and its counterpart, which puts the light out, is Nox.",
+      "source": "Goblet of Fire, ch. 26"
+    }
+  },
+  {
+    "id": "sp-accio",
+    "difficulty": 1,
+    "scope": "both",
+    "book": 4,
+    "chapter": 20,
+    "category": "spell",
+    "topics": [
+      "spells"
+    ],
+    "answer": 1,
+    "probe": "Accio",
+    "verified": true,
+    "he": {
+      "prompt": "איזה לחש מזמן חפץ אל היד?",
+      "choices": [
+        "ונטוס",
+        "אקיו",
+        "מוביליארבוס",
+        "רדוקטו"
+      ],
+      "explanation": "אקיו — כשף ההזמנה. הארי מתאמן עליו לילה שלם כדי לזמן את המטאטא במשימה הראשונה.",
+      "source": "הארי פוטר וגביע האש, פרק 20"
+    },
+    "en": {
+      "prompt": "Which spell summons an object to your hand?",
+      "choices": [
+        "Ventus",
+        "Accio",
+        "Mobiliarbus",
+        "Reducto"
+      ],
+      "explanation": "Accio — the Summoning Charm. Harry practises it all night to call his broom in the first task.",
+      "source": "Goblet of Fire, ch. 20"
+    }
+  },
+  {
+    "id": "sp-expelliarmus",
+    "difficulty": 2,
+    "scope": "both",
+    "book": 2,
+    "chapter": 11,
+    "category": "spell",
+    "topics": [
+      "spells"
+    ],
+    "answer": 2,
+    "probe": "Expelliarmus",
+    "verified": true,
+    "he": {
+      "prompt": "מה עושה הלחש אקספליארמוס?",
+      "choices": [
+        "מקפיא את היריב",
+        "מחזיר לחש",
+        "מפרק מנשק",
+        "מעלים חפץ"
+      ],
+      "explanation": "מפרק מנשק — סנייפ מלמד אותו במועדון הדו-קרב, והוא הופך ללחש החתימה של הארי לכל אורך הסדרה.",
+      "source": "הארי פוטר וחדר הסודות, פרק 11"
+    },
+    "en": {
+      "prompt": "What does Expelliarmus do?",
+      "choices": [
+        "Freezes the opponent",
+        "Rebounds a spell",
+        "Disarms",
+        "Vanishes an object"
+      ],
+      "explanation": "It disarms — Snape teaches it at the Duelling Club, and it becomes Harry's signature spell for the rest of the series.",
+      "source": "Chamber of Secrets, ch. 11"
+    }
+  },
+  {
+    "id": "sp-petrificus",
+    "difficulty": 2,
+    "scope": "both",
+    "book": 1,
+    "chapter": 16,
+    "category": "spell",
+    "topics": [
+      "spells"
+    ],
+    "answer": 1,
+    "probe": "Petrificus Totalus",
+    "verified": true,
+    "he": {
+      "prompt": "באיזה לחש הרמיוני משתקת את נוויל בדרך אל אבן החכמים?",
+      "choices": [
+        "אימובילוס",
+        "פטריפיקוס טוטאלוס",
+        "לוקומוטור מורטיס",
+        "אימפדימנטה"
+      ],
+      "explanation": "פטריפיקוס טוטאלוס — כשף כפיתת הגוף המלאה. נוויל נופל אחורה נוקשה כלוח.",
+      "source": "הארי פוטר ואבן החכמים, פרק 16"
+    },
+    "en": {
+      "prompt": "Which spell does Hermione use on Neville on the way to the Stone?",
+      "choices": [
+        "Immobulus",
+        "Petrificus Totalus",
+        "Locomotor Mortis",
+        "Impedimenta"
+      ],
+      "explanation": "Petrificus Totalus — the full Body-Bind. Neville falls backwards, stiff as a board.",
+      "source": "Philosopher's Stone, ch. 16"
+    }
+  },
+  {
+    "id": "sp-expecto",
+    "difficulty": 2,
+    "scope": "both",
+    "book": 3,
+    "chapter": 12,
+    "category": "spell",
+    "topics": [
+      "spells"
+    ],
+    "answer": 1,
+    "probe": "Expecto patronum",
+    "verified": true,
+    "he": {
+      "prompt": "מה הלחש שמעלה פטרונוס?",
+      "choices": [
+        "פרוטגו מקסימה",
+        "אקספקטו פטרונום",
+        "פטרוני ווקאטיו",
+        "לומוס מקסימה"
+      ],
+      "explanation": "אקספקטו פטרונום — לופין מלמד את הארי, ומדגיש שנדרש זיכרון מאושר חזק במיוחד.",
+      "source": "הארי פוטר והאסיר מאזקבאן, פרק 12"
+    },
+    "en": {
+      "prompt": "What is the incantation for a Patronus?",
+      "choices": [
+        "Protego Maxima",
+        "Expecto Patronum",
+        "Patroni Vocatio",
+        "Lumos Maxima"
+      ],
+      "explanation": "Expecto Patronum — Lupin teaches Harry, stressing that it takes an unusually powerful happy memory.",
+      "source": "Prisoner of Azkaban, ch. 12"
+    }
+  },
+  {
+    "id": "sp-serpensortia",
+    "difficulty": 3,
+    "scope": "book",
+    "book": 2,
+    "chapter": 11,
+    "category": "spell",
+    "topics": [
+      "spells",
+      "draco"
+    ],
+    "answer": 2,
+    "probe": "Serpensortia",
+    "verified": true,
+    "he": {
+      "prompt": "איזה לחש דראקו מטיל במועדון הדו-קרב, וממנו מתגלה שהארי מדבר לשון-נחש?",
+      "choices": [
+        "טרנטלגרה",
+        "דנסאוג'או",
+        "סרפנסורטיה",
+        "פורנונקולוס"
+      ],
+      "explanation": "סרפנסורטיה — הלחש מזמן נחש שחור ארוך. הארי מדבר אליו בלשון-נחש בפני כל האולם, מבלי להבין מה עשה.",
+      "source": "הארי פוטר וחדר הסודות, פרק 11"
+    },
+    "en": {
+      "prompt": "Which spell does Draco cast at the Duelling Club, exposing Harry as a Parselmouth?",
+      "choices": [
+        "Tarantallegra",
+        "Densaugeo",
+        "Serpensortia",
+        "Furnunculus"
+      ],
+      "explanation": "Serpensortia — it conjures a long black snake. Harry speaks to it in Parseltongue in front of the whole hall, without realising what he is doing.",
+      "source": "Chamber of Secrets, ch. 11"
+    }
+  },
+  {
+    "id": "sp-cruciatus",
+    "difficulty": 3,
+    "scope": "both",
+    "book": 4,
+    "chapter": 14,
+    "category": "spell",
+    "topics": [
+      "spells",
+      "lore"
+    ],
+    "answer": 1,
+    "probe": "Cruciatus",
+    "verified": true,
+    "he": {
+      "prompt": "מה עושה קללת הקרוציאטוס?",
+      "choices": [
+        "משתקת",
+        "מייסרת בכאב",
+        "משלטת על הרצון",
+        "הורגת"
+      ],
+      "explanation": "מייסרת בכאב בלתי נסבל. מודי מדגים אותה על עכביש בשיעור, ובאותו שיעור מסביר שזו אחת משלוש הקללות הבלתי נסלחות.",
+      "source": "הארי פוטר וגביע האש, פרק 14"
+    },
+    "en": {
+      "prompt": "What does the Cruciatus Curse do?",
+      "choices": [
+        "Paralyses",
+        "Inflicts pain",
+        "Controls the will",
+        "Kills"
+      ],
+      "explanation": "It inflicts unbearable pain. Moody demonstrates it on a spider in class, in the same lesson where he names the three Unforgivables.",
+      "source": "Goblet of Fire, ch. 14"
+    }
+  },
+  {
+    "id": "sp-imperius",
+    "difficulty": 3,
+    "scope": "both",
+    "book": 4,
+    "chapter": 14,
+    "category": "spell",
+    "topics": [
+      "spells",
+      "lore"
+    ],
+    "answer": 2,
+    "probe": "Imperius",
+    "verified": true,
+    "he": {
+      "prompt": "מה עושה קללת האימפריוס?",
+      "choices": [
+        "מוחקת זיכרון",
+        "מייסרת בכאב",
+        "משלטת לחלוטין על מי שהוטלה עליו",
+        "מסמאת"
+      ],
+      "explanation": "משלטת על הרצון. מודי מטיל אותה על כל תלמידי הכיתה בתורם, והארי מגלה שהוא מסוגל להתנגד לה.",
+      "source": "הארי פוטר וגביע האש, פרק 14"
+    },
+    "en": {
+      "prompt": "What does the Imperius Curse do?",
+      "choices": [
+        "Erases memory",
+        "Inflicts pain",
+        "Gives total control over its victim",
+        "Blinds"
+      ],
+      "explanation": "It takes over the will. Moody puts each student in the class under it in turn, and Harry finds he can fight it off.",
+      "source": "Goblet of Fire, ch. 14"
+    }
+  },
+  {
+    "id": "sp-veritaserum",
+    "difficulty": 3,
+    "scope": "book",
+    "book": 4,
+    "chapter": 27,
+    "category": "spell",
+    "topics": [
+      "potions"
+    ],
+    "answer": 1,
+    "probe": "Veritaserum",
+    "verified": true,
+    "he": {
+      "prompt": "מה עושה ורטסרום?",
+      "choices": [
+        "מרפא הרעלה",
+        "מאלץ לומר אמת",
+        "משנה מראה",
+        "מעניק מזל"
+      ],
+      "explanation": "מאלץ את השותה לומר אמת — שיקוי כה חזק שהמשרד מגביל את השימוש בו. סנייפ מאיים על הארי שיטיל לו טיפות ממנו בתה.",
+      "source": "הארי פוטר וגביע האש, פרק 27"
+    },
+    "en": {
+      "prompt": "What does Veritaserum do?",
+      "choices": [
+        "Cures poison",
+        "Forces the drinker to tell the truth",
+        "Changes appearance",
+        "Grants luck"
+      ],
+      "explanation": "It forces the truth out of the drinker — so powerful the Ministry restricts its use. Snape threatens to slip Harry a few drops in his tea.",
+      "source": "Goblet of Fire, ch. 27"
+    }
+  },
+  {
+    "id": "sp-sonorus",
+    "difficulty": 3,
+    "scope": "book",
+    "book": 4,
+    "chapter": 8,
+    "category": "spell",
+    "topics": [
+      "spells"
+    ],
+    "answer": 1,
+    "probe": "Sonorus",
+    "verified": true,
+    "he": {
+      "prompt": "איזה לחש מגביר קול כך שכל האצטדיון שומע?",
+      "choices": [
+        "אמפליוס",
+        "סונורוס",
+        "ווקס מגנה",
+        "קלמור"
+      ],
+      "explanation": "סונורוס — לודו בגמן משתמש בו כשהוא משמש כשדרן בגמר גביע העולם.",
+      "source": "הארי פוטר וגביע האש, פרק 8"
+    },
+    "en": {
+      "prompt": "Which spell magnifies a voice so a whole stadium hears it?",
+      "choices": [
+        "Amplius",
+        "Sonorus",
+        "Vox Magna",
+        "Clamor"
+      ],
+      "explanation": "Sonorus — Ludo Bagman uses it while commentating on the World Cup final.",
+      "source": "Goblet of Fire, ch. 8"
+    }
+  },
+  {
+    "id": "sp-fidelius",
+    "difficulty": 4,
+    "scope": "book",
+    "book": 3,
+    "chapter": 10,
+    "category": "spell",
+    "topics": [
+      "spells",
+      "lore"
+    ],
+    "answer": 1,
+    "probe": "Fidelius",
+    "verified": true,
+    "he": {
+      "prompt": "מה עושה כשף הפידליוס?",
+      "choices": [
+        "מסתיר בית מן העין",
+        "מסתיר סוד בתוך אדם אחד, שומר הסוד",
+        "מונע אפריציה",
+        "מזהה מתחזים"
+      ],
+      "explanation": "מסתיר סוד בתוך אדם אחד — שומר הסוד. איש אינו יכול למצוא את הסוד אלא אם השומר יגלה אותו. פליטוויק מסביר זאת בשלושת המטאטאים.",
+      "source": "הארי פוטר והאסיר מאזקבאן, פרק 10"
+    },
+    "en": {
+      "prompt": "What does the Fidelius Charm do?",
+      "choices": [
+        "Hides a house from sight",
+        "Conceals a secret inside one person, the Secret-Keeper",
+        "Blocks Apparition",
+        "Detects impostors"
+      ],
+      "explanation": "It conceals a secret inside a single person, the Secret-Keeper. Nobody can find it unless the Keeper tells. Flitwick explains it in the Three Broomsticks.",
+      "source": "Prisoner of Azkaban, ch. 10"
+    }
+  },
+  {
+    "id": "sp-levicorpus",
+    "difficulty": 4,
+    "scope": "book",
+    "book": 6,
+    "chapter": 12,
+    "category": "spell",
+    "topics": [
+      "spells",
+      "snape"
+    ],
+    "answer": 1,
+    "probe": "Levicorpus",
+    "verified": true,
+    "he": {
+      "prompt": "איזה לחש מהספר של הנסיך חצוי-הדם מרים אדם באוויר בקרסולו?",
+      "choices": [
+        "מוביליקורפוס",
+        "לוויקורפוס",
+        "אסנדיו",
+        "וינגרדיום קורפוס"
+      ],
+      "explanation": "לוויקורפוס — הארי מטיל אותו בטעות על רון בחדר השינה. באותו לחש עצמו השתמשו ג'יימס וסיריוס על סנייפ בזיכרון שהארי רואה בפנסיב.",
+      "source": "הארי פוטר והנסיך חצוי-הדם, פרק 12"
+    },
+    "en": {
+      "prompt": "Which spell from the Half-Blood Prince's book hoists a person into the air by the ankle?",
+      "choices": [
+        "Mobilicorpus",
+        "Levicorpus",
+        "Ascendio",
+        "Wingardium Corpus"
+      ],
+      "explanation": "Levicorpus — Harry casts it on Ron by accident in the dormitory. It is the same spell James and Sirius used on Snape in the memory Harry sees in the Pensieve.",
+      "source": "Half-Blood Prince, ch. 12"
+    }
+  },
+  {
+    "id": "sp-muffliato",
+    "difficulty": 4,
+    "scope": "book",
+    "book": 6,
+    "chapter": 12,
+    "category": "spell",
+    "topics": [
+      "spells",
+      "snape"
+    ],
+    "answer": 2,
+    "probe": "Muffliato",
+    "verified": true,
+    "he": {
+      "prompt": "מה עושה הלחש מאפליאטו?",
+      "choices": [
+        "מחרישה יריב",
+        "מונע ציתות בקסם",
+        "ממלא את אוזני הסובבים בזמזום לא מזוהה",
+        "מנטרל דיוקנאות"
+      ],
+      "explanation": "ממלא את אוזני מי שנמצא בסביבה בזמזום, כך שאפשר לדבר בלי שיישמע. גם הוא מהמצאותיו של סנייפ.",
+      "source": "הארי פוטר והנסיך חצוי-הדם, פרק 12"
+    },
+    "en": {
+      "prompt": "What does Muffliato do?",
+      "choices": [
+        "Deafens an opponent",
+        "Blocks magical eavesdropping",
+        "Fills the ears of anyone nearby with an unidentifiable buzzing",
+        "Silences portraits"
+      ],
+      "explanation": "It fills nearby ears with a buzzing sound so a conversation cannot be overheard. Another of Snape's own inventions.",
+      "source": "Half-Blood Prince, ch. 12"
+    }
+  },
+  {
+    "id": "sp-fiendfyre",
+    "difficulty": 4,
+    "scope": "book",
+    "book": 7,
+    "chapter": 31,
+    "category": "spell",
+    "topics": [
+      "spells",
+      "horcruxes"
+    ],
+    "answer": 1,
+    "probe": "Fiendfyre",
+    "verified": true,
+    "he": {
+      "prompt": "איזו אש קראב משלח בחדר הנחוץ, וממנה הוא עצמו לא נמלט?",
+      "choices": [
+        "אש הפיניקס",
+        "אש שאולה",
+        "אש בת קול",
+        "להבת אינפרי"
+      ],
+      "explanation": "אש שאולה (Fiendfyre) — אש מקוללת שלוקחת צורות של חיות ואינה נכבית. היא אחד המעטים שמסוגלים להשמיד הורקרוקס, ובה נשרף נזר רייבנקלו.",
+      "source": "הארי פוטר ואוצרות המוות, פרק 31"
+    },
+    "en": {
+      "prompt": "Which fire does Crabbe set loose in the Room of Requirement, and cannot escape?",
+      "choices": [
+        "Phoenix fire",
+        "Fiendfyre",
+        "Echo fire",
+        "Inferi flame"
+      ],
+      "explanation": "Fiendfyre — cursed fire that takes the shapes of beasts and cannot be put out. It is one of the few things that destroys a Horcrux, and it takes Ravenclaw's diadem.",
+      "source": "Deathly Hallows, ch. 31"
+    }
+  },
+  {
+    "id": "sp-anapneo",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 6,
+    "chapter": 7,
+    "category": "spell",
+    "topics": [
+      "spells",
+      "slughorn"
+    ],
+    "answer": 2,
+    "probe": "Anapneo",
+    "verified": true,
+    "he": {
+      "prompt": "איזה לחש סלגהורן מטיל בכדי לפנות את קנה הנשימה של מרקוס בלבי?",
+      "choices": [
+        "רספירו",
+        "אוורטה",
+        "אנאפניאו",
+        "וונטוס"
+      ],
+      "explanation": "אנאפניאו — לחש קטן ומועיל שסלגהורן מטיל כשבלבי נחנק מפאי בשר בקרון הרכבת.",
+      "source": "הארי פוטר והנסיך חצוי-הדם, פרק 7"
+    },
+    "en": {
+      "prompt": "Which spell does Slughorn use to clear Marcus Belby's airway?",
+      "choices": [
+        "Respiro",
+        "Averte",
+        "Anapneo",
+        "Ventus"
+      ],
+      "explanation": "Anapneo — a small, useful spell Slughorn casts when Belby chokes on a pheasant in the train compartment.",
+      "source": "Half-Blood Prince, ch. 7"
+    }
+  },
+  {
+    "id": "sp-homenum-revelio",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 7,
+    "chapter": 9,
+    "category": "spell",
+    "topics": [
+      "spells"
+    ],
+    "answer": 1,
+    "probe": "Homenum revelio",
+    "verified": true,
+    "he": {
+      "prompt": "איזה לחש מגלה נוכחות של אדם במקום?",
+      "choices": [
+        "רבלו טוטאלום",
+        "הומנום רבליו",
+        "אפרסיו",
+        "וידרה"
+      ],
+      "explanation": "הומנום רבליו — הרמיוני מטילה אותו בגרימולד פלייס כדי לוודא שהבית ריק.",
+      "source": "הארי פוטר ואוצרות המוות, פרק 9"
+    },
+    "en": {
+      "prompt": "Which spell reveals human presence in a place?",
+      "choices": [
+        "Revelo Totalum",
+        "Homenum Revelio",
+        "Apparesio",
+        "Videre"
+      ],
+      "explanation": "Homenum Revelio — Hermione casts it at Grimmauld Place to check the house is empty.",
+      "source": "Deathly Hallows, ch. 9"
+    }
+  },
+  {
+    "id": "sp-piertotum",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 7,
+    "chapter": 30,
+    "category": "spell",
+    "topics": [
+      "spells",
+      "mcgonagall"
+    ],
+    "answer": 2,
+    "probe": "Piertotum",
+    "verified": true,
+    "he": {
+      "prompt": "איזה לחש מקגונגל מטילה כדי להעיר את פסלי האבן להגן על הטירה?",
+      "choices": [
+        "מוביליקורפוס",
+        "לוקומוטור מורטיס",
+        "פיירטוטום לוקומוטור",
+        "סטטואה ויוה"
+      ],
+      "explanation": "פיירטוטום לוקומוטור — הפסלים ושריוני האבירים יורדים מכנם וצועדים לקרב. מקגונגל מציינת שתמיד רצתה להטיל את הלחש הזה.",
+      "source": "הארי פוטר ואוצרות המוות, פרק 30"
+    },
+    "en": {
+      "prompt": "Which spell does McGonagall use to wake the stone statues to defend the castle?",
+      "choices": [
+        "Mobilicorpus",
+        "Locomotor Mortis",
+        "Piertotum Locomotor",
+        "Statua Viva"
+      ],
+      "explanation": "Piertotum Locomotor — the statues and suits of armour step off their plinths and march to battle. McGonagall remarks she has always wanted to cast that spell.",
+      "source": "Deathly Hallows, ch. 30"
+    }
+  },
+  {
+    "id": "sp-aparecium",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 2,
+    "chapter": 13,
+    "category": "spell",
+    "topics": [
+      "spells"
+    ],
+    "answer": 1,
+    "probe": "Aparecium",
+    "verified": true,
+    "he": {
+      "prompt": "איזה לחש הרמיוני מנסה על היומן של רידל, כדי לגלות דיו נסתרת?",
+      "choices": [
+        "רבלו",
+        "אפרסיום",
+        "סקריפטו",
+        "אינקנטו"
+      ],
+      "explanation": "אפרסיום — היא מקישה על היומן שלוש פעמים, ושום דבר לא קורה. הדיו של רידל לא נסתרת, היא פשוט לא שם.",
+      "source": "הארי פוטר וחדר הסודות, פרק 13"
+    },
+    "en": {
+      "prompt": "Which spell does Hermione try on Riddle's diary to reveal invisible ink?",
+      "choices": [
+        "Revelo",
+        "Aparecium",
+        "Scripto",
+        "Incanto"
+      ],
+      "explanation": "Aparecium — she taps the diary three times and nothing happens. Riddle's ink is not hidden; it is simply not there.",
+      "source": "Chamber of Secrets, ch. 13"
+    }
+  },
+  {
+    "id": "sp-waddiwasi",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 3,
+    "chapter": 7,
+    "category": "spell",
+    "topics": [
+      "spells",
+      "lupin"
+    ],
+    "answer": 2,
+    "probe": "Waddiwasi",
+    "verified": true,
+    "he": {
+      "prompt": "איזה לחש לופין מטיל על פיבס במסדרון, בהופעתו הראשונה?",
+      "choices": [
+        "פיסקום",
+        "רדוקטו",
+        "וודיוואסי",
+        "פרוטגו"
+      ],
+      "explanation": "וודיוואסי — הלחש יורה גומי לעיסה מחור המנעול ישר לתוך נחירו של פיבס. הכיתה כולה מתחילה לחבב את לופין באותו רגע.",
+      "source": "הארי פוטר והאסיר מאזקבאן, פרק 7"
+    },
+    "en": {
+      "prompt": "Which spell does Lupin cast at Peeves in the corridor, on his first appearance?",
+      "choices": [
+        "Piscum",
+        "Reducto",
+        "Waddiwasi",
+        "Protego"
+      ],
+      "explanation": "Waddiwasi — it shoots the wad of chewing gum out of a keyhole straight up Peeves's nostril. The whole class warms to Lupin on the spot.",
+      "source": "Prisoner of Azkaban, ch. 7"
+    }
+  },
+  {
+    "id": "sp-deletrius",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 4,
+    "chapter": 9,
+    "category": "spell",
+    "topics": [
+      "spells",
+      "ministry"
+    ],
+    "answer": 1,
+    "probe": "Deletrius",
+    "verified": true,
+    "he": {
+      "prompt": "איזה לחש מוחק את הצל שמעלה כשף הפוך-הלחשים?",
+      "choices": [
+        "אבנסקו",
+        "דלטריוס",
+        "אבדה שאדו",
+        "רזרבו"
+      ],
+      "explanation": "דלטריוס — אמוס דיגורי משתמש בו כדי למחוק את מרקת המוות שעלתה משרביטו של הארי בבדיקה במחנה גביע העולם.",
+      "source": "הארי פוטר וגביע האש, פרק 9"
+    },
+    "en": {
+      "prompt": "Which spell erases the shadow produced by the reverse-spell effect?",
+      "choices": [
+        "Evanesco",
+        "Deletrius",
+        "Avada Shadow",
+        "Reservo"
+      ],
+      "explanation": "Deletrius — Amos Diggory uses it to wipe away the Dark Mark that came out of Harry's wand when it was checked at the World Cup campsite.",
+      "source": "Goblet of Fire, ch. 9"
+    }
+  },
+  {
+    "id": "sp-geminio",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 7,
+    "chapter": 26,
+    "category": "spell",
+    "topics": [
+      "spells",
+      "gringotts"
+    ],
+    "answer": 1,
+    "probe": "Flagrante",
+    "verified": true,
+    "he": {
+      "prompt": "אילו שתי קללות הוטלו על אוצרות כספת לסטריינג', לפי גריפהוק?",
+      "choices": [
+        "פלגרה ואינפרנו",
+        "ג'מינו ופלגרה",
+        "מולטיפליו וקלור",
+        "ג'מיניו ואוורטה"
+      ],
+      "explanation": "ג'מינו ופלגרה — כל חפץ שנוגעים בו מתרבה והופך לוהט. הכספת מתמלאת בזהב מזויף עד שהם כמעט נמחצים.",
+      "source": "הארי פוטר ואוצרות המוות, פרק 26"
+    },
+    "en": {
+      "prompt": "Which two curses were added to the treasure in the Lestrange vault, according to Griphook?",
+      "choices": [
+        "Flagrante and Inferno",
+        "Gemino and Flagrante",
+        "Multiplio and Calor",
+        "Geminio and Averte"
+      ],
+      "explanation": "Gemino and Flagrante — everything you touch burns and multiplies. The vault fills with worthless duplicates until they are nearly crushed.",
+      "source": "Deathly Hallows, ch. 26"
+    }
+  },
+  {
+    "id": "sp-geminio-locket",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 7,
+    "chapter": 13,
+    "category": "spell",
+    "topics": [
+      "spells",
+      "hermione"
+    ],
+    "answer": 1,
+    "probe": "Geminio",
+    "verified": true,
+    "he": {
+      "prompt": "באיזה לחש הרמיוני משכפלת את התליון, כדי שאמברידג' לא תבחין שהוא נלקח?",
+      "choices": [
+        "דופליקטו",
+        "ג'מיניו",
+        "קופיוסו",
+        "סימולקרום"
+      ],
+      "explanation": "ג'מיניו — היא מייצרת העתק ומשאירה אותו על צווארה של אמברידג'. ההעתק אמור להטעות אותה עד שהשלושה יימלטו מן המשרד.",
+      "source": "הארי פוטר ואוצרות המוות, פרק 13"
+    },
+    "en": {
+      "prompt": "Which spell does Hermione use to duplicate the locket so Umbridge will not notice it gone?",
+      "choices": [
+        "Duplicato",
+        "Geminio",
+        "Copioso",
+        "Simulacrum"
+      ],
+      "explanation": "Geminio — she makes a copy and leaves it on Umbridge, meant to fool her long enough for the three of them to get out of the Ministry.",
+      "source": "Deathly Hallows, ch. 13"
+    }
+  }
+]

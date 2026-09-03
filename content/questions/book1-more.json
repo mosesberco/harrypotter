@@ -32,7 +32,8 @@
       ],
       "explanation": "The cupboard under the stairs — for ten years, until the Hogwarts letters start arriving and Vernon moves him to the small bedroom.",
       "source": "Philosopher's Stone, ch. 2"
-    }
+    },
+    "category": "place"
   },
   {
     "id": "b1m-wingardium",
@@ -67,7 +68,8 @@
       ],
       "explanation": "Wingardium Leviosa — the Levitation Charm. Hermione fixes Ron's pronunciation, and that night he lifts the troll's club and drops it on its head.",
       "source": "Philosopher's Stone, ch. 10"
-    }
+    },
+    "category": "spell"
   },
   {
     "id": "b1m-pink-umbrella",
@@ -103,7 +105,8 @@
       ],
       "explanation": "A pink umbrella — the pieces of the wand snapped when he was expelled are hidden inside it. He gives Dudley a pig's tail with it.",
       "source": "Philosopher's Stone, ch. 4"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b1m-norbert",
@@ -139,7 +142,8 @@
       ],
       "explanation": "A Norwegian Ridgeback — Hagrid names him Norbert, and won the egg at cards from a hooded stranger in a pub.",
       "source": "Philosopher's Stone, ch. 14"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b1m-firenze",
@@ -175,7 +179,8 @@
       ],
       "explanation": "Firenze — he carries Harry on his back, which enrages Bane, and tells him who has been drinking unicorn blood.",
       "source": "Philosopher's Stone, ch. 15"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b1m-quirrell-turban",
@@ -211,7 +216,8 @@
       ],
       "explanation": "Voldemort's face, on the back of his head. The reek of garlic in his classroom was to cover the turban, which Quirrell claimed an African prince gave him.",
       "source": "Philosopher's Stone, ch. 17"
-    }
+    },
+    "category": "person"
   },
   {
     "id": "b1m-bedrooms",
@@ -247,7 +253,8 @@
       ],
       "explanation": "Four: one for Vernon and Petunia, one for visitors, Dudley's, and the one Dudley keeps his broken things in — the one Harry ends up with.",
       "source": "Philosopher's Stone, ch. 3"
-    }
+    },
+    "category": "place"
   },
   {
     "id": "b1m-figg-cabbage",
@@ -283,7 +290,8 @@
       ],
       "explanation": "The whole house smelled of cabbage — and Harry had to look at photographs of every cat she had ever owned.",
       "source": "Philosopher's Stone, ch. 2"
-    }
+    },
+    "category": "place"
   },
   {
     "id": "b1m-dudley-presents",
@@ -319,7 +327,8 @@
       ],
       "explanation": "Thirty-six — 'two less than last year', he notes. Petunia immediately promises him two more.",
       "source": "Philosopher's Stone, ch. 2"
-    }
+    },
+    "category": "person"
   },
   {
     "id": "b1m-watch-hands",
@@ -355,7 +364,8 @@
       ],
       "explanation": "Twelve hands and no numbers — instead, little planets moving around the edge.",
       "source": "Philosopher's Stone, ch. 1"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b1m-street-lamps",
@@ -391,7 +401,8 @@
       ],
       "explanation": "Twelve — Dumbledore puts them out at the start of the chapter, and one click at the end sends twelve balls of light back to them.",
       "source": "Philosopher's Stone, ch. 1"
-    }
+    },
+    "category": "place"
   },
   {
     "id": "b1m-wall-taps",
@@ -427,7 +438,8 @@
       ],
       "explanation": "'Three up... two across' — and then three taps with the pink umbrella.",
       "source": "Philosopher's Stone, ch. 5"
-    }
+    },
+    "category": "place"
   },
   {
     "id": "b1m-final-points",
@@ -463,7 +475,8 @@
       ],
       "explanation": "Ten points — for the courage it takes to stand up to your friends. Those ten points are what win Gryffindor the House Cup.",
       "source": "Philosopher's Stone, ch. 17"
-    }
+    },
+    "category": "person"
   },
   {
     "id": "b1m-mirror-inscription",
@@ -499,6 +512,7 @@
       ],
       "explanation": "The words are carved in reverse: read the right way round, they say the mirror shows not your face but your heart's desire.",
       "source": "Philosopher's Stone, ch. 12"
-    }
+    },
+    "category": "other"
   }
 ]

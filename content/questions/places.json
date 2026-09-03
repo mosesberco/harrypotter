@@ -1,0 +1,842 @@
+[
+  {
+    "id": "pl-great-hall-ceiling",
+    "difficulty": 1,
+    "scope": "both",
+    "book": 1,
+    "chapter": 7,
+    "category": "place",
+    "topics": [
+      "castle"
+    ],
+    "answer": 1,
+    "probe": "bewitched to look like the sky",
+    "verified": true,
+    "he": {
+      "prompt": "מה מיוחד בתקרת האולם הגדול?",
+      "choices": [
+        "היא זכוכית",
+        "היא מכושפת להיראות כמו השמיים שבחוץ",
+        "היא מצוירת בידי מייסדי הטירה",
+        "היא משתנה לפי הבית המנצח"
+      ],
+      "explanation": "מכושפת להיראות כמו השמיים — הרמיוני מספרת שקראה על כך ב'הוגוורטס: היסטוריה'. אלפי נרות מרחפים מתחתיה.",
+      "source": "הארי פוטר ואבן החכמים, פרק 7"
+    },
+    "en": {
+      "prompt": "What is special about the ceiling of the Great Hall?",
+      "choices": [
+        "It is glass",
+        "It is bewitched to look like the sky outside",
+        "It was painted by the founders",
+        "It changes to the winning house's colours"
+      ],
+      "explanation": "Bewitched to look like the sky — Hermione says she read about it in Hogwarts: A History. Thousands of candles float beneath it.",
+      "source": "Philosopher's Stone, ch. 7"
+    }
+  },
+  {
+    "id": "pl-fat-lady",
+    "difficulty": 1,
+    "scope": "both",
+    "book": 1,
+    "chapter": 9,
+    "category": "place",
+    "topics": [
+      "castle",
+      "portraits"
+    ],
+    "answer": 2,
+    "probe": "Fat Lady",
+    "verified": true,
+    "he": {
+      "prompt": "מה שומר על הכניסה לחדר גריפינדור?",
+      "choices": [
+        "שריון אביר",
+        "פסל גרגויל",
+        "דיוקן של הגברת השמנה",
+        "דלת נסתרת בקיר"
+      ],
+      "explanation": "דיוקן של הגברת השמנה בשמלת משי ורודה — היא נפתחת רק בפני מי שאומר את הסיסמה הנכונה.",
+      "source": "הארי פוטר ואבן החכמים, פרק 9"
+    },
+    "en": {
+      "prompt": "What guards the entrance to the Gryffindor common room?",
+      "choices": [
+        "A suit of armour",
+        "A gargoyle",
+        "A portrait of the Fat Lady",
+        "A hidden door in the wall"
+      ],
+      "explanation": "A portrait of the Fat Lady in a pink silk dress — she swings open only for whoever gives the right password.",
+      "source": "Philosopher's Stone, ch. 9"
+    }
+  },
+  {
+    "id": "pl-forbidden-forest",
+    "difficulty": 1,
+    "scope": "both",
+    "book": 1,
+    "chapter": 8,
+    "category": "place",
+    "topics": [
+      "castle"
+    ],
+    "answer": 1,
+    "probe": "Forbidden Forest",
+    "verified": true,
+    "he": {
+      "prompt": "איך נקרא היער שגובל בשטח הוגוורטס ואסור לתלמידים להיכנס אליו?",
+      "choices": [
+        "היער האפל",
+        "היער האסור",
+        "יער דין",
+        "חורש הקנטאורים"
+      ],
+      "explanation": "היער האסור — מקגונגל וגם דמבלדור מזכירים במפורש שהוא מחוץ לתחום לכל התלמידים.",
+      "source": "הארי פוטר ואבן החכמים, פרק 8"
+    },
+    "en": {
+      "prompt": "What is the forest on the edge of the Hogwarts grounds called?",
+      "choices": [
+        "The Dark Forest",
+        "The Forbidden Forest",
+        "The Forest of Dean",
+        "The Centaurs' Grove"
+      ],
+      "explanation": "The Forbidden Forest — both McGonagall and Dumbledore state plainly that it is out of bounds to all students.",
+      "source": "Philosopher's Stone, ch. 8"
+    }
+  },
+  {
+    "id": "pl-leaky-cauldron",
+    "difficulty": 2,
+    "scope": "both",
+    "book": 3,
+    "chapter": 4,
+    "category": "place",
+    "topics": [
+      "places"
+    ],
+    "answer": 1,
+    "probe": "Leaky Cauldron",
+    "verified": true,
+    "he": {
+      "prompt": "מה שם הפאב שדרכו נכנסים לסמטת דיאגון?",
+      "choices": [
+        "שלושת המטאטאים",
+        "הקלחת הדולפת",
+        "ראש החזיר",
+        "המטאטא השבור"
+      ],
+      "explanation": "הקלחת הדולפת — פאב שהמוגלים אינם רואים כלל, והארי מבלה בו שבועות בקיץ שלפני השנה השלישית.",
+      "source": "הארי פוטר והאסיר מאזקבאן, פרק 4"
+    },
+    "en": {
+      "prompt": "What is the pub you pass through to reach Diagon Alley?",
+      "choices": [
+        "The Three Broomsticks",
+        "The Leaky Cauldron",
+        "The Hog's Head",
+        "The Broken Broom"
+      ],
+      "explanation": "The Leaky Cauldron — a pub Muggles cannot see at all, and where Harry spends weeks of the summer before his third year.",
+      "source": "Prisoner of Azkaban, ch. 4"
+    }
+  },
+  {
+    "id": "pl-malkin",
+    "difficulty": 2,
+    "scope": "both",
+    "book": 1,
+    "chapter": 5,
+    "category": "place",
+    "topics": [
+      "diagon-alley"
+    ],
+    "answer": 2,
+    "probe": "Madam Malkin",
+    "verified": true,
+    "he": {
+      "prompt": "באיזו חנות בסמטת דיאגון קונים גלימות, ושם הארי פוגש את דראקו בפעם הראשונה?",
+      "choices": [
+        "פלוריש ובלוטס",
+        "החנות של אוליבנדר",
+        "מדאם מלקין — גלימות לכל אירוע",
+        "דרוויש ובנגס"
+      ],
+      "explanation": "מדאם מלקין — הארי עומד על שרפרף למידות כשדראקו נכנס, וזו שיחתם הראשונה, עוד לפני הרכבת.",
+      "source": "הארי פוטר ואבן החכמים, פרק 5"
+    },
+    "en": {
+      "prompt": "In which Diagon Alley shop are robes bought, and where Harry first meets Draco?",
+      "choices": [
+        "Flourish and Blotts",
+        "Ollivanders",
+        "Madam Malkin's Robes for All Occasions",
+        "Dervish and Banges"
+      ],
+      "explanation": "Madam Malkin's — Harry is standing on a stool being fitted when Draco walks in, and that is their first conversation, before the train.",
+      "source": "Philosopher's Stone, ch. 5"
+    }
+  },
+  {
+    "id": "pl-flourish",
+    "difficulty": 2,
+    "scope": "both",
+    "book": 2,
+    "chapter": 4,
+    "category": "place",
+    "topics": [
+      "diagon-alley"
+    ],
+    "answer": 1,
+    "probe": "Flourish and Blotts",
+    "verified": true,
+    "he": {
+      "prompt": "מה שם חנות הספרים בסמטת דיאגון?",
+      "choices": [
+        "מתוקי דבש",
+        "פלוריש ובלוטס",
+        "זונקו",
+        "סקריבנשאפט"
+      ],
+      "explanation": "פלוריש ובלוטס — שם לוקהארט חותם על ספריו, ושם מתפרצת הקטטה בין ארתור וויזלי ולוציוס מאלפוי.",
+      "source": "הארי פוטר וחדר הסודות, פרק 4"
+    },
+    "en": {
+      "prompt": "What is the bookshop in Diagon Alley called?",
+      "choices": [
+        "Honeydukes",
+        "Flourish and Blotts",
+        "Zonko's",
+        "Scrivenshaft's"
+      ],
+      "explanation": "Flourish and Blotts — where Lockhart signs his books, and where Arthur Weasley and Lucius Malfoy come to blows.",
+      "source": "Chamber of Secrets, ch. 4"
+    }
+  },
+  {
+    "id": "pl-shrieking-shack",
+    "difficulty": 2,
+    "scope": "both",
+    "book": 3,
+    "chapter": 10,
+    "category": "place",
+    "topics": [
+      "hogsmeade"
+    ],
+    "answer": 1,
+    "probe": "Shrieking Shack",
+    "verified": true,
+    "he": {
+      "prompt": "מה שם הבניין שנחשב למקום הרדוף ביותר בבריטניה, בקצה הוגסמיד?",
+      "choices": [
+        "בית הרידל",
+        "הבקתה הצורחת",
+        "נורמנגרד",
+        "מלון הראש חסר-הראש"
+      ],
+      "explanation": "הבקתה הצורחת — ובאמת אין בה רוחות כלל: הצריחות היו של לופין, שנעל את עצמו שם בכל ליל ירח מלא.",
+      "source": "הארי פוטר והאסיר מאזקבאן, פרק 10"
+    },
+    "en": {
+      "prompt": "What is the building at the edge of Hogsmeade reputed to be the most haunted in Britain?",
+      "choices": [
+        "The Riddle House",
+        "The Shrieking Shack",
+        "Nurmengard",
+        "The Headless Inn"
+      ],
+      "explanation": "The Shrieking Shack — and there are no ghosts in it at all: the screams were Lupin's, shut in there every full moon.",
+      "source": "Prisoner of Azkaban, ch. 10"
+    }
+  },
+  {
+    "id": "pl-owlery",
+    "difficulty": 2,
+    "scope": "both",
+    "book": 4,
+    "chapter": 14,
+    "category": "place",
+    "topics": [
+      "castle"
+    ],
+    "answer": 2,
+    "probe": "Owlery",
+    "verified": true,
+    "he": {
+      "prompt": "כיצד נקרא המקום בהוגוורטס שבו שוכנים הינשופים?",
+      "choices": [
+        "מגדל הכנפיים",
+        "הכלוב הגדול",
+        "גוזמת הינשופים",
+        "צריח הדואר"
+      ],
+      "explanation": "גוזמת הינשופים (the Owlery) — חדר עגול בראש מגדל מערבי, שרצפתו מכוסה קש ועצמות.",
+      "source": "הארי פוטר וגביע האש, פרק 14"
+    },
+    "en": {
+      "prompt": "What is the place at Hogwarts where the owls are kept called?",
+      "choices": [
+        "The Wing Tower",
+        "The Great Cage",
+        "The Owlery",
+        "The Post Turret"
+      ],
+      "explanation": "The Owlery — a circular room at the top of a west tower, its floor covered in straw and small bones.",
+      "source": "Goblet of Fire, ch. 14"
+    }
+  },
+  {
+    "id": "pl-room-of-requirement",
+    "difficulty": 3,
+    "scope": "both",
+    "book": 5,
+    "chapter": 18,
+    "category": "place",
+    "topics": [
+      "castle"
+    ],
+    "answer": 1,
+    "probe": "Room of Requirement",
+    "verified": true,
+    "he": {
+      "prompt": "היכן מתאמן צבא דמבלדור?",
+      "choices": [
+        "בחדר הסודות",
+        "בחדר הנחוץ",
+        "במגדל האסטרונומיה",
+        "במחסן השיקויים"
+      ],
+      "explanation": "חדר הנחוץ — חדר שנפתח רק למי שזקוק לו באמת, ומתאים את עצמו לצורך. דובי הוא שמספר להארי עליו.",
+      "source": "הארי פוטר ומסדר עוף החול, פרק 18"
+    },
+    "en": {
+      "prompt": "Where does Dumbledore's Army train?",
+      "choices": [
+        "The Chamber of Secrets",
+        "The Room of Requirement",
+        "The Astronomy Tower",
+        "The Potions store"
+      ],
+      "explanation": "The Room of Requirement — a room that appears only to someone who really needs it, and shapes itself to that need. Dobby is the one who tells Harry about it.",
+      "source": "Order of the Phoenix, ch. 18"
+    }
+  },
+  {
+    "id": "pl-little-whinging",
+    "difficulty": 3,
+    "scope": "book",
+    "book": 5,
+    "chapter": 1,
+    "category": "place",
+    "topics": [
+      "dursleys",
+      "places"
+    ],
+    "answer": 2,
+    "probe": "Little Whinging",
+    "verified": true,
+    "he": {
+      "prompt": "בְּאיזו עיירה נמצאת פריווט דרייב?",
+      "choices": [
+        "ליטל האנגלטון",
+        "אוטרי סנט קאצ'פול",
+        "ליטל וינגינג",
+        "בּאדלי בּאבּרטון"
+      ],
+      "explanation": "ליטל וינגינג שבסארי — ובה גם סמטת מגנוליה וגן השעשועים שבו הארי ודאדלי נתקלים בסוהרסנים.",
+      "source": "הארי פוטר ומסדר עוף החול, פרק 1"
+    },
+    "en": {
+      "prompt": "In which town is Privet Drive?",
+      "choices": [
+        "Little Hangleton",
+        "Ottery St Catchpole",
+        "Little Whinging",
+        "Budleigh Babberton"
+      ],
+      "explanation": "Little Whinging, Surrey — which also holds Magnolia Crescent and the play park where Harry and Dudley meet the dementors.",
+      "source": "Order of the Phoenix, ch. 1"
+    }
+  },
+  {
+    "id": "pl-little-hangleton",
+    "difficulty": 3,
+    "scope": "book",
+    "book": 4,
+    "chapter": 1,
+    "category": "place",
+    "topics": [
+      "voldemort",
+      "places"
+    ],
+    "answer": 1,
+    "probe": "Little Hangleton",
+    "verified": true,
+    "he": {
+      "prompt": "בְּאיזה כפר נמצאים בית הרידל ובית הקברות שבו וולדמורט חוזר לגוף?",
+      "choices": [
+        "גודריק'ס הולו",
+        "ליטל האנגלטון",
+        "ליטל וינגינג",
+        "הוגסמיד"
+      ],
+      "explanation": "ליטל האנגלטון — שם גדל אביו המוגל של וולדמורט, שם קבורים בני רידל, ולשם מוביל שער-הדרך בסוף הטורניר.",
+      "source": "הארי פוטר וגביע האש, פרק 1"
+    },
+    "en": {
+      "prompt": "In which village are the Riddle House and the graveyard where Voldemort regains a body?",
+      "choices": [
+        "Godric's Hollow",
+        "Little Hangleton",
+        "Little Whinging",
+        "Hogsmeade"
+      ],
+      "explanation": "Little Hangleton — where Voldemort's Muggle father grew up, where the Riddles are buried, and where the Portkey lands at the end of the tournament.",
+      "source": "Goblet of Fire, ch. 1"
+    }
+  },
+  {
+    "id": "pl-spinners-end",
+    "difficulty": 3,
+    "scope": "book",
+    "book": 6,
+    "chapter": 2,
+    "category": "place",
+    "topics": [
+      "snape",
+      "places"
+    ],
+    "answer": 2,
+    "probe": "Spinner's End",
+    "verified": true,
+    "he": {
+      "prompt": "מה שם הרחוב שבו נמצא ביתו של סנייפ?",
+      "choices": [
+        "גרימולד פלייס",
+        "סמטת קנוקטורן",
+        "סמטת ספינרס",
+        "רחוב הטווים הגדול"
+      ],
+      "explanation": "סמטת ספינרס — רחוב עני של בתי לבנים ליד נהר, ובו סנייפ כורת את השבועה הבלתי ניתנת להפרה עם נרקיסה.",
+      "source": "הארי פוטר והנסיך חצוי-הדם, פרק 2"
+    },
+    "en": {
+      "prompt": "What is the street where Snape's house stands called?",
+      "choices": [
+        "Grimmauld Place",
+        "Knockturn Alley",
+        "Spinner's End",
+        "Great Weaver Street"
+      ],
+      "explanation": "Spinner's End — a poor street of brick houses by a river, where Snape makes the Unbreakable Vow with Narcissa.",
+      "source": "Half-Blood Prince, ch. 2"
+    }
+  },
+  {
+    "id": "pl-hogs-head",
+    "difficulty": 3,
+    "scope": "book",
+    "book": 5,
+    "chapter": 16,
+    "category": "place",
+    "topics": [
+      "hogsmeade"
+    ],
+    "answer": 1,
+    "probe": "Hog's Head",
+    "verified": true,
+    "he": {
+      "prompt": "באיזה פאב מתקיימת הפגישה הראשונה של צבא דמבלדור?",
+      "choices": [
+        "שלושת המטאטאים",
+        "ראש החזיר",
+        "הקלחת הדולפת",
+        "מדאם פודיפוט"
+      ],
+      "explanation": "ראש החזיר — פאב מוזנח שהרמיוני בוחרת דווקא משום שאיש אינו הולך לשם. המוזג הוא אברפורת' דמבלדור, מה שמתגלה רק שני ספרים אחר כך.",
+      "source": "הארי פוטר ומסדר עוף החול, פרק 16"
+    },
+    "en": {
+      "prompt": "In which pub does Dumbledore's Army first meet?",
+      "choices": [
+        "The Three Broomsticks",
+        "The Hog's Head",
+        "The Leaky Cauldron",
+        "Madam Puddifoot's"
+      ],
+      "explanation": "The Hog's Head — a grubby pub Hermione picks precisely because nobody goes there. The barman is Aberforth Dumbledore, which only comes out two books later.",
+      "source": "Order of the Phoenix, ch. 16"
+    }
+  },
+  {
+    "id": "pl-forest-of-dean",
+    "difficulty": 3,
+    "scope": "book",
+    "book": 7,
+    "chapter": 19,
+    "category": "place",
+    "topics": [
+      "places",
+      "plot"
+    ],
+    "answer": 2,
+    "probe": "Forest of Dean",
+    "verified": true,
+    "he": {
+      "prompt": "באיזה יער רון חוזר, והארי שולף את חרב גריפינדור מתוך אגם קפוא?",
+      "choices": [
+        "היער האסור",
+        "יער אלבניה",
+        "יער דין",
+        "חורש קנטאורים"
+      ],
+      "explanation": "יער דין — מקום שהרמיוני זוכרת מטיולי משפחה. שם מופיעה האיילה הכסופה, ושם רון חוזר ומציל את הארי מן התליון.",
+      "source": "הארי פוטר ואוצרות המוות, פרק 19"
+    },
+    "en": {
+      "prompt": "In which forest does Ron return, and Harry pull Gryffindor's sword out of a frozen pool?",
+      "choices": [
+        "The Forbidden Forest",
+        "The forests of Albania",
+        "The Forest of Dean",
+        "The Centaurs' Grove"
+      ],
+      "explanation": "The Forest of Dean — somewhere Hermione remembers from family holidays. The silver doe appears there, and it is where Ron comes back and saves Harry from the locket.",
+      "source": "Deathly Hallows, ch. 19"
+    }
+  },
+  {
+    "id": "pl-shell-cottage",
+    "difficulty": 3,
+    "scope": "book",
+    "book": 7,
+    "chapter": 23,
+    "category": "place",
+    "topics": [
+      "places",
+      "weasleys"
+    ],
+    "answer": 1,
+    "probe": "Shell Cottage",
+    "verified": true,
+    "he": {
+      "prompt": "מה שם ביתם של ביל ופלר על שפת הים, שאליו נמלטים ממאלפוי מנור?",
+      "choices": [
+        "בית הצוק",
+        "קוטג' צדפת הים",
+        "המחורה הקטנה",
+        "בית טינוורת'"
+      ],
+      "explanation": "קוטג' צדפת הים — קירותיו משובצים בצדפות. שם קבור דובי, וממנו יוצאים השלושה לגרינגוטס.",
+      "source": "הארי פוטר ואוצרות המוות, פרק 23"
+    },
+    "en": {
+      "prompt": "What is Bill and Fleur's house by the sea called, the one they escape to from Malfoy Manor?",
+      "choices": [
+        "Cliff House",
+        "Shell Cottage",
+        "The Little Burrow",
+        "Tinworth House"
+      ],
+      "explanation": "Shell Cottage — its walls studded with shells. Dobby is buried there, and it is where the three set out for Gringotts from.",
+      "source": "Deathly Hallows, ch. 23"
+    }
+  },
+  {
+    "id": "pl-malfoy-manor",
+    "difficulty": 4,
+    "scope": "both",
+    "book": 7,
+    "chapter": 23,
+    "category": "place",
+    "topics": [
+      "places",
+      "malfoy"
+    ],
+    "answer": 1,
+    "probe": "Malfoy Manor",
+    "verified": true,
+    "he": {
+      "prompt": "היכן וולדמורט מקים את מפקדתו בספר השביעי?",
+      "choices": [
+        "בבית הרידל",
+        "במאלפוי מנור",
+        "בנורמנגרד",
+        "בגרימולד פלייס"
+      ],
+      "explanation": "מאלפוי מנור — הספר נפתח באסיפת אוכלי המוות סביב שולחן שם, ולשם השלושה נלקחים בשבי בהמשך.",
+      "source": "הארי פוטר ואוצרות המוות, פרק 23"
+    },
+    "en": {
+      "prompt": "Where does Voldemort set up his headquarters in the seventh book?",
+      "choices": [
+        "The Riddle House",
+        "Malfoy Manor",
+        "Nurmengard",
+        "Grimmauld Place"
+      ],
+      "explanation": "Malfoy Manor — the book opens on a Death Eater meeting around a table there, and it is where the three are later taken prisoner.",
+      "source": "Deathly Hallows, ch. 23"
+    }
+  },
+  {
+    "id": "pl-ottery",
+    "difficulty": 4,
+    "scope": "book",
+    "book": 4,
+    "chapter": 6,
+    "category": "place",
+    "topics": [
+      "weasleys",
+      "places"
+    ],
+    "answer": 2,
+    "probe": "Ottery St",
+    "verified": true,
+    "he": {
+      "prompt": "ליד איזה כפר נמצאת המחורה, ביתם של בני וויזלי?",
+      "choices": [
+        "גודריק'ס הולו",
+        "בּאדלי בּאבּרטון",
+        "אוטרי סנט קאצ'פול",
+        "טינוורת'"
+      ],
+      "explanation": "אוטרי סנט קאצ'פול — בסביבתו גרים גם בני לאבגוד ובני דיגורי, ומשם יוצאים כולם ברגל אל שער-הדרך אל גביע העולם.",
+      "source": "הארי פוטר וגביע האש, פרק 6"
+    },
+    "en": {
+      "prompt": "Which village is the Burrow near?",
+      "choices": [
+        "Godric's Hollow",
+        "Budleigh Babberton",
+        "Ottery St Catchpole",
+        "Tinworth"
+      ],
+      "explanation": "Ottery St Catchpole — the Lovegoods and the Diggorys live nearby too, and it is from there everyone walks to the Portkey for the World Cup.",
+      "source": "Goblet of Fire, ch. 6"
+    }
+  },
+  {
+    "id": "pl-kitchens-pear",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 4,
+    "chapter": 21,
+    "category": "place",
+    "topics": [
+      "castle",
+      "house-elves"
+    ],
+    "answer": 1,
+    "probe": "tickled the pear|tickling the pear|tickle the pear",
+    "verified": true,
+    "he": {
+      "prompt": "כיצד נפתחת הדלת למטבחי הוגוורטס?",
+      "choices": [
+        "בנקישה שלוש פעמים על החבית",
+        "בגירוד האגס בציור קערת הפירות",
+        "בסיסמה לשדון-הבית",
+        "בהטיית השריון הימני"
+      ],
+      "explanation": "מגרדים את האגס הירוק הענקי בציור של קערת הפירות — הוא מצחקק והופך לידית דלת. פרד וג'ורג' הם שמראים את זה להארי.",
+      "source": "הארי פוטר וגביע האש, פרק 21"
+    },
+    "en": {
+      "prompt": "How is the door to the Hogwarts kitchens opened?",
+      "choices": [
+        "Three taps on the barrel",
+        "Tickling the pear in the painting of the fruit bowl",
+        "A password given to a house-elf",
+        "Tilting the right suit of armour"
+      ],
+      "explanation": "You tickle the enormous green pear in the painting of the fruit bowl — it giggles and turns into a door handle. Fred and George show Harry.",
+      "source": "Goblet of Fire, ch. 21"
+    }
+  },
+  {
+    "id": "pl-dervish",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 3,
+    "chapter": 5,
+    "category": "place",
+    "topics": [
+      "hogsmeade"
+    ],
+    "answer": 2,
+    "probe": "Dervish and Banges",
+    "verified": true,
+    "he": {
+      "prompt": "מה שם חנות התיקונים והחפצים הקסומים בהוגסמיד?",
+      "choices": [
+        "סקריבנשאפט",
+        "זונקו",
+        "דרוויש ובנגס",
+        "גלדראגס"
+      ],
+      "explanation": "דרוויש ובנגס — חנות לתיקון כלים קסומים. שמה עולה במפת השודדים ובשיחות על הוגסמיד.",
+      "source": "הארי פוטר והאסיר מאזקבאן, פרק 5"
+    },
+    "en": {
+      "prompt": "What is the magical-instrument and repairs shop in Hogsmeade called?",
+      "choices": [
+        "Scrivenshaft's",
+        "Zonko's",
+        "Dervish and Banges",
+        "Gladrags"
+      ],
+      "explanation": "Dervish and Banges — a shop for mending magical objects. It comes up in the Marauder's Map and in talk of Hogsmeade.",
+      "source": "Prisoner of Azkaban, ch. 5"
+    }
+  },
+  {
+    "id": "pl-nurmengard",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 7,
+    "chapter": 18,
+    "category": "place",
+    "topics": [
+      "grindelwald",
+      "places"
+    ],
+    "answer": 1,
+    "probe": "Nurmengard",
+    "verified": true,
+    "he": {
+      "prompt": "מה שם הכלא שגרינדלוולד בנה, ושבו נכלא בעצמו?",
+      "choices": [
+        "אזקבאן",
+        "נורמנגרד",
+        "דורמסטראנג",
+        "מגדל האש"
+      ],
+      "explanation": "נורמנגרד — הוא בנה אותו לאויביו, ועל שערו חרוט הסיסמה 'למען הטוב הגדול יותר'. בסוף הוא זה שכלוא בתאו העליון.",
+      "source": "הארי פוטר ואוצרות המוות, פרק 18"
+    },
+    "en": {
+      "prompt": "What is the prison Grindelwald built, and was himself imprisoned in?",
+      "choices": [
+        "Azkaban",
+        "Nurmengard",
+        "Durmstrang",
+        "The Fire Tower"
+      ],
+      "explanation": "Nurmengard — he built it for his enemies, with 'For the Greater Good' carved over the entrance. In the end he is the one in its topmost cell.",
+      "source": "Deathly Hallows, ch. 18"
+    }
+  },
+  {
+    "id": "pl-ravenclaw-riddle",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 7,
+    "chapter": 30,
+    "category": "place",
+    "topics": [
+      "castle",
+      "riddles"
+    ],
+    "answer": 2,
+    "probe": "Where do Vanished objects go",
+    "verified": true,
+    "he": {
+      "prompt": "כיצד נפתחת הדלת לחדר המשותף של רייבנקלו?",
+      "choices": [
+        "בסיסמה שמתחלפת בכל שבוע",
+        "בנקישה על הנשר",
+        "בתשובה לשאלה שהדלת שואלת",
+        "בהצגת סמל הבית"
+      ],
+      "explanation": "הדלת שואלת שאלה, ומי שעונה נכון נכנס — כל אחד יכול לענות, לא רק תלמידי הבית. השאלה שהארי נשאל היא לאן הולכים חפצים שהועלמו.",
+      "source": "הארי פוטר ואוצרות המוות, פרק 30"
+    },
+    "en": {
+      "prompt": "How does the door to the Ravenclaw common room open?",
+      "choices": [
+        "A password that changes weekly",
+        "A tap on the eagle",
+        "By answering a question the door asks",
+        "By showing the house crest"
+      ],
+      "explanation": "The door asks a question, and anyone who answers correctly may enter — not only Ravenclaws. The one Harry gets is where Vanished objects go.",
+      "source": "Deathly Hallows, ch. 30"
+    }
+  },
+  {
+    "id": "pl-ministry-toilet",
+    "difficulty": 5,
+    "scope": "book",
+    "book": 7,
+    "chapter": 12,
+    "category": "place",
+    "topics": [
+      "ministry"
+    ],
+    "answer": 1,
+    "probe": "toilet",
+    "verified": true,
+    "he": {
+      "prompt": "כיצד עובדי המשרד לקסמות נכנסים לעבודה בספר השביעי?",
+      "choices": [
+        "בתא טלפון אדום",
+        "בהדחת עצמם בשירותים ציבוריים",
+        "ברשת הרשפה מן הקלחת הדולפת",
+        "בשער-דרך יומי"
+      ],
+      "explanation": "מדיחים את עצמם באסלה בשירותים ציבוריים — הכניסה שהוחלפה מטעמי אבטחה, למרות שאפילו עובדי המשרד מתלוננים על אי-הנוחות שבה.",
+      "source": "הארי פוטר ואוצרות המוות, פרק 12"
+    },
+    "en": {
+      "prompt": "How do Ministry employees get to work in the seventh book?",
+      "choices": [
+        "A red telephone box",
+        "By flushing themselves down a public toilet",
+        "By Floo from the Leaky Cauldron",
+        "By a daily Portkey"
+      ],
+      "explanation": "They flush themselves down a lavatory in a public convenience — the entrance changed for security, though even Ministry staff complain about the indignity.",
+      "source": "Deathly Hallows, ch. 12"
+    }
+  },
+  {
+    "id": "pl-giant-squid",
+    "difficulty": 4,
+    "scope": "book",
+    "book": 4,
+    "chapter": 12,
+    "category": "place",
+    "topics": [
+      "castle",
+      "creatures"
+    ],
+    "answer": 2,
+    "probe": "giant squid",
+    "verified": true,
+    "he": {
+      "prompt": "איזה יצור חי באגם של הוגוורטס וידוע כידידותי?",
+      "choices": [
+        "בת ים",
+        "גרינדילו ענק",
+        "דיונון ענק",
+        "קלמאר"
+      ],
+      "explanation": "דיונון ענק — תלמידים מדגדגים את זרועותיו כשהוא עולה לשמש, ובאגם חיים גם בני-מים וגרינדילואים.",
+      "source": "הארי פוטר וגביע האש, פרק 12"
+    },
+    "en": {
+      "prompt": "Which creature lives in the Hogwarts lake and is known to be friendly?",
+      "choices": [
+        "A mermaid",
+        "A giant grindylow",
+        "The giant squid",
+        "A kelpie"
+      ],
+      "explanation": "The giant squid — students tickle its tentacles when it surfaces in the sun. The lake also holds merpeople and grindylows.",
+      "source": "Goblet of Fire, ch. 12"
+    }
+  }
+]

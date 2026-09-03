@@ -27,7 +27,7 @@ export default function RunPage({
 
   const title =
     filter.kind === "all"
-      ? "142"
+      ? "Chapter & Verse"
       : filter.kind === "book"
       ? BOOK_TITLES[filter.book].en
       : FILMS.find((f) => f.n === filter.film)?.en ?? "";

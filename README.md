@@ -1,4 +1,4 @@
-# מאה ארבעים ושתיים · One Hundred Forty-Two
+# פרק ושורה · Chapter & Verse
 
 A Harry Potter quiz for people who have read the books more than once.
 Bilingual (Hebrew RTL / English), five rungs of difficulty, and every answer
@@ -20,10 +20,11 @@ Five difficulty tiers, named from the world:
 Beasts, no Pottermore. Every question is tagged `book` / `film` / `both` so a
 film-only player is never punished for a detail that exists on the page only.
 
-**The daily:** one question a day, the same one for everybody, rotating through
-the whole bank before it repeats. Reset at midnight Jerusalem time. Your record
-is a wax-seal journal of the last five weeks — the darker the wax, the harder
-the question you solved — plus a streak and a spoiler-free share block.
+**The daily:** three questions a day in a modal with three tabs — a person, a
+place and a spell — the same three for everybody, each category walking its own
+pool before it repeats. Reset at midnight Jerusalem time. Your record is a
+wax-seal journal of the last five weeks (the more you got right, the darker the
+wax; three out of three is gold), plus a streak and a spoiler-free share block.
 
 **The quiz shelf:** everything, per book, or per film, at any of the five
 levels. Film quizzes ask only what is true on screen as well as on the page.
@@ -63,8 +64,9 @@ Answers are compared in `app/api/answer/route.ts`, never in the browser.
 
 ## Status
 
-176 questions, all confirmed against the book text, across all seven books and
-weighted towards the harder levels. Still to come: Supabase (accounts, real
+222 questions, all confirmed against the book text, across all seven books and
+weighted towards the harder levels. Every question is tagged `person`, `place`,
+`spell` or `other`, and all four categories cover all five levels. Still to come: Supabase (accounts, real
 streaks, house cup), film-only questions — which need a source the book corpus
 cannot provide — and the bilingual glossary.
 

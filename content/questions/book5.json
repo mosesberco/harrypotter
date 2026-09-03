@@ -33,7 +33,8 @@
       ],
       "explanation": "Dolores Jane Umbridge, Senior Undersecretary to the Minister — the first teacher the Ministry forces on Hogwarts.",
       "source": "Order of the Phoenix, ch. 12"
-    }
+    },
+    "category": "person"
   },
   {
     "id": "b5-da-name",
@@ -69,7 +70,8 @@
       ],
       "explanation": "Dumbledore's Army — Ginny suggests the name precisely because it is the thing the Ministry most fears.",
       "source": "Order of the Phoenix, ch. 18"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b5-grimmauld",
@@ -105,7 +107,8 @@
       ],
       "explanation": "Number twelve, Grimmauld Place — the Black family house, which appears between 11 and 13 only for those who have read the address in Dumbledore's hand.",
       "source": "Order of the Phoenix, ch. 4"
-    }
+    },
+    "category": "place"
   },
   {
     "id": "b5-hermione-otter",
@@ -141,7 +144,8 @@
       ],
       "explanation": "A silver otter — she is the first in Dumbledore's Army to produce a corporeal Patronus.",
       "source": "Order of the Phoenix, ch. 27"
-    }
+    },
+    "category": "spell"
   },
   {
     "id": "b5-must-not-tell-lies",
@@ -177,7 +181,8 @@
       ],
       "explanation": "Umbridge's black quill writes in the writer's own blood, and the words score into the hand until they scar.",
       "source": "Order of the Phoenix, ch. 13"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b5-thestrals",
@@ -213,7 +218,8 @@
       ],
       "explanation": "Only those who have seen someone die, and taken it in. Harry begins to see them after Cedric's death.",
       "source": "Order of the Phoenix, ch. 21"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b5-grawp",
@@ -249,7 +255,8 @@
       ],
       "explanation": "Grawp — a sixteen-foot giant Hagrid brings back from the mountains and hides in the Forbidden Forest.",
       "source": "Order of the Phoenix, ch. 30"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b5-hall-of-prophecy",
@@ -285,7 +292,8 @@
       ],
       "explanation": "The Hall of Prophecy — towering shelves of dusty glass spheres, which only the subject of a prophecy may lift.",
       "source": "Order of the Phoenix, ch. 35"
-    }
+    },
+    "category": "place"
   },
   {
     "id": "b5-educational-decree",
@@ -321,7 +329,8 @@
       ],
       "explanation": "Educational Decree Number Twenty-Four — the one that makes Dumbledore's Army illegal from the moment it forms.",
       "source": "Order of the Phoenix, ch. 17"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b5-janus-thickey",
@@ -357,7 +366,8 @@
       ],
       "explanation": "The Janus Thickey ward for long-term residents — where Harry stumbles on why Neville and his grandmother visit.",
       "source": "Order of the Phoenix, ch. 23"
-    }
+    },
+    "category": "place"
   },
   {
     "id": "b5-figg-squib",
@@ -393,7 +403,8 @@
       ],
       "explanation": "A Squib — born to a magical family but without power. Dumbledore placed her in Privet Drive to watch Harry without his knowing.",
       "source": "Order of the Phoenix, ch. 2"
-    }
+    },
+    "category": "person"
   },
   {
     "id": "b5-sirius-veil",
@@ -429,6 +440,7 @@
       ],
       "explanation": "Through the fluttering veil in the stone archway in the Death Chamber — Harry hears whispering behind it, and Lupin is the one who stops him going after it.",
       "source": "Order of the Phoenix, ch. 35"
-    }
+    },
+    "category": "place"
   }
 ]

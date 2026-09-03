@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useUI } from "@/lib/i18n";
-import { Candle, Fleuron } from "./Engravings";
+import { Candle, Fleuron, Quill } from "./Engravings";
 
 export default function Chrome({ children }: { children: React.ReactNode }) {
   const { lang, setLang, theme, setTheme, t } = useUI();
@@ -21,13 +21,9 @@ export default function Chrome({ children }: { children: React.ReactNode }) {
           <Link href="/" className="group flex items-baseline gap-3 no-underline text-inherit">
             <span
               className="seal flicker shrink-0 self-center"
-              style={{
-                background: "var(--seal)",
-                width: 30, height: 30,
-                fontSize: ".7rem", letterSpacing: ".02em",
-              }}
+              style={{ background: "var(--seal)", width: 30, height: 30 }}
             >
-              142
+              <Quill size={16} />
             </span>
             <span className="display text-[1.32rem] leading-none tracking-tight">
               {t("siteName")}

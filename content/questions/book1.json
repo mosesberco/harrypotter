@@ -33,7 +33,8 @@
       ],
       "explanation": "Number four, Privet Drive — stated in the opening sentence of the first book.",
       "source": "Philosopher's Stone, ch. 1"
-    }
+    },
+    "category": "place"
   },
   {
     "id": "b1-hedwig",
@@ -69,7 +70,8 @@
       ],
       "explanation": "Hedwig. Harry found the name in A History of Magic.",
       "source": "Philosopher's Stone, ch. 6"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b1-platform",
@@ -105,7 +107,8 @@
       ],
       "explanation": "Platform nine and three-quarters at King's Cross, between platforms nine and ten.",
       "source": "Philosopher's Stone, ch. 6"
-    }
+    },
+    "category": "place"
   },
   {
     "id": "b1-fluffy",
@@ -141,7 +144,8 @@
       ],
       "explanation": "Fluffy — Hagrid bought him off a Greek chappie in a pub, and let slip that music sends him to sleep.",
       "source": "Philosopher's Stone, ch. 11"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b1-nick-name",
@@ -177,7 +181,8 @@
       ],
       "explanation": "He introduces himself by his full name at the start-of-term feast: resident ghost of Gryffindor Tower.",
       "source": "Philosopher's Stone, ch. 7"
-    }
+    },
+    "category": "person"
   },
   {
     "id": "b1-nimbus",
@@ -213,7 +218,8 @@
       ],
       "explanation": "A Nimbus Two Thousand, sent after McGonagall made him the youngest Seeker in a century.",
       "source": "Philosopher's Stone, ch. 9"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b1-snitch-points",
@@ -249,7 +255,8 @@
       ],
       "explanation": "A hundred and fifty points — which is why catching the Snitch decides almost every match.",
       "source": "Philosopher's Stone, ch. 10"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b1-vault-713",
@@ -285,7 +292,8 @@
       ],
       "explanation": "Vault seven hundred and thirteen — no keyhole, opened by a goblin's finger. Hagrid took a small grubby package out of it. Harry's own vault is never numbered in the books.",
       "source": "Philosopher's Stone, ch. 5"
-    }
+    },
+    "category": "place"
   },
   {
     "id": "b1-mirror-socks",
@@ -321,7 +329,8 @@
       ],
       "explanation": "He says he sees himself holding a pair of thick, woollen socks — adding that nobody gives him books, because they all assume he wants socks. Nothing in the text says this is the truth.",
       "source": "Philosopher's Stone, ch. 12"
-    }
+    },
+    "category": "person"
   },
   {
     "id": "b1-snape-asphodel",
@@ -357,7 +366,8 @@
       ],
       "explanation": "The Draught of Living Death — one of three questions Snape fires at Harry in that first lesson, before teaching anything.",
       "source": "Philosopher's Stone, ch. 8"
-    }
+    },
+    "category": "spell"
   },
   {
     "id": "b1-bezoar",
@@ -393,7 +403,8 @@
       ],
       "explanation": "In the stomach of a goat. A bezoar saves a life later in the series, when Harry forces one down Ron's throat.",
       "source": "Philosopher's Stone, ch. 8"
-    }
+    },
+    "category": "spell"
   },
   {
     "id": "b1-monkshood",
@@ -429,7 +440,8 @@
       ],
       "explanation": "There is no difference: both names refer to the same plant, also known as aconite. Hermione knows and is waving her hand; Snape ignores her.",
       "source": "Philosopher's Stone, ch. 8"
-    }
+    },
+    "category": "spell"
   },
   {
     "id": "b1-staircases",
@@ -465,7 +477,8 @@
       ],
       "explanation": "A hundred and forty-two — wide and sweeping, narrow and rickety, some that led somewhere different on a Friday, some with a vanishing step you had to remember to jump.",
       "source": "Philosopher's Stone, ch. 8"
-    }
+    },
+    "category": "place"
   },
   {
     "id": "b1-tenpin-bowling",
@@ -501,7 +514,8 @@
       ],
       "explanation": "Chamber music and tenpin bowling — from the Chocolate Frog card Ron hands Harry on the train, alongside his 1945 defeat of Grindelwald and the twelve uses of dragon's blood.",
       "source": "Philosopher's Stone, ch. 6"
-    }
+    },
+    "category": "person"
   },
   {
     "id": "b1-sirius-motorbike",
@@ -537,6 +551,7 @@
       ],
       "explanation": "Hagrid says he borrowed it from 'young Sirius Black' — his name appears in the opening pages of the series, three books before he enters the plot.",
       "source": "Philosopher's Stone, ch. 1"
-    }
+    },
+    "category": "person"
   }
 ]

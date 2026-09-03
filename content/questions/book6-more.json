@@ -32,7 +32,8 @@
       ],
       "explanation": "The Slug Club — Slughorn collects students with connections or talent, and profits from them for years afterwards.",
       "source": "Half-Blood Prince, ch. 7"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b6m-amortentia",
@@ -67,7 +68,8 @@
       ],
       "explanation": "Amortentia — Slughorn stresses it does not create love but obsession, which makes it the most dangerous potion in the room.",
       "source": "Half-Blood Prince, ch. 9"
-    }
+    },
+    "category": "spell"
   },
   {
     "id": "b6m-blackened-hand",
@@ -103,7 +105,8 @@
       ],
       "explanation": "Blackened and dead — from the curse on Marvolo Gaunt's ring, the Horcrux Dumbledore destroyed. Snape halted the curse but could not undo it.",
       "source": "Half-Blood Prince, ch. 4"
-    }
+    },
+    "category": "person"
   },
   {
     "id": "b6m-vanishing-cabinet",
@@ -139,7 +142,8 @@
       ],
       "explanation": "A pair of Vanishing Cabinets — one in the Room of Requirement, its twin in Borgin and Burkes. Draco mended the broken one, which opened a door straight into Hogwarts.",
       "source": "Half-Blood Prince, ch. 27"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b6m-katie-bell",
@@ -175,7 +179,8 @@
       ],
       "explanation": "Katie Bell — she touches it through a hole in the wrapping and is lifted into the air, the first proof Harry has that Draco is up to something.",
       "source": "Half-Blood Prince, ch. 12"
-    }
+    },
+    "category": "person"
   },
   {
     "id": "b6m-mclaggen",
@@ -211,7 +216,8 @@
       ],
       "explanation": "Cormac McLaggen — Hermione Confunds him so Ron gets the place, and in the match he does play he cracks Harry's skull himself.",
       "source": "Half-Blood Prince, ch. 11"
-    }
+    },
+    "category": "person"
   },
   {
     "id": "b6m-phlegm",
@@ -247,7 +253,8 @@
       ],
       "explanation": "'Phlegm' — a pun on Fleur. Ginny and Mrs Weasley cannot stand her until a real war rearranges everyone's loyalties.",
       "source": "Half-Blood Prince, ch. 5"
-    }
+    },
+    "category": "person"
   },
   {
     "id": "b6m-twycross",
@@ -283,7 +290,8 @@
       ],
       "explanation": "Wilkie Twycross — a Ministry official, who teaches the three D's: Destination, Determination, Deliberation.",
       "source": "Half-Blood Prince, ch. 18"
-    }
+    },
+    "category": "person"
   },
   {
     "id": "b6m-three-ds",
@@ -319,7 +327,8 @@
       ],
       "explanation": "Destination, Determination and Deliberation — and rushing risks Splinching, leaving part of yourself behind.",
       "source": "Half-Blood Prince, ch. 18"
-    }
+    },
+    "category": "spell"
   },
   {
     "id": "b6m-acromantula-venom",
@@ -355,7 +364,8 @@
       ],
       "explanation": "Acromantula venom — rare and valuable. He siphons it into a bottle while Hagrid grieves, and it is that same evening Harry gets the true memory out of him.",
       "source": "Half-Blood Prince, ch. 22"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b6m-won-won",
@@ -391,6 +401,7 @@
       ],
       "explanation": "'Won-Won' — a name that makes Ron curl up where he sits, and which Hermione turns into a standing insult.",
       "source": "Half-Blood Prince, ch. 17"
-    }
+    },
+    "category": "person"
   }
 ]

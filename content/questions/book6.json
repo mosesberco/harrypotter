@@ -33,7 +33,8 @@
       ],
       "explanation": "Snape — he shouts it himself at the end of the book. Prince was his mother Eileen's maiden name; she was a witch who married a Muggle.",
       "source": "Half-Blood Prince, ch. 28"
-    }
+    },
+    "category": "person"
   },
   {
     "id": "b6-felix",
@@ -69,7 +70,8 @@
       ],
       "explanation": "Liquid luck. Slughorn offers a small phial as the prize in his first lesson, and Harry wins it.",
       "source": "Half-Blood Prince, ch. 9"
-    }
+    },
+    "category": "spell"
   },
   {
     "id": "b6-slughorn",
@@ -105,7 +107,8 @@
       ],
       "explanation": "Horace Slughorn comes out of retirement — and Snape finally moves to Defence Against the Dark Arts.",
       "source": "Half-Blood Prince, ch. 9"
-    }
+    },
+    "category": "person"
   },
   {
     "id": "b6-horcrux-count",
@@ -141,7 +144,8 @@
       ],
       "explanation": "Seven — Voldemort asks Slughorn about splitting a soul seven ways, the most powerfully magical number. That is six Horcruxes plus the soul in his body.",
       "source": "Half-Blood Prince, ch. 23"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b6-ron-keeper",
@@ -177,7 +181,8 @@
       ],
       "explanation": "Keeper — a place he fights McLaggen for, and one the nerves nearly ruin until he thinks he has been given liquid luck.",
       "source": "Half-Blood Prince, ch. 11"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b6-sectumsempra",
@@ -213,7 +218,8 @@
       ],
       "explanation": "Sectumsempra — a spell Snape invented himself, marked in the book 'for enemies'. Snape is the one who saves Draco.",
       "source": "Half-Blood Prince, ch. 24"
-    }
+    },
+    "category": "spell"
   },
   {
     "id": "b6-unbreakable-vow",
@@ -249,7 +255,8 @@
       ],
       "explanation": "An Unbreakable Vow, with Bellatrix as Bonder — Snape swears to finish Draco's task if the boy fails.",
       "source": "Half-Blood Prince, ch. 2"
-    }
+    },
+    "category": "spell"
   },
   {
     "id": "b6-merope",
@@ -285,7 +292,8 @@
       ],
       "explanation": "Merope Gaunt, a descendant of Slytherin — she sold Slytherin's locket for ten Galleons, and died in an orphanage hours after giving birth.",
       "source": "Half-Blood Prince, ch. 13"
-    }
+    },
+    "category": "person"
   },
   {
     "id": "b6-hepzibah",
@@ -321,7 +329,8 @@
       ],
       "explanation": "Hepzibah Smith, a rich collector he courted while working at Borgin and Burkes — poisoned two days after she showed him both objects.",
       "source": "Half-Blood Prince, ch. 20"
-    }
+    },
+    "category": "person"
   },
   {
     "id": "b6-inferi",
@@ -357,7 +366,8 @@
       ],
       "explanation": "Inferi — bodies animated by a dark wizard. Dumbledore drives them off with fire, which they fear along with light and warmth.",
       "source": "Half-Blood Prince, ch. 26"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b6-rab",
@@ -393,7 +403,8 @@
       ],
       "explanation": "R.A.B. — Harry cannot place them at this point, and the answer only comes in the seventh book.",
       "source": "Half-Blood Prince, ch. 28"
-    }
+    },
+    "category": "other"
   },
   {
     "id": "b6-borgin",
@@ -429,6 +440,7 @@
       ],
       "explanation": "Borgin and Burkes — where Draco tells Borgin to keep one item safe and mend its twin: the Vanishing Cabinet he uses to bring Death Eaters into the castle.",
       "source": "Half-Blood Prince, ch. 6"
-    }
+    },
+    "category": "place"
   }
 ]
