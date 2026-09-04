@@ -1,0 +1,413 @@
+{
+  "_about": "Hebrew terminology, and where each term comes from. 'hebrew-corpus' means it was counted in a Hebrew reference corpus by tools/check_hebrew.py; 'user' means a native speaker corrected it; 'unverified' means neither, and it must not be trusted. The English book corpus cannot settle Hebrew terms, so this file — not memory — is the source of truth for the Hebrew side of the bank.",
+  "terms": [
+    {
+      "en": "Beater",
+      "he": "חובט",
+      "source": "unverified"
+    },
+    {
+      "en": "Hog's Head",
+      "he": "ראש החזיר",
+      "source": "unverified"
+    },
+    {
+      "en": "Knockturn Alley",
+      "he": "סמטת קנוקטורן",
+      "source": "unverified"
+    },
+    {
+      "en": "N.E.W.T.",
+      "he": "נשלמים",
+      "source": "unverified"
+    },
+    {
+      "en": "Quaffle",
+      "he": "קוואפל",
+      "source": "unverified"
+    },
+    {
+      "en": "boggart",
+      "he": "בוגארט",
+      "source": "unverified"
+    },
+    {
+      "en": "grindylow",
+      "he": "גרינדילו",
+      "source": "unverified"
+    },
+    {
+      "en": "Animagus",
+      "he": "אנימאגוס",
+      "source": "hebrew-corpus"
+    },
+    {
+      "en": "Apparition",
+      "he": "התעתקות",
+      "source": "user",
+      "was": "אפריציה"
+    },
+    {
+      "en": "Beauxbatons",
+      "he": "בובאטון",
+      "source": "user",
+      "was": "בובטון"
+    },
+    {
+      "en": "Bloody Baron",
+      "he": "הברון המגואל",
+      "source": "user",
+      "was": "הברון העקוב מדם"
+    },
+    {
+      "en": "Bludger",
+      "he": "מרביצן",
+      "source": "user",
+      "was": "בלאדג'ר"
+    },
+    {
+      "en": "Buckbeak",
+      "he": "בקביק",
+      "source": "user"
+    },
+    {
+      "en": "Chaser",
+      "he": "רודף",
+      "source": "hebrew-corpus"
+    },
+    {
+      "en": "Death Eaters",
+      "he": "אוכלי המוות",
+      "source": "hebrew-corpus"
+    },
+    {
+      "en": "Deathly Hallows",
+      "he": "אוצרות המוות",
+      "source": "hebrew-corpus"
+    },
+    {
+      "en": "Dementor",
+      "he": "סוהרסן",
+      "source": "hebrew-corpus"
+    },
+    {
+      "en": "Department of Mysteries",
+      "he": "מחלקת המסתורין",
+      "source": "hebrew-corpus",
+      "was": "המחלקה למסתורין"
+    },
+    {
+      "en": "Diagon Alley",
+      "he": "סמטת דיאגון",
+      "source": "hebrew-corpus"
+    },
+    {
+      "en": "Dumbledore's Army",
+      "he": "צבא דמבלדור",
+      "source": "hebrew-corpus",
+      "note": "abbreviated צ\"ד in the corpus"
+    },
+    {
+      "en": "Dursley",
+      "he": "דרסלי",
+      "source": "hebrew-corpus",
+      "was": "דורסלי"
+    },
+    {
+      "en": "Elder Wand",
+      "he": "שרביט הבכור",
+      "source": "user+hebrew-corpus",
+      "was": "שרביט הסמבוק"
+    },
+    {
+      "en": "Fat Lady",
+      "he": "האישה השמנה",
+      "source": "user",
+      "was": "הגברת השמנה"
+    },
+    {
+      "en": "Firebolt",
+      "he": "אש המחץ",
+      "source": "user",
+      "was": "פיירבולט"
+    },
+    {
+      "en": "Forbidden Forest",
+      "he": "היער האסור",
+      "source": "hebrew-corpus"
+    },
+    {
+      "en": "Golden Snitch",
+      "he": "הסניץ' המוזהב",
+      "source": "hebrew-corpus",
+      "was": "הסניץ' הזהוב"
+    },
+    {
+      "en": "Grimmauld Place",
+      "he": "כיכר גרימולד",
+      "source": "hebrew-corpus",
+      "was": "גרימולד פלייס"
+    },
+    {
+      "en": "Gringotts",
+      "he": "גרינגוטס",
+      "source": "hebrew-corpus"
+    },
+    {
+      "en": "Hagrid",
+      "he": "האגריד",
+      "source": "hebrew-corpus"
+    },
+    {
+      "en": "Head Boy",
+      "he": "מדריך ראשי",
+      "source": "hebrew-corpus"
+    },
+    {
+      "en": "Hogsmeade",
+      "he": "הוגסמיד",
+      "source": "hebrew-corpus"
+    },
+    {
+      "en": "Honeydukes",
+      "he": "בירצפת",
+      "source": "user",
+      "was": "מתוקי דבש"
+    },
+    {
+      "en": "Horcrux",
+      "he": "הורקרוקס",
+      "source": "hebrew-corpus"
+    },
+    {
+      "en": "Invisibility Cloak",
+      "he": "גלימת ההיעלמות",
+      "source": "hebrew-corpus"
+    },
+    {
+      "en": "Keeper",
+      "he": "שוער",
+      "source": "hebrew-corpus"
+    },
+    {
+      "en": "Leaky Cauldron",
+      "he": "הקלחת הרותחת",
+      "source": "hebrew-corpus",
+      "was": "הקלחת הדולפת"
+    },
+    {
+      "en": "Marauder's Map",
+      "he": "מפת הקונדסאים",
+      "source": "hebrew-corpus",
+      "was": "מפת השודדים"
+    },
+    {
+      "en": "Ministry of Magic",
+      "he": "משרד הקסמים",
+      "source": "hebrew-corpus",
+      "was": "המשרד לקסמות"
+    },
+    {
+      "en": "Moaning Myrtle",
+      "he": "מירטל המייללת",
+      "source": "user+hebrew-corpus",
+      "was": "מירטל המייבבת"
+    },
+    {
+      "en": "Moony",
+      "he": "ירחוני",
+      "source": "user",
+      "was": "ירחי"
+    },
+    {
+      "en": "Mudblood",
+      "he": "בוצדם / בוצדמית",
+      "source": "user",
+      "was": "בוצת-דם"
+    },
+    {
+      "en": "Nearly Headless Nick",
+      "he": "ניק כמעט בלי ראש",
+      "source": "hebrew-corpus",
+      "was": "ניק כמעט-חסר-הראש"
+    },
+    {
+      "en": "Nimbus",
+      "he": "נימבוס",
+      "source": "hebrew-corpus"
+    },
+    {
+      "en": "O.W.L.",
+      "he": "בגרויות",
+      "source": "hebrew-corpus"
+    },
+    {
+      "en": "Occlumency",
+      "he": "הלטת הכרה",
+      "source": "user+hebrew-corpus",
+      "was": "אוקלומנסיה"
+    },
+    {
+      "en": "Order of the Phoenix",
+      "he": "מסדר עוף החול",
+      "source": "hebrew-corpus"
+    },
+    {
+      "en": "Padfoot",
+      "he": "רך כף",
+      "source": "user",
+      "was": "כפתן"
+    },
+    {
+      "en": "Parseltongue",
+      "he": "לחשננית",
+      "source": "user",
+      "was": "לשון-נחש"
+    },
+    {
+      "en": "Patronus",
+      "he": "פטרונוס",
+      "source": "hebrew-corpus"
+    },
+    {
+      "en": "Peeves",
+      "he": "פיבס",
+      "source": "hebrew-corpus"
+    },
+    {
+      "en": "Pensieve",
+      "he": "הגיגית",
+      "source": "hebrew-corpus",
+      "was": "פנסיב"
+    },
+    {
+      "en": "Prefect",
+      "he": "מדריך",
+      "source": "hebrew-corpus"
+    },
+    {
+      "en": "Privet Drive",
+      "he": "דרך פריווט",
+      "source": "hebrew-corpus",
+      "was": "פריווט דרייב"
+    },
+    {
+      "en": "Prongs",
+      "he": "קרניים",
+      "source": "user",
+      "was": "קרנפים"
+    },
+    {
+      "en": "Remembrall",
+      "he": "כדור זיכרון",
+      "source": "user",
+      "was": "אבן ההיזכרות"
+    },
+    {
+      "en": "Resurrection Stone",
+      "he": "אבן האוב",
+      "source": "user",
+      "was": "אבן התחייה",
+      "note": "the Hebrew reference corpus paraphrased it as 'אבן תחייה'; the translation itself uses אבן האוב"
+    },
+    {
+      "en": "Room of Requirement",
+      "he": "חדר הנחיצות",
+      "source": "hebrew-corpus",
+      "was": "חדר הנחוץ"
+    },
+    {
+      "en": "Seeker",
+      "he": "מחפש",
+      "source": "user+hebrew-corpus",
+      "was": "תופס",
+      "note": "corpus: 'בתפקיד המחפש האחראי על לכידת הסניץ''"
+    },
+    {
+      "en": "Shrieking Shack",
+      "he": "הצריף המצווח",
+      "source": "user",
+      "was": "הבקתה הצורחת"
+    },
+    {
+      "en": "Sorting Hat",
+      "he": "מצנפת המיון",
+      "source": "hebrew-corpus",
+      "was": "מצנפת המחלקה"
+    },
+    {
+      "en": "Squib",
+      "he": "סקיב",
+      "source": "user",
+      "was": "סקוויב"
+    },
+    {
+      "en": "St Mungo's",
+      "he": "הקדוש מנגו",
+      "source": "user",
+      "was": "סנט מנגו"
+    },
+    {
+      "en": "The Burrow",
+      "he": "המחילה",
+      "source": "user",
+      "was": "המחורה"
+    },
+    {
+      "en": "Three Broomsticks",
+      "he": "שלושת המטאטאים",
+      "source": "hebrew-corpus"
+    },
+    {
+      "en": "Time-Turner",
+      "he": "מחולל זמן",
+      "source": "user",
+      "was": "מהפך-זמן"
+    },
+    {
+      "en": "Vanishing Cabinet",
+      "he": "ארונית היעלמות",
+      "source": "hebrew-corpus",
+      "was": "ארון היעלמות"
+    },
+    {
+      "en": "Whomping Willow",
+      "he": "הערבה המפליקה",
+      "source": "hebrew-corpus",
+      "was": "ערבת החבטות"
+    },
+    {
+      "en": "Wormtail",
+      "he": "זנב תולעת",
+      "source": "user",
+      "was": "זנבתן"
+    },
+    {
+      "en": "holly (Harry's wand)",
+      "he": "צינית",
+      "source": "hebrew-corpus",
+      "was": "אשחר"
+    },
+    {
+      "en": "house-elf",
+      "he": "גמדון בית",
+      "source": "hebrew-corpus",
+      "was": "שדון-בית"
+    },
+    {
+      "en": "the Owlery",
+      "he": "הינשופייה",
+      "source": "user",
+      "was": "גוזמת הינשופים"
+    }
+  ],
+  "_still_unverified": [
+    "Beater",
+    "Hog's Head",
+    "Knockturn Alley",
+    "N.E.W.T.",
+    "Quaffle",
+    "boggart",
+    "grindylow"
+  ]
+}

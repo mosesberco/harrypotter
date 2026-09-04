@@ -62,6 +62,24 @@ emblem (a bronze eagle, not a raven).
 
 Answers are compared in `app/api/answer/route.ts`, never in the browser.
 
+## Hebrew terminology
+
+The book corpus is English, so it cannot settle a Hebrew term. `content/glossary.json`
+does that instead: every term records where it came from — counted in a Hebrew
+reference corpus by `tools/check_hebrew.py`, given by a native speaker, or still
+unverified. Nothing marked `unverified` should be trusted.
+
+```
+export HP_CORPUS_HE='/path/to/hebrew/*.txt'
+python3 tools/check_hebrew.py
+```
+
+This pass rewrote 22 terms that were wrong, among them the Seeker (מחפש, not
+תופס), the Marauder's Map (מפת הקונדסאים), the house-elf (גמדון בית), the
+Whomping Willow (הערבה המפליקה), the Room of Requirement (חדר הנחיצות), the
+Sorting Hat (מצנפת המיון), the Ministry (משרד הקסמים), Privet Drive (דרך
+פריווט) and Harry's wand wood (צינית).
+
 ## Status
 
 222 questions, all confirmed against the book text, across all seven books and

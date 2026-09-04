@@ -156,19 +156,32 @@ export function todayKey(now = new Date()) {
 
 export const DAILY_TABS: Category[] = ["person", "place", "spell"];
 
+/* The three of the day are a climb: one question at level III or under, one at
+   IV, one at V. Which category carries which rung rotates day by day, so no
+   pool stands still and there is always a hard one on the board. */
+const RUNGS: number[][] = [[1, 2, 3], [4], [5]];
+
 /** Three questions a day — a person, a place and a spell — the same three for
-    everybody, each category walking its own pool before it repeats. */
+    everybody, each rung walking its own pool before it repeats. */
 export function daily(now = new Date()) {
   const key = todayKey(now);
   const epoch = Date.UTC(2026, 0, 1);
   const day = Math.floor((Date.parse(key + "T00:00:00Z") - epoch) / 86400000);
+  const turn = ((day % RUNGS.length) + RUNGS.length) % RUNGS.length;
 
-  const questions = DAILY_TABS.map((category) => {
+  const questions = DAILY_TABS.map((category, i) => {
+    const rung = RUNGS[(i + turn) % RUNGS.length];
+    const inCategory = bank().filter((q) => q.category === category);
+    const onRung = inCategory.filter((q) => rung.includes(q.difficulty));
+    /* a category still owes a question on a rung it cannot fill yet */
     const pool = shuffle(
-      bank().filter((q) => q.category === category),
-      `daily-${category}-v1`
+      onRung.length ? onRung : inCategory,
+      `daily-${category}-${rung.join("")}-v2`
     );
-    return pool[((day % pool.length) + pool.length) % pool.length];
+    /* a category meets a given rung once every full turn, so the walk
+       advances once every turn too */
+    const step = Math.floor(day / RUNGS.length);
+    return pool[((step % pool.length) + pool.length) % pool.length];
   });
 
   return { key, questions, index: day };

@@ -11,7 +11,7 @@ export const TIERS = [
   { key: "first",   he: "תלמיד שנה א׳",       en: "First Year",             roman: "II"  },
   { key: "owl",     he: "בגרויות",             en: "O.W.L.",                 roman: "III" },
   { key: "newt",    he: "נשלמים",              en: "N.E.W.T.",               roman: "IV"  },
-  { key: "mystery", he: "המחלקה למסתורין",     en: "Dept. of Mysteries",     roman: "V"   },
+  { key: "mystery", he: "מחלקת המסתורין",     en: "Dept. of Mysteries",     roman: "V"   },
 ] as const;
 
 const S = {
