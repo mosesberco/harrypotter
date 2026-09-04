@@ -2,39 +2,14 @@
   "_about": "Hebrew terminology, and where each term comes from. 'hebrew-corpus' means it was counted in a Hebrew reference corpus by tools/check_hebrew.py; 'user' means a native speaker corrected it; 'unverified' means neither, and it must not be trusted. The English book corpus cannot settle Hebrew terms, so this file — not memory — is the source of truth for the Hebrew side of the bank.",
   "terms": [
     {
-      "en": "Beater",
-      "he": "חובט",
-      "source": "unverified"
+      "en": "Acromantula",
+      "he": "אקרומנטולה",
+      "source": "user"
     },
     {
-      "en": "Hog's Head",
-      "he": "ראש החזיר",
-      "source": "unverified"
-    },
-    {
-      "en": "Knockturn Alley",
-      "he": "סמטת קנוקטורן",
-      "source": "unverified"
-    },
-    {
-      "en": "N.E.W.T.",
-      "he": "נשלמים",
-      "source": "unverified"
-    },
-    {
-      "en": "Quaffle",
-      "he": "קוואפל",
-      "source": "unverified"
-    },
-    {
-      "en": "boggart",
-      "he": "בוגארט",
-      "source": "unverified"
-    },
-    {
-      "en": "grindylow",
-      "he": "גרינדילו",
-      "source": "unverified"
+      "en": "Age Line",
+      "he": "קו גיל",
+      "source": "user"
     },
     {
       "en": "Animagus",
@@ -48,10 +23,21 @@
       "was": "אפריציה"
     },
     {
+      "en": "Beater",
+      "he": "חובט",
+      "source": "user"
+    },
+    {
       "en": "Beauxbatons",
       "he": "בובאטון",
       "source": "user",
       "was": "בובטון"
+    },
+    {
+      "en": "Blast-Ended Skrewts",
+      "he": "סקרוטים פוצי תחת",
+      "source": "user",
+      "was": "סקרוטים נפוצי-קצה"
     },
     {
       "en": "Bloody Baron",
@@ -86,9 +72,20 @@
       "source": "hebrew-corpus"
     },
     {
+      "en": "Deathstick",
+      "he": "שרביט הבכור",
+      "source": "user",
+      "was": "מטה המוות"
+    },
+    {
       "en": "Dementor",
       "he": "סוהרסן",
       "source": "hebrew-corpus"
+    },
+    {
+      "en": "Dementor's Kiss",
+      "he": "נשיקת הסוהרסן",
+      "source": "user"
     },
     {
       "en": "Department of Mysteries",
@@ -100,6 +97,12 @@
       "en": "Diagon Alley",
       "he": "סמטת דיאגון",
       "source": "hebrew-corpus"
+    },
+    {
+      "en": "Draught of Living Death",
+      "he": "שיקוי המוות החי",
+      "source": "user",
+      "was": "שיקוי שנת המוות"
     },
     {
       "en": "Dumbledore's Army",
@@ -114,6 +117,11 @@
       "was": "דורסלי"
     },
     {
+      "en": "Educational Decree",
+      "he": "תקנה חינוכית",
+      "source": "user"
+    },
+    {
       "en": "Elder Wand",
       "he": "שרביט הבכור",
       "source": "user+hebrew-corpus",
@@ -124,6 +132,18 @@
       "he": "האישה השמנה",
       "source": "user",
       "was": "הגברת השמנה"
+    },
+    {
+      "en": "Fidelius Charm",
+      "he": "קסם פדליוס",
+      "source": "user",
+      "was": "כשף הפידליוס"
+    },
+    {
+      "en": "Fiendfyre",
+      "he": "אש שדים",
+      "source": "user",
+      "was": "אש שאולה"
     },
     {
       "en": "Firebolt",
@@ -137,10 +157,22 @@
       "source": "hebrew-corpus"
     },
     {
+      "en": "Gillyweed",
+      "he": "אצות זימיזים",
+      "source": "user",
+      "was": "עשב-זימים"
+    },
+    {
       "en": "Golden Snitch",
       "he": "הסניץ' המוזהב",
       "source": "hebrew-corpus",
       "was": "הסניץ' הזהוב"
+    },
+    {
+      "en": "Grey Lady",
+      "he": "הגבירה באפור",
+      "source": "user",
+      "was": "הגברת האפורה"
     },
     {
       "en": "Grimmauld Place",
@@ -159,9 +191,20 @@
       "source": "hebrew-corpus"
     },
     {
+      "en": "Hall of Prophecy",
+      "he": "חדר הנבואות",
+      "source": "user",
+      "was": "אולם הנבואה"
+    },
+    {
       "en": "Head Boy",
       "he": "מדריך ראשי",
       "source": "hebrew-corpus"
+    },
+    {
+      "en": "Hog's Head",
+      "he": "ראש החזיר",
+      "source": "user"
     },
     {
       "en": "Hogsmeade",
@@ -180,14 +223,30 @@
       "source": "hebrew-corpus"
     },
     {
+      "en": "Inferi",
+      "he": "אינפרי",
+      "source": "user"
+    },
+    {
       "en": "Invisibility Cloak",
       "he": "גלימת ההיעלמות",
       "source": "hebrew-corpus"
     },
     {
+      "en": "Janus Thickey ward",
+      "he": "מחלקת יאנוס ת'יקי",
+      "source": "user"
+    },
+    {
       "en": "Keeper",
       "he": "שוער",
       "source": "hebrew-corpus"
+    },
+    {
+      "en": "Knockturn Alley",
+      "he": "סמטת נקטורן",
+      "source": "user",
+      "was": "סמטת קנוקטורן"
     },
     {
       "en": "Leaky Cauldron",
@@ -196,10 +255,26 @@
       "was": "הקלחת הדולפת"
     },
     {
+      "en": "Legilimency",
+      "he": "לגילימנסיה",
+      "source": "user"
+    },
+    {
+      "en": "Levitation Charm",
+      "he": "קסם הרחפה",
+      "source": "user",
+      "was": "כשף ההנפה"
+    },
+    {
       "en": "Marauder's Map",
       "he": "מפת הקונדסאים",
       "source": "hebrew-corpus",
       "was": "מפת השודדים"
+    },
+    {
+      "en": "Metamorphmagus",
+      "he": "מטמורפמאגית",
+      "source": "user"
     },
     {
       "en": "Ministry of Magic",
@@ -224,6 +299,12 @@
       "he": "בוצדם / בוצדמית",
       "source": "user",
       "was": "בוצת-דם"
+    },
+    {
+      "en": "N.E.W.T.",
+      "he": "N.E.W.T.",
+      "source": "user",
+      "was": "נשלמים"
     },
     {
       "en": "Nearly Headless Nick",
@@ -281,9 +362,20 @@
       "was": "פנסיב"
     },
     {
+      "en": "Phlegm",
+      "he": "ליחה",
+      "source": "user"
+    },
+    {
       "en": "Prefect",
       "he": "מדריך",
       "source": "hebrew-corpus"
+    },
+    {
+      "en": "Priori Incantatem",
+      "he": "Priori Incantatem",
+      "source": "user",
+      "was": "פריורי אינקנטטם"
     },
     {
       "en": "Privet Drive",
@@ -296,6 +388,22 @@
       "he": "קרניים",
       "source": "user",
       "was": "קרנפים"
+    },
+    {
+      "en": "Put-Outer / Deluminator",
+      "he": "מכבה-אור",
+      "source": "user"
+    },
+    {
+      "en": "Quaffle",
+      "he": "קוואפל",
+      "source": "user"
+    },
+    {
+      "en": "Quick-Quotes Quill",
+      "he": "עט צטט אותך",
+      "source": "user",
+      "was": "עט ציטוט-מהיר"
     },
     {
       "en": "Remembrall",
@@ -330,10 +438,28 @@
       "was": "הבקתה הצורחת"
     },
     {
+      "en": "Skiving Snackboxes",
+      "he": "חטיפי מבריזים",
+      "source": "user",
+      "was": "קופסאות חטיפי ההשתמטות"
+    },
+    {
+      "en": "Slug Club",
+      "he": "סלאג קלאב",
+      "source": "user",
+      "was": "מועדון הרפש"
+    },
+    {
       "en": "Sorting Hat",
       "he": "מצנפת המיון",
       "source": "hebrew-corpus",
       "was": "מצנפת המחלקה"
+    },
+    {
+      "en": "Splinching",
+      "he": "גיזרור",
+      "source": "user",
+      "was": "פילוג"
     },
     {
       "en": "Squib",
@@ -365,6 +491,12 @@
       "was": "מהפך-זמן"
     },
     {
+      "en": "Unbreakable Vow",
+      "he": "נדר כובל",
+      "source": "user",
+      "was": "שבועה בלתי ניתנת להפרה"
+    },
+    {
       "en": "Vanishing Cabinet",
       "he": "ארונית היעלמות",
       "source": "hebrew-corpus",
@@ -377,10 +509,36 @@
       "was": "ערבת החבטות"
     },
     {
+      "en": "Won-Won",
+      "he": "רוני פוני",
+      "source": "user",
+      "was": "וון-וון"
+    },
+    {
       "en": "Wormtail",
       "he": "זנב תולעת",
       "source": "user",
       "was": "זנבתן"
+    },
+    {
+      "en": "boggart",
+      "he": "בוגארט",
+      "source": "user"
+    },
+    {
+      "en": "grindylow",
+      "he": "גרינדילו",
+      "source": "user"
+    },
+    {
+      "en": "half-blood",
+      "he": "חצוי-דם",
+      "source": "user"
+    },
+    {
+      "en": "hippogriff",
+      "he": "היפוגריף",
+      "source": "user"
     },
     {
       "en": "holly (Harry's wand)",
@@ -395,19 +553,27 @@
       "was": "שדון-בית"
     },
     {
+      "en": "part-veela",
+      "he": "חצי ויליה",
+      "source": "user",
+      "was": "חצוית ואלה"
+    },
+    {
       "en": "the Owlery",
       "he": "הינשופייה",
       "source": "user",
       "was": "גוזמת הינשופים"
+    },
+    {
+      "en": "the Trace",
+      "he": "העקב",
+      "source": "user"
+    },
+    {
+      "en": "thestral",
+      "he": "תסטרל",
+      "source": "user"
     }
   ],
-  "_still_unverified": [
-    "Beater",
-    "Hog's Head",
-    "Knockturn Alley",
-    "N.E.W.T.",
-    "Quaffle",
-    "boggart",
-    "grindylow"
-  ]
+  "_still_unverified": []
 }

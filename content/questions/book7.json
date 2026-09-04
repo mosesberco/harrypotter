@@ -37,7 +37,7 @@
     "category": "other"
   },
   {
-    "id": "b7-deathstick",
+    "id": "b7-eldest-brother-wand",
     "difficulty": 4,
     "scope": "book",
     "book": 7,
@@ -46,29 +46,29 @@
       "hallows",
       "wands"
     ],
-    "answer": 2,
-    "probe": "Deathstick",
+    "answer": 1,
+    "probe": "worthy of a wizard who had conquered Death",
     "verified": true,
     "he": {
-      "prompt": "באיזה שם נוסף מכונה שרביט הבכור?",
+      "prompt": "באגדת שלושת האחים, מה ביקש האח הבכור מן המוות?",
       "choices": [
-        "שרביט האחים",
-        "שרביט האפר",
-        "מטה המוות",
-        "שרביט הגורל האחרון"
+        "אבן שתחזיר את המתים",
+        "שרביט שינצח בכל דו-קרב",
+        "גלימה שתסתיר אותו מן המוות",
+        "חיי נצח"
       ],
-      "explanation": "מטה המוות (Deathstick), וגם 'שרביט הגורל' — שמות שונים לאותו חפץ בשורת האגדות שקסנופיליוס לאבגוד פורש בפני השלושה.",
+      "explanation": "שרביט חזק מכל שרביט אחר, שינצח בכל דו-קרב — שרביט הראוי לקוסם שהביס את המוות. המוות כרת ענף מעץ סמבוק שצמח על גדת הנהר ועשה ממנו את השרביט.",
       "source": "הארי פוטר ואוצרות המוות, פרק 21"
     },
     "en": {
-      "prompt": "By what other name is the Elder Wand known?",
+      "prompt": "In the Tale of the Three Brothers, what did the eldest brother ask Death for?",
       "choices": [
-        "The Brothers' Wand",
-        "The Ashen Wand",
-        "The Deathstick",
-        "The Wand of Last Fate"
+        "A stone to bring back the dead",
+        "A wand that must always win duels",
+        "A cloak to hide him from Death",
+        "Eternal life"
       ],
-      "explanation": "The Deathstick, and also the Wand of Destiny — different names for the same object in the legends Xenophilius Lovegood lays out for the three of them.",
+      "explanation": "A wand more powerful than any other, one that must always win duels — a wand worthy of a wizard who had conquered Death. Death cut a branch from an elder tree on the riverbank and made it for him.",
       "source": "Deathly Hallows, ch. 21"
     },
     "category": "other"
@@ -205,7 +205,7 @@
         "בחדר הנחיצות",
         "בחדר המורים"
       ],
-      "explanation": "בחדר הנחיצות, בגרסתו כמחסן של כל מה שהוסתר בטירה — הנזר נמצא שם והורקרוקס נהרס באש שאולה של קראב.",
+      "explanation": "בחדר הנחיצות, בגרסתו כמחסן של כל מה שהוסתר בטירה — הנזר נמצא שם והורקרוקס נהרס באש שדים של קראב.",
       "source": "הארי פוטר ואוצרות המוות, פרק 31"
     },
     "en": {
@@ -235,7 +235,7 @@
     "probe": "Helena Ravenclaw",
     "verified": true,
     "he": {
-      "prompt": "מהו שמה האמיתי של הגברת האפורה, רוח בית רייבנקלו?",
+      "prompt": "מהו שמה האמיתי של הגבירה באפור, רוח בית רייבנקלו?",
       "choices": [
         "רוונה רייבנקלו",
         "הלנה רייבנקלו",
@@ -309,7 +309,7 @@
     "probe": "A[bl]lus Severus",
     "verified": true,
     "he": {
-      "prompt": "מה שמו של בנו האמצעי של הארי באפילוג?",
+      "prompt": "מה שמו של בנו האמצעי של הארי באגיזרור?",
       "choices": [
         "ג'יימס סיריוס",
         "אלבוס סוורוס",

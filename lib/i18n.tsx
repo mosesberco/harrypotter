@@ -10,7 +10,7 @@ export const TIERS = [
   { key: "muggle",  he: "מוּגְל",              en: "Muggle",                 roman: "I"   },
   { key: "first",   he: "תלמיד שנה א׳",       en: "First Year",             roman: "II"  },
   { key: "owl",     he: "בגרויות",             en: "O.W.L.",                 roman: "III" },
-  { key: "newt",    he: "נשלמים",              en: "N.E.W.T.",               roman: "IV"  },
+  { key: "newt",    he: "N.E.W.T.",              en: "N.E.W.T.",               roman: "IV"  },
   { key: "mystery", he: "מחלקת המסתורין",     en: "Dept. of Mysteries",     roman: "V"   },
 ] as const;
 
